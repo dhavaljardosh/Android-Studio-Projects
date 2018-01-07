@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jardosh.boundservice.MainActivity">
+
+    <Button
+        android:id="@+id/dhavalButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:onClick="showTime"
+        android:text="What's the time?" />
+
+    <TextView
+        android:id="@+id/dhavalText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/dhavalButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="93dp"
+        android:text="TextView" />
+</android.widget.RelativeLayout>
