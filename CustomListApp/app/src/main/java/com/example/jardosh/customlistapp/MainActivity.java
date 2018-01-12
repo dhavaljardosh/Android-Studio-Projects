@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
             textView_name.setText(NAMES[position]);
             textView_description.setText(DESCRIPTIONS[position]);
 
-            return null;
+            return view;
         }
     }
 }
