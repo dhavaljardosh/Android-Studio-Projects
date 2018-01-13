@@ -5,10 +5,13 @@ public class Products  {
 
     private int _id;
     private String _productname;
-    private String _color;
 
     public Products() {
 
+    }
+
+    public Products(String productname) {
+        this._productname = productname;
     }
 
     public void set_id(int _id) {
@@ -27,7 +30,5 @@ public class Products  {
         return _productname;
     }
 
-    public Products(String productname) {
-        this._productname = productname;
-    }
+
 }

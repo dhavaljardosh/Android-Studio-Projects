@@ -9,10 +9,10 @@ import android.database.sqlite.SQLiteOpenHelper;
 public class MyDBHandlers extends SQLiteOpenHelper{
 
     private static final int DATABASE_VERSION = 1;
-    private static String DATABASE_NAME="products.db";
+    private static String DATABASE_NAME ="products.db";
     public static final String TABLE_PRODUCTS = "products";
-    public static final String COLUMN_ID = "products";
-    public static final String COLUMN_PRODUCTNAME = "products";
+    public static final String COLUMN_ID = "_id";
+    public static final String COLUMN_PRODUCTNAME = "productname";
 
     public MyDBHandlers(Context context, String name, SQLiteDatabase.CursorFactory factory, int version) {
         super(context, DATABASE_NAME, factory, DATABASE_VERSION);
@@ -20,7 +20,7 @@ public class MyDBHandlers extends SQLiteOpenHelper{
 
     @Override
     public void onCreate(SQLiteDatabase db) {
-        String query = "CREATE TABLE" + TABLE_PRODUCTS+ "("+
+        String query = "CREATE TABLE " + TABLE_PRODUCTS+ " ( "+
                 COLUMN_ID + " INTEGER PRIMARY KEY AUTOINCREMENT, " +
                 COLUMN_PRODUCTNAME + " TEXT "+
                 ");";
@@ -45,26 +45,28 @@ public class MyDBHandlers extends SQLiteOpenHelper{
     //Delete a new row to the DB
     public void deleteProduct(String productName) {
         SQLiteDatabase db = getWritableDatabase();
-        db.execSQL("DELETE FROM  "+ TABLE_PRODUCTS + " WHERE " + COLUMN_PRODUCTNAME + "=\"" + productName);
+        System.out.println(productName + "<< AA JO BC");
+        db.execSQL("DELETE FROM "+ TABLE_PRODUCTS + " WHERE " + COLUMN_PRODUCTNAME + " = \"" + productName +"\";" );
     }
 
     public String databaseToString() {
         String dbString = "";
         SQLiteDatabase db = getWritableDatabase();
-        String query = "SELECT * FROM " + TABLE_PRODUCTS + " WHERE 1 ";
+        String query= "SELECT * FROM " + TABLE_PRODUCTS + " WHERE 1";
 
-        //CURSOR
         Cursor c = db.rawQuery(query, null);
-        //Move to fiest row
         c.moveToFirst();
 
         while (!c.isAfterLast()) {
             if (c.getString(c.getColumnIndex("productname")) != null) {
                 dbString += c.getString(c.getColumnIndex("productname"));
                 dbString += "\n";
+                c.moveToNext();
             }
         }
+
         db.close();
         return dbString;
+
     }
 }

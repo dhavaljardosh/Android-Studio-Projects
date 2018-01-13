@@ -16,10 +16,10 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-//        dhavalInput = (EditText) findViewById(R.id.dhavalInput);
-//        dhavalText = (TextView) findViewById(R.id.dhavalText);
-//        dbHandlers = new MyDBHandlers(this,null,null,1);
-//        printDatabase();
+        dhavalInput = (EditText) findViewById(R.id.dhavalInput);
+        dhavalText = (TextView) findViewById(R.id.dhavalText);
+        dbHandlers = new MyDBHandlers(this,null,null,1);
+        printDatabase();
 
     }
 
@@ -30,7 +30,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void deleteButtonClicked(View view) {
-        String inputText = dhavalText.getText().toString();
+        String inputText = dhavalInput.getText().toString();
+        System.out.print(inputText + "<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<");
         dbHandlers.deleteProduct(inputText);
         printDatabase();
     }
