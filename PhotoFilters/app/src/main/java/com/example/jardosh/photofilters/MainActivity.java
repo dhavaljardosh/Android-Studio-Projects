@@ -4,7 +4,9 @@ import android.graphics.Bitmap;
 import android.graphics.Color;
 import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
+import android.graphics.drawable.LayerDrawable;
 import android.media.Image;
+import android.provider.MediaStore;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.ImageView;
@@ -21,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
         dhavalImageView = (ImageView) findViewById(R.id.dhavalImageView);
 
         dhavalFace = getResources().getDrawable(R.drawable.main);
@@ -28,6 +31,16 @@ public class MainActivity extends AppCompatActivity {
         Bitmap newPhoto = invertImage(bitmapImage);
 
         dhavalImageView.setImageBitmap(newPhoto);
+
+        /*
+        Drawable[] layers = new Drawable[2];
+        layers[0] = getResources().getDrawable(R.drawable.main);
+        layers[1] = getResources().getDrawable(R.drawable.over);
+        LayerDrawable layerDrawable = new LayerDrawable(layers);
+        dhavalImageView.setImageDrawable(layerDrawable);
+        */
+
+        MediaStore.Images.Media.insertImage(getContentResolver(),newPhoto,"title", "description");
 
     }
 
@@ -45,9 +58,9 @@ public class MainActivity extends AppCompatActivity {
             for(int x = 0;x < width; x++){
                 pixelColor = original.getPixel(x,y);
                 A= Color.alpha(pixelColor);
-                R=Color.red(pixelColor);
-                G=Color.green(pixelColor);
-                B=Color.blue(pixelColor);
+                R=255 - Color.red(pixelColor);
+                G=255 - Color.green(pixelColor);
+                B=255 - Color.blue(pixelColor);
 
                 finalImage.setPixel(x,y, Color.argb(A, R, G, B));
             }
