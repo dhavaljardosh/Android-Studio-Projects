@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="BabyBlue">
+        <item name="android:textColor">#F00</item>
+        <item name="android:background">#7FAFF3</item>
+    </style>
+</resources>
