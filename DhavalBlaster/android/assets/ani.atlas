@@ -1,0 +1,41 @@
+
+ani.png
+size: 1024,512
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+animate1
+  rotate: false
+  xy: 281, 245
+  size: 247, 247
+  orig: 247, 247
+  offset: 0, 0
+  index: -1
+animate2
+  rotate: false
+  xy: 530, 251
+  size: 241, 241
+  orig: 241, 241
+  offset: 0, 0
+  index: -1
+animate3
+  rotate: false
+  xy: 773, 251
+  size: 241, 241
+  orig: 241, 241
+  offset: 0, 0
+  index: -1
+animate4
+  rotate: false
+  xy: 281, 2
+  size: 241, 241
+  orig: 241, 241
+  offset: 0, 0
+  index: -1
+animate5
+  rotate: false
+  xy: 2, 215
+  size: 277, 277
+  orig: 277, 277
+  offset: 0, 0
+  index: -1
