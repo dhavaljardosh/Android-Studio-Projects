@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import java.util.ArrayList;
@@ -27,6 +28,45 @@ public class MainActivity extends AppCompatActivity {
     int score = 0;
     int numberOfQuestion = 0;
     TextView timerTextView;
+    Button playAgainButton;
+    RelativeLayout gamePage;
+
+
+    //Play Again Code
+    public void playAgain(final View view){
+        generateNewQuestion();
+        playAgainButton.setVisibility(View.INVISIBLE);
+        score = 0;
+        numberOfQuestion= 0;
+        timerTextView.setText("30s");
+        pointsTextView.setText("0/0");
+        resultTextView.setText("");
+
+        new CountDownTimer(30100,1000){
+
+            @Override
+            public void onTick(long millisUntilFinished) {
+
+                timerTextView.setText(String.valueOf(millisUntilFinished/1000) + "s");
+
+            }
+
+            @Override
+            public void onFinish() {
+                timerTextView.setText("0s");
+                resultTextView.setText("Your Score: " + Integer.toString(score)+"/"+Integer.toString(numberOfQuestion));
+                playAgainButton.setVisibility(View.VISIBLE);
+                button0.setEnabled(false);
+                button1.setEnabled(false);
+                button2.setEnabled(false);
+                button3.setEnabled(false);
+            }
+        }.start();
+
+    }
+
+
+
 
     //Generate New Questions
     public void generateNewQuestion(){
@@ -55,6 +95,10 @@ public class MainActivity extends AppCompatActivity {
                 answers.add(incorrectAnswer);
             }
         }
+        button0.setEnabled(true);
+        button1.setEnabled(true);
+        button2.setEnabled(true);
+        button3.setEnabled(true);
 
         button0.setText(Integer.toString(answers.get(0)));
         button1.setText(Integer.toString(answers.get(1)));
@@ -83,6 +127,8 @@ public class MainActivity extends AppCompatActivity {
 
     public void onStart(View view){
         startButton.setVisibility(View.INVISIBLE);
+        gamePage.setVisibility(View.VISIBLE);
+        playAgain(findViewById(R.id.playAgainButton));
     }
 
     @Override
@@ -99,24 +145,9 @@ public class MainActivity extends AppCompatActivity {
         resultTextView = (TextView) findViewById(R.id.resultTextView);
         pointsTextView = (TextView) findViewById(R.id.pointsTextView);
         timerTextView = (TextView) findViewById(R.id.timerTextView);
+        playAgainButton = (Button) findViewById(R.id.playAgainButton);
+        gamePage = (RelativeLayout)findViewById(R.id.gamePage);
 
-        generateNewQuestion();
-
-        new CountDownTimer(30100,1000){
-
-            @Override
-            public void onTick(long millisUntilFinished) {
-
-                timerTextView.setText(String.valueOf(millisUntilFinished/1000) + "s");
-
-            }
-
-            @Override
-            public void onFinish() {
-                timerTextView.setText("0s");
-                resultTextView.setText("Your Score: " + Integer.toString(score)+"/"+Integer.toString(numberOfQuestion));
-            }
-        }.start();
 
     }
 }
