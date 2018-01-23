@@ -56,6 +56,8 @@
         android:paddingLeft="10dp"
         android:paddingRight="10dp"
         android:text="0/0"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/background_light"
         android:textSize="30sp" />
 
     <TextView
@@ -70,14 +72,14 @@
         android:textSize="25sp" />
 
     <GridLayout
+        android:id="@+id/gridLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/timerTextView"
         android:layout_centerHorizontal="true"
         android:layout_marginLeft="10sp"
         android:layout_marginRight="10sp"
-        android:layout_marginTop="10sp"
-        android:id="@+id/gridLayout">
+        android:layout_marginTop="10sp">
 
         <Button
             android:id="@+id/button0"
@@ -89,6 +91,7 @@
             android:layout_row="0"
             android:layout_rowWeight="1"
             android:background="#59dce8"
+            android:onClick="chooseAnswer"
             android:tag="0"
             android:text="3"
             android:textSize="80sp" />
@@ -103,7 +106,8 @@
             android:layout_row="1"
             android:layout_rowWeight="1"
             android:background="@android:color/holo_green_light"
-            android:tag="0"
+            android:onClick="chooseAnswer"
+            android:tag="1"
             android:text="43"
             android:textSize="80sp" />
 
@@ -117,7 +121,8 @@
             android:layout_row="0"
             android:layout_rowWeight="1"
             android:background="@android:color/holo_red_light"
-            android:tag="0"
+            android:onClick="chooseAnswer"
+            android:tag="2"
             android:text="21"
             android:textSize="80sp" />
 
@@ -131,19 +136,19 @@
             android:layout_row="1"
             android:layout_rowWeight="1"
             android:background="@android:color/darker_gray"
-            android:tag="0"
+            android:onClick="chooseAnswer"
+            android:tag="3"
             android:text="18"
             android:textSize="80sp" />
     </GridLayout>
 
     <TextView
-        android:id="@+id/textView9"
+        android:id="@+id/resultTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/gridLayout"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10sp"
-        android:text="Correct!"
         android:textAlignment="center"
         android:textSize="35sp" />
 
