@@ -1,10 +1,12 @@
 package com.example.jardosh.whatstheweather;
 
+import android.content.Context;
 import android.os.AsyncTask;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -37,6 +39,11 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void getResult(View view){
+
+        InputMethodManager mgr = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
+        mgr.hideSoftInputFromWindow(cityName.getWindowToken(),0);
+
+;
         DownloadTask task = new DownloadTask();
         task.execute("http://api.openweathermap.org/data/2.5/weather?q="+cityName.getText()+"&appid=3e18e703d0466a03578f6022a2bc5fbe");
 
@@ -88,6 +95,8 @@ public class MainActivity extends AppCompatActivity {
 
             try {
 
+                String message = "";
+
                 JSONObject jsonObject = new JSONObject(results);
 //                String check = jsonObject.getString("list");
 
@@ -102,7 +111,16 @@ public class MainActivity extends AppCompatActivity {
 
                     Log.i("Main",main);
                     Log.i("Description",Desc);
-                    result.setText(main+" : "+Desc);
+                    if(main!="" && Desc !=""){
+                        message += main + ": " +Desc+ "\r\n";
+                    }
+
+                }
+
+                if (message != "") {
+                    result.setText(message);
+                } else{
+                    Toast.makeText(getApplicationContext(),"Not Found",Toast.LENGTH_LONG).show();
                 }
 
 
@@ -115,7 +133,7 @@ public class MainActivity extends AppCompatActivity {
 
             }
             catch (NullPointerException e) {
-                Toast.makeText(getApplicationContext(),"Really?????",Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext(),"Enter valid City Name",Toast.LENGTH_LONG).show();
                 Log.i("ERROR","Not Valid City Name");
 
             }

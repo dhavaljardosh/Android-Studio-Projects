@@ -15,9 +15,10 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:background="@android:color/black"
-        android:backgroundTint="?android:attr/colorControlNormal"
+        android:backgroundTintMode="src_atop"
         android:scaleX="1.4"
         android:scaleY="1.7"
+        android:tint="?android:attr/textColorHint"
         app:srcCompat="@drawable/back" />
 
     <TextView
@@ -26,7 +27,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="13dp"
+        android:layout_marginTop="26dp"
+        android:fontFamily="@font/roboto"
         android:text="Enter City Name"
         android:textColor="@android:color/background_light"
         android:textSize="28sp" />
@@ -49,7 +51,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/cityEditText"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="127dp"
+        android:layout_marginTop="43dp"
         android:background="@android:color/holo_blue_light"
         android:onClick="getResult"
         android:paddingLeft="15sp"
@@ -61,12 +63,14 @@
         android:id="@+id/resultTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/cityEditText"
+        android:layout_below="@+id/weatherButton"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="28dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="109dp"
+        android:fontFamily="@font/roboto"
         android:textAlignment="center"
         android:textColor="@android:color/background_light"
-        android:textSize="30sp"
-        android:textStyle="bold" />
+        android:textSize="24sp" />
 
 </RelativeLayout>
