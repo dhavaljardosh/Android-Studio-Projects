@@ -4,6 +4,8 @@ import android.Manifest;
 import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.pm.PackageManager;
+import android.location.Address;
+import android.location.Geocoder;
 import android.location.Location;
 import android.location.LocationListener;
 import android.location.LocationManager;
@@ -22,6 +24,10 @@ import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
+
+import java.io.IOException;
+import java.util.List;
+import java.util.Locale;
 
 public class MapsActivity extends FragmentActivity implements OnMapReadyCallback {
 
@@ -80,8 +86,39 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 LatLng userLocation = new LatLng(location.getLatitude(),location.getLongitude());
                 mMap.clear();
                 mMap.addMarker(new MarkerOptions().position(userLocation).title("Marker in Sydney"));
-                mMap.moveCamera(CameraUpdateFactory.newLatLng(userLocation));
-                Toast.makeText(MapsActivity.this, location.toString(), Toast.LENGTH_LONG).show();
+                mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(userLocation,18));
+
+
+                Geocoder geocoder = new Geocoder(getApplicationContext(), Locale.getDefault());
+
+                try {
+
+                    List<Address> listAddress = geocoder.getFromLocation(location.getLatitude(),location.getLongitude(),1);
+
+                    if(listAddress != null && listAddress.size() > 0){
+                        Log.i("Place Info",listAddress.get(0).toString());
+                        String address = "";
+
+                        if(listAddress.get(0).getAddressLine(0)!= null){
+                            address += listAddress.get(0).getAddressLine(0)+" ";
+                        }
+                        if(listAddress.get(0).getAddressLine(1)!= null && listAddress.get(0).getAddressLine(2)== null){
+                            address += listAddress.get(0).getAddressLine(1);
+                        }else if(listAddress.get(0).getAddressLine(1)!= null){
+                            address += listAddress.get(0).getAddressLine(1) + " ";
+                        }
+                        if(listAddress.get(0).getAddressLine(2)!= null){
+                            address += listAddress.get(0).getAddressLine(2);
+                        }
+
+                        Toast.makeText(getApplicationContext(),address,Toast.LENGTH_LONG).show();
+
+                    }
+                } catch (IOException e) {
+
+                    e.printStackTrace();
+
+                }
             }
 
             @Override
@@ -117,21 +154,21 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
             locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, 0, 0, locationListener);
 
         } else {
-            if(ContextCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION)!=  PackageManager.PERMISSION_GRANTED) {
+            if (ContextCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
 
-                ActivityCompat.requestPermissions(this,new String[]{Manifest.permission.ACCESS_FINE_LOCATION},1);
+                ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.ACCESS_FINE_LOCATION}, 1);
 
             } else {
 
-                locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER,0 , 0 , locationListener);
-                Location lastKnownLocation  = locationManager.getLastKnownLocation(LocationManager.GPS_PROVIDER);
-                LatLng sydney = new LatLng(lastKnownLocation.getLatitude(), lastKnownLocation.getLongitude());
-                mMap.addMarker(new MarkerOptions().position(sydney).title("Marker in Sydney"));
-                mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
+                locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, 0, 0, locationListener);
+                Location lastKnownLocation = locationManager.getLastKnownLocation(LocationManager.GPS_PROVIDER);
+                LatLng original = new LatLng(lastKnownLocation.getLatitude(), lastKnownLocation.getLongitude());
+                mMap.addMarker(new MarkerOptions().position(original).title("Austin"));
+                mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(original, 18));
+
             }
+
         }
-
-
 
     }
 }
