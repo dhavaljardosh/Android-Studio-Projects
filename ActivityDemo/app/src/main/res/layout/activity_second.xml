@@ -13,5 +13,5 @@
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:onClick="changeThat"
-        android:text="Button" />
+        android:text="Jump to Main" />
 </RelativeLayout>
