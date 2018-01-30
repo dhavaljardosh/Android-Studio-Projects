@@ -16,7 +16,8 @@
         android:scaleY="2"
         android:scrollX="-5dp"
         android:scrollY="-50dp"
-        android:src="@drawable/back1" />
+        android:src="@drawable/back1"
+        android:tint="?android:attr/colorControlNormal" />
 
     <TextView
         android:id="@+id/title"
@@ -29,7 +30,7 @@
         android:text="Hiker's Watch"
         android:textAppearance="@style/TextAppearance.AppCompat.Large.Inverse"
         android:textColor="@android:color/holo_green_dark"
-        android:textSize="36sp"
+        android:textSize="40sp"
         android:textStyle="bold" />
 
     <TextView
@@ -42,8 +43,8 @@
         android:layout_marginTop="45dp"
         android:fontFamily="monospace"
         android:text="Latitude"
-        android:textColor="?attr/colorError"
-        android:textSize="12sp"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
         android:textStyle="bold" />
 
     <TextView
@@ -55,8 +56,8 @@
         android:layout_marginTop="17dp"
         android:fontFamily="monospace"
         android:text="Longitude"
-        android:textColor="?attr/colorError"
-        android:textSize="12sp"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
         android:textStyle="bold" />
 
     <TextView
@@ -68,34 +69,34 @@
         android:layout_marginTop="17dp"
         android:fontFamily="monospace"
         android:text="Accuracy:"
-        android:textColor="?attr/colorError"
-        android:textSize="12sp"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
         android:textStyle="bold" />
 
     <TextView
         android:id="@+id/altTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/accTextView"
         android:layout_alignStart="@+id/latTextView"
+        android:layout_below="@+id/accTextView"
         android:layout_marginTop="17dp"
         android:fontFamily="monospace"
         android:text="Altitude :"
-        android:textColor="?attr/colorError"
-        android:textSize="12sp"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
         android:textStyle="bold" />
 
     <TextView
         android:id="@+id/addressTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/altTextView"
         android:layout_alignStart="@+id/latTextView"
+        android:layout_below="@+id/altTextView"
         android:layout_marginTop="17dp"
         android:fontFamily="monospace"
         android:text="Address :"
-        android:textColor="?attr/colorError"
-        android:textSize="12sp"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
         android:textStyle="bold" />
 
 

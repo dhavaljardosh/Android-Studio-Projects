@@ -46,7 +46,6 @@ public class MainActivity extends AppCompatActivity {
 
     public void updateLocationInfo(Location location){
 
-        String address = "Address: \n";
 
         Log.i("Location Info",location.toString());
         TextView latTextView = (TextView) findViewById(R.id.latTextView);
@@ -64,21 +63,35 @@ public class MainActivity extends AppCompatActivity {
 
         try {
 
+            String address = "Address: \n";
+
             List<Address> listAddress = geocoder.getFromLocation(location.getLatitude(),location.getLongitude(),1);
-            Log.i("Place Info",listAddress.get(0).toString());
 
-            if(listAddress.get(0).getSubThoroughfare()!=null){
-                Log.i("Sub Through" , listAddress.get(0).getSubThoroughfare());
-            }else{
-                Log.i("Sub Through" , "Dosn't Exists");
+            if(listAddress != null && listAddress.size()>0) {
+                Log.i("Place Info", listAddress.get(0).toString());
+                if(listAddress.get(0).getFeatureName() != null) {
+                    address += listAddress.get(0).getFeatureName() + " ";
+                }
+                if(listAddress.get(0).getThoroughfare() != null) {
+                    address += listAddress.get(0).getThoroughfare() + "\n";
+                }
+                if(listAddress.get(0).getLocality() != null) {
+                    address += listAddress.get(0).getLocality() + " ";
+                }
+                if(listAddress.get(0).getAdminArea() != null) {
+                    address += listAddress.get(0).getAdminArea() + " ";
+                }
+                if(listAddress.get(0).getPostalCode() != null) {
+                    address += listAddress.get(0).getPostalCode() + "\n";
+                }
+                if(listAddress.get(0).getCountryName() != null) {
+                    address += listAddress.get(0).getCountryName() + "\n";
+                }
             }
+            Log.i("Address", address);
+            addressTextView.setText(address);
 
-
-//            if(listAddress.get(0).getSubThoroughfare() != null) {
-//
-//            }
-
-        } catch (IOException e) {
+        } catch (Exception e) {
 
             e.printStackTrace();
 
