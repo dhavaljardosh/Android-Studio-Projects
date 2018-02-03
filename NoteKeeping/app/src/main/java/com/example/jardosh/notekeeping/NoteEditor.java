@@ -1,13 +1,17 @@
 package com.example.jardosh.notekeeping;
 
 import android.Manifest;
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.util.Log;
 import android.widget.EditText;
+
+import java.util.HashSet;
 
 public class NoteEditor extends AppCompatActivity {
 
@@ -41,6 +45,11 @@ public class NoteEditor extends AppCompatActivity {
             public void onTextChanged(CharSequence s, int start, int before, int count) {
                 MainActivity.notes.set(noteId,String.valueOf(s));
                 MainActivity.arrayAdapter.notifyDataSetChanged();
+
+                SharedPreferences sharedPreferences = getApplicationContext().getSharedPreferences("com.example.jardosh.notekeeping", Context.MODE_PRIVATE);
+
+                HashSet<String> set = new HashSet<>(MainActivity.notes);
+                sharedPreferences.edit().putStringSet("notes",set).apply();
             }
 
             @Override
