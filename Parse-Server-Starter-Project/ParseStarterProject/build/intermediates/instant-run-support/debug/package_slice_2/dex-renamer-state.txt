@@ -1,0 +1,4 @@
+#Tue Feb 06 05:08:42 CST 2018
+base.0=/Users/Jardosh/Downloads/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/transforms/dexMerger/debug/3
+path.0=classes.dex
+renamed.0=classes.dex
