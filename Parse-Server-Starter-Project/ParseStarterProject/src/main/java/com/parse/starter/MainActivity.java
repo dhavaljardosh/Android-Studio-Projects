@@ -48,16 +48,16 @@ public class MainActivity extends AppCompatActivity {
 //      }
 //    });
 
-    ParseQuery<ParseObject> query = ParseQuery.getQuery("Score");
-    query.getInBackground("Qzb61BGuk9", new GetCallback<ParseObject>() {
-      @Override
-      public void done(ParseObject object, ParseException e) {
-        if(e==null && object != null){
-          Log.i("ObjectVaalue",object.getString("username"));
-          Log.i("ObjectVaalue", String.valueOf(object.getInt("score")));
-        }
-      }
-    });
+//    ParseQuery<ParseObject> query = ParseQuery.getQuery("Score");
+//    query.getInBackground("Qzb61BGuk9", new GetCallback<ParseObject>() {
+//      @Override
+//      public void done(ParseObject object, ParseException e) {
+//        if(e==null && object != null){
+//          Log.i("ObjectVaalue",object.getString("username"));
+//          Log.i("ObjectVaalue", String.valueOf(object.getInt("score")));
+//        }
+//      }
+//    });
 
     ParseAnalytics.trackAppOpenedInBackground(getIntent());
   }

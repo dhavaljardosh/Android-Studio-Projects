@@ -11,10 +11,12 @@ package com.parse.starter;
 import android.app.Application;
 import android.util.Log;
 
+import com.parse.GetCallback;
 import com.parse.Parse;
 import com.parse.ParseACL;
 import com.parse.ParseException;
 import com.parse.ParseObject;
+import com.parse.ParseQuery;
 import com.parse.ParseUser;
 import com.parse.SaveCallback;
 
@@ -53,11 +55,23 @@ public class StarterApplication extends Application {
     });
     */
 
-    
+    ParseQuery<ParseObject> query = ParseQuery.getQuery("Score");
+
+    query.getInBackground("Qzb61BGuk9", new GetCallback<ParseObject>() {
+      @Override
+      public void done(ParseObject object, ParseException e) {
+        if(e == null && object!=null){
+
+          object.put("score",200);
+          object.saveInBackground();
+          Log.i("User: ",object.getString("username"));
+          Log.i("Score: ", String.valueOf(object.getInt("score")));
+        }
+      }
+    });
 
 
     ParseUser.enableAutomaticUser();
-
     ParseACL defaultACL = new ParseACL();
     defaultACL.setPublicReadAccess(true);
     defaultACL.setPublicWriteAccess(true);

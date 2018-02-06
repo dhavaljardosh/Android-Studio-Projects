@@ -6,25 +6,25 @@
     density="420dpi"
     format="10"
     plugin-version="3.0.1"
-    timestamp="1517915316305"
+    timestamp="1517933405755"
     token="-4180455034035239858"
-    verifier="IMPLEMENTED_INTERFACES_CHANGE" >
+    verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="832" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="199" />
+        duration="0" />
     <task
         name="verifier"
-        duration="4" />
+        duration="0" />
 
     <artifact
-        location="/Users/Jardosh/Downloads/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/split-apk/debug/slices/slice_2.apk"
+        location="/Users/Jardosh/Downloads/Android-Studio-Projects/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/split-apk/debug/slices/slice_2.apk"
         type="SPLIT" />
 
     <build
@@ -74,6 +74,53 @@
         verifier="IMPLEMENTED_INTERFACES_CHANGE" >
         <artifact
             location="/Users/Jardosh/Downloads/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/split-apk/debug/slices/slice_2.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        ir-eligibility="COMPATIBLE"
+        timestamp="1517932506072"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/Users/Jardosh/Downloads/Android-Studio-Projects/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/split-apk/debug/dep/dependencies.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/Jardosh/Downloads/Android-Studio-Projects/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/split-apk/debug/slices/slice_3.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/Jardosh/Downloads/Android-Studio-Projects/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/split-apk/debug/slices/slice_1.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/Jardosh/Downloads/Android-Studio-Projects/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/split-apk/debug/slices/slice_0.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/Jardosh/Downloads/Android-Studio-Projects/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/split-apk/debug/slices/slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/Jardosh/Downloads/Android-Studio-Projects/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/split-apk/debug/slices/slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/Jardosh/Downloads/Android-Studio-Projects/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/split-apk/debug/slices/slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/Jardosh/Downloads/Android-Studio-Projects/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/split-apk/debug/slices/slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/Jardosh/Downloads/Android-Studio-Projects/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/split-apk/debug/slices/slice_9.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/Jardosh/Downloads/Android-Studio-Projects/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/split-apk/debug/slices/slice_8.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/Jardosh/Downloads/Android-Studio-Projects/Parse-Server-Starter-Project/ParseStarterProject/build/outputs/apk/debug/ParseStarterProject-debug.apk"
+            type="SPLIT_MAIN" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1517933405755"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/Users/Jardosh/Downloads/Android-Studio-Projects/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/split-apk/debug/slices/slice_2.apk"
             type="SPLIT" />
     </build>
 
