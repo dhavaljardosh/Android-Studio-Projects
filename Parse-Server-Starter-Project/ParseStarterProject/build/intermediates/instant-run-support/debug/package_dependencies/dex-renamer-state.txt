@@ -1,7 +1,7 @@
-#Tue Feb 06 09:55:47 CST 2018
-base.0=/Users/Jardosh/Downloads/Android-Studio-Projects/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/transforms/dexMerger/debug/11
+#Tue Feb 06 10:53:48 CST 2018
+base.0=/Users/Jardosh/Downloads/Android-Studio-Projects/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/transforms/dexMerger/debug/10
 path.1=classes2.dex
 renamed.1=classes2.dex
 path.0=classes.dex
 renamed.0=classes.dex
-base.1=/Users/Jardosh/Downloads/Android-Studio-Projects/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/transforms/dexMerger/debug/11
+base.1=/Users/Jardosh/Downloads/Android-Studio-Projects/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/transforms/dexMerger/debug/10

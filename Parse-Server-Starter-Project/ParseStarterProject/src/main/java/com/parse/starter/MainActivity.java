@@ -12,8 +12,11 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
+import android.widget.EditText;
 import android.widget.Switch;
+import android.widget.Toast;
 
+import com.parse.FindCallback;
 import com.parse.GetCallback;
 import com.parse.LogInCallback;
 import com.parse.Parse;
@@ -24,40 +27,45 @@ import com.parse.ParseObject;
 import com.parse.ParseQuery;
 import com.parse.ParseUser;
 import com.parse.SaveCallback;
+import com.parse.SignUpCallback;
+
+import java.util.List;
 
 
 public class MainActivity extends AppCompatActivity {
 
+  public void signUp(View view){
+    EditText usernameEditText = (EditText) findViewById(R.id.usernameEditText);
+    EditText passwordEditText = (EditText) findViewById(R.id.passwordEditText);
+    if(usernameEditText.getText().toString().matches("") || passwordEditText.getText().toString().matches("")){
+      Toast.makeText(this, "Username and password are Required", Toast.LENGTH_LONG).show();
+    } else {
+      ParseUser user = new ParseUser();
+
+      user.setUsername(usernameEditText.getText().toString());
+      user.setPassword(passwordEditText.getText().toString());
+
+      user.signUpInBackground(new SignUpCallback() {
+        @Override
+        public void done(ParseException e) {
+          if(e==null) {
+            Log.i("SIGNUP: ","Successful");
+          }
+          else {
+            Toast.makeText(MainActivity.this,e.getMessage(),Toast.LENGTH_LONG).show();
+          }
+        }
+      });
+    }
+  }
 
   @Override
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_main);
 
-//    ParseObject score = new ParseObject("Score");
-//    score.put("username","dhaval");
-//    score.put("score","98");
-//    score.saveInBackground(new SaveCallback() {
-//      @Override
-//      public void done(ParseException e) {
-//        if(e == null){
-//          Log.i("Save in Background","Successful");
-//        } else{
-//          Log.i("Save in Background","Failed: "+e.toString());
-//        }
-//      }
-//    });
 
-//    ParseQuery<ParseObject> query = ParseQuery.getQuery("Score");
-//    query.getInBackground("Qzb61BGuk9", new GetCallback<ParseObject>() {
-//      @Override
-//      public void done(ParseObject object, ParseException e) {
-//        if(e==null && object != null){
-//          Log.i("ObjectVaalue",object.getString("username"));
-//          Log.i("ObjectVaalue", String.valueOf(object.getInt("score")));
-//        }
-//      }
-//    });
+
 
     ParseAnalytics.trackAppOpenedInBackground(getIntent());
   }
