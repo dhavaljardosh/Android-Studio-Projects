@@ -10,5 +10,9 @@
     {
         "merged": "/Users/robpercival/AndroidStudioProjects/Uber/ParseStarterProject/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher.png",
         "source": "/Users/robpercival/AndroidStudioProjects/Uber/ParseStarterProject/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/InstagramClone/ParseStarterProject/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher.png",
+        "source": "/Users/Jardosh/Downloads/Android-Studio-Projects/InstagramClone/ParseStarterProject/src/main/res/mipmap-mdpi/ic_launcher.png"
     }
 ]

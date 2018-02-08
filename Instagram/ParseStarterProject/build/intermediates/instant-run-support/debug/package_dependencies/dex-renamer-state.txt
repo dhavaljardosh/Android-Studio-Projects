@@ -1,7 +1,7 @@
-#Tue Feb 06 12:23:40 CST 2018
-base.0=/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/transforms/dexMerger/debug/29
+#Wed Feb 07 12:05:41 CST 2018
+base.0=/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/transforms/dexMerger/debug/10
 path.1=classes2.dex
 renamed.1=classes2.dex
 path.0=classes.dex
 renamed.0=classes.dex
-base.1=/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/transforms/dexMerger/debug/29
+base.1=/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/transforms/dexMerger/debug/10

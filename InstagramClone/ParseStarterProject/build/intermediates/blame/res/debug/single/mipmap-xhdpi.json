@@ -8,6 +8,10 @@
         "source": "/Users/robpercival/Desktop/Parse-Server-Starter-Project/ParseStarterProject/src/main/res/mipmap-xhdpi/ic_launcher.png"
     },
     {
+        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/InstagramClone/ParseStarterProject/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_launcher.png",
+        "source": "/Users/Jardosh/Downloads/Android-Studio-Projects/InstagramClone/ParseStarterProject/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
         "merged": "/Users/robpercival/Desktop/Whatsapp/ParseStarterProject/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_launcher.png",
         "source": "/Users/robpercival/Desktop/Whatsapp/ParseStarterProject/src/main/res/mipmap-xhdpi/ic_launcher.png"
     }

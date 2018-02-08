@@ -533,11 +533,11 @@ public final class R {
 		public static final int decline = 0x7f07005f;
 		public static final int place_autocomplete_clear_button = 0x7f070054;
 		public static final int place_autocomplete_search_hint = 0x7f070055;
-		public static final int store_picture_message = 0x7f070064;
-		public static final int store_picture_title = 0x7f070065;
-		public static final int tagmanager_preview_dialog_button = 0x7f070066;
-		public static final int tagmanager_preview_dialog_message = 0x7f070067;
-		public static final int tagmanager_preview_dialog_title = 0x7f070068;
+		public static final int store_picture_message = 0x7f070063;
+		public static final int store_picture_title = 0x7f070064;
+		public static final int tagmanager_preview_dialog_button = 0x7f070065;
+		public static final int tagmanager_preview_dialog_message = 0x7f070066;
+		public static final int tagmanager_preview_dialog_title = 0x7f070067;
 		public static final int wallet_buy_button_place_holder = 0x7f070057;
 	}
 	public static final class style {
