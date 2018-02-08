@@ -48,6 +48,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
   EditText passwordEditText;
   EditText usernameEditText;
 
+  public void showUserList(){
+    Intent intent = new Intent(getApplicationContext(),PostLogin.class);
+    startActivity(intent);
+  }
 
 
   public void signUp(View view){
@@ -73,6 +77,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
           public void done(ParseException e) {
             if (e == null) {
               Toast.makeText(MainActivity.this, "Sign up Success", Toast.LENGTH_LONG).show();
+              showUserList();
             } else {
               Toast.makeText(MainActivity.this, e.getMessage(), Toast.LENGTH_LONG).show();
             }
@@ -85,6 +90,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
           public void done(ParseUser user, ParseException e) {
             if(user != null){
               Toast.makeText(MainActivity.this,user.getUsername(),Toast.LENGTH_LONG).show();
+              showUserList();
             }
             else {
               Toast.makeText(MainActivity.this, e.getMessage(), Toast.LENGTH_LONG).show();
@@ -110,6 +116,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     logoImageView.setOnClickListener(this);
     changeSignupTextview.setOnClickListener(this);
 
+    if(ParseUser.getCurrentUser() != null){
+      showUserList();
+    }
+
 
     ParseAnalytics.trackAppOpenedInBackground(getIntent());
   }
@@ -124,7 +134,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
       } else{
         login=false;
         signupButton.setText("Sign up");
-        changeSignupTextview.setText("Log In");
+        changeSignupTextview.setText("LOG IN");
       }
     } else if(view.getId() == R.id.backgroundRelativeLayout || view.getId() == R.id.logoImageView) {
       InputMethodManager inputMethodManager = (InputMethodManager) getSystemService(INPUT_METHOD_SERVICE);

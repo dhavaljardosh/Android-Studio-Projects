@@ -74,6 +74,7 @@
         android:layout_below="@+id/signupButton"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
-        android:text="Login"
+        android:text="LOG IN"
         android:textColor="@android:color/holo_red_light" />
+    
 </RelativeLayout>

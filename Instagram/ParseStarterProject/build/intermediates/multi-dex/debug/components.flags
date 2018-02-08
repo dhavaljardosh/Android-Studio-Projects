@@ -1,0 +1,104 @@
+-injars /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-9.4.0.aar/77543a6565d45c670b4f27116e75534c/jars/classes.jar(**.class)
+-injars /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.4.0.aar/777cc8f57b8a9014e98b05cdc84bd794/jars/classes.jar(**.class)
+-injars /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-cast-9.4.0.aar/94169d545ddc5a7247ffdc250dfd9e67/jars/classes.jar(**.class)
+-injars /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-23.0.0.aar/339d397dd36808212cd2279053315bd5/jars/classes.jar(**.class)
+-injars /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-23.0.0.aar/339d397dd36808212cd2279053315bd5/jars/libs/internal_impl-23.0.0.jar(**.class)
+-injars /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/e9bf4163d92489fccdea1f8420a41f3c/jars/classes.jar(**.class)
+-injars /Users/Jardosh/.gradle/caches/modules-2/files-2.1/com.parse/parse-android/1.13.0/58a7d54b6a4f28be11f0cecec93097eddf473e6f/parse-android-1.13.0.jar(**.class)
+-injars /Users/Jardosh/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar(**.class)
+-injars /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/c1817fc6340ae3629c90e41b55abca0a/jars/classes.jar(**.class)
+-injars /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/1434c0313feebe8545e663069d9ee526/jars/classes.jar(**.class)
+-injars /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-23.4.0.aar/38288fdc5eb0d25cf68e626fe9d299b9/jars/classes.jar(**.class)
+-injars /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-ads-9.4.0.aar/a5a3445279aeba4b76b3a67c6c116a43/jars/classes.jar(**.class)
+-injars /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-9.4.0.aar/578f0d026bfededbb77162e482531948/jars/classes.jar(**.class)
+-injars /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-analytics-9.4.0.aar/1aeae680599ba6f597f781764ba83fdc/jars/classes.jar(**.class)
+-injars /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-9.4.0.aar/d2aac9bf62932a2d673cea05ee6565f1/jars/classes.jar(**.class)
+-injars /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-9.4.0.aar/0f54f58164dcbd84d0dda5b60a3ff044/jars/classes.jar(**.class)
+-injars /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-9.4.0.aar/015a7d9d908d4a9b7af6cbd42d118e7d/jars/classes.jar(**.class)
+-injars /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-auth-9.4.0.aar/e01f990adff562279bd8ddf8196f51af/jars/classes.jar(**.class)
+-injars /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-9.4.0.aar/d161e51546458f87185a981f30ce6317/jars/classes.jar(**.class)
+-injars /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-clearcut-9.4.0.aar/c2f372466ec6781960738c2157b965ff/jars/classes.jar(**.class)
+-injars /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/firebase-config-9.4.0.aar/9c66465d7d634d5495307f39501315a7/jars/classes.jar(**.class)
+-injars /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-contextmanager-9.4.0.aar/079ac5c580fbc57db77b54f550f0a596/jars/classes.jar(**.class)
+-injars /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/firebase-crash-9.4.0.aar/d91fb19e42c7170f869e7ee604bbe21e/jars/classes.jar(**.class)
+-injars /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-games-9.4.0.aar/1d831bf09a6861b703b377184048ba15/jars/classes.jar(**.class)
+-injars /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-drive-9.4.0.aar/4c5493bc91df9f034c05ede1fce239a1/jars/classes.jar(**.class)
+-injars /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/firebase-auth-9.4.0.aar/a1be33bfc72e901b199201b0ef8dabbb/jars/classes.jar(**.class)
+-injars /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/firebase-auth-common-9.4.0.aar/67d2cdba19f5ccedf5f4bebf20973f5b/jars/classes.jar(**.class)
+-injars /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/firebase-auth-module-9.4.0.aar/7f4c7ba583e698b36a1a5b4a2364f23e/jars/classes.jar(**.class)
+-injars /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/firebase-database-9.4.0.aar/94f27772319d2235c6ff8feebf60a703/jars/classes.jar(**.class)
+-injars /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-9.4.0.aar/5f3d754973eebb6ebc31622091bc2e15/jars/classes.jar(**.class)
+-injars /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/firebase-storage-9.4.0.aar/eb5014b87f69a4ac74b40b7b2188da7c/jars/classes.jar(**.class)
+-injars /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/firebase-storage-common-9.4.0.aar/b531834e8a28348e478d362a8872e563/jars/classes.jar(**.class)
+-injars /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-fitness-9.4.0.aar/aff0a75ecab0667dfd1a3e95a4087dfd/jars/classes.jar(**.class)
+-injars /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-gcm-9.4.0.aar/d2ea06ad936ec2b309e9f24753ae7f4b/jars/classes.jar(**.class)
+-injars /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-appindexing-9.4.0.aar/f75d5384d2660ceb004630d694f3756e/jars/classes.jar(**.class)
+-injars /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-wallet-9.4.0.aar/420e5c215235823a5de88fd2a61d51f5/jars/classes.jar(**.class)
+-injars /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-identity-9.4.0.aar/fc1304fe5d55b2023f8dc472671d990b/jars/classes.jar(**.class)
+-injars /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-iid-9.4.0.aar/6a4bf37ce51abb7243f757ed969e8eb7/jars/classes.jar(**.class)
+-injars /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-location-9.4.0.aar/a7d1c542de32f00369b9cdeb05c1b8d8/jars/classes.jar(**.class)
+-injars /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-places-9.4.0.aar/f2146a1619829c75032e25e872b41d9d/jars/classes.jar(**.class)
+-injars /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-maps-9.4.0.aar/6ed266ffb4cc5425d154607750db2df0/jars/classes.jar(**.class)
+-injars /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-nearby-9.4.0.aar/641cdaa19f494c76a77cc8d49b8aab72/jars/classes.jar(**.class)
+-injars /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-panorama-9.4.0.aar/816ee11ec83de97c424d2da308f8963e/jars/classes.jar(**.class)
+-injars /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-plus-9.4.0.aar/2f2849a8284ba764cd557f466e14f863/jars/classes.jar(**.class)
+-injars /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-safetynet-9.4.0.aar/4dcfdd6746e39dd9e738556bf8c94605/jars/classes.jar(**.class)
+-injars /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-vision-9.4.0.aar/594457f88e02f9ade5a09017181f414e/jars/classes.jar(**.class)
+-injars /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-wearable-9.4.0.aar/e593861534669fe9134ff4c27d7511ab/jars/classes.jar(**.class)
+-injars /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-base-9.4.0.aar/92084990d0360a815ba302dd4f345640/jars/classes.jar(**.class)
+-injars /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/firebase-messaging-9.4.0.aar/ff98f7ab76a3cd224045f465e5822dbc/jars/classes.jar(**.class)
+-injars /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-9.4.0.aar/f25508e619c483883cadd1d4788e1376/jars/classes.jar(**.class)
+-injars /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.4.0.aar/4863f733ff7115c1e80e851aa9e156af/jars/classes.jar(**.class)
+-injars /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.4.0.aar/26e5bf987f4ac58336c83c6966c3358d/jars/classes.jar(**.class)
+-injars /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.4.0.aar/1751f6a2d51abec26d846df60e03cad2/jars/classes.jar(**.class)
+-injars /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/firebase-common-9.4.0.aar/75d219bb5dbe83426f957d02901b6e12/jars/classes.jar(**.class)
+-injars /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-gass-9.4.0.aar/52dcb33ca0c414371e756899312bb3fc/jars/classes.jar(**.class)
+-injars /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-tasks-9.4.0.aar/06c526f04091d2538b3b6b3b6dd303d2/jars/classes.jar(**.class)
+-injars /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-basement-9.4.0.aar/a49eebb52a8193008ae27d5d68979013/jars/classes.jar(**.class)
+-injars /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-23.4.0.aar/686970aa2187bb6ad55ec10783bf7b53/jars/classes.jar(**.class)
+-injars /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/support-v4-23.4.0.aar/99519cf58180e28486c26fb8dd5c9f51/jars/classes.jar(**.class)
+-injars /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/support-v4-23.4.0.aar/99519cf58180e28486c26fb8dd5c9f51/jars/libs/internal_impl-23.4.0.jar(**.class)
+-injars /Users/Jardosh/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar(**.class)
+-injars /Users/Jardosh/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar(**.class)
+-injars /Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/classes/debug(**.class)
+-outjars /Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/multi-dex/debug/componentClasses.jar
+
+-libraryjars /Users/Jardosh/Library/Android/sdk/build-tools/26.0.2/lib/shrinkedAndroid.jar
+
+-forceprocessing
+-dontoptimize
+-dontobfuscate
+-dontusemixedcaseclassnames
+-dontpreverify
+-dontnote **
+-dontwarn **
+-printconfiguration /Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/multi-dex/debug/components.flags
+
+
+# Referenced at /Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/manifests/full/debug/AndroidManifest.xml:38
+-keep class com.parse.starter.StarterApplication {
+    <init>(...);
+}
+
+-keep public class * extends android.app.Instrumentation {
+    <init>();
+}
+
+-keep public class * extends android.app.Application {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+
+-keep public class * extends java.lang.annotation.Annotation {
+    <fields>;
+    <methods>;
+}
+
+-keep class com.android.tools.ir.** {
+    <fields>;
+    <methods>;
+}

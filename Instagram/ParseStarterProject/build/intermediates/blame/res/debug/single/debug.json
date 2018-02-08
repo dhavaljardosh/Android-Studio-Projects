@@ -24,12 +24,12 @@
         "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-plus-9.4.0.aar/2f2849a8284ba764cd557f466e14f863/res/drawable-hdpi-v4/ic_plusone_medium_off_client.png"
     },
     {
-        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-ldrtl-xxhdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat",
-        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/e9bf4163d92489fccdea1f8420a41f3c/res/drawable-ldrtl-xxhdpi-v17/abc_spinner_mtrl_am_alpha.9.png"
-    },
-    {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_common_google_signin_btn_text_dark_focused.9.png.flat",
         "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-base-9.4.0.aar/92084990d0360a815ba302dd4f345640/res/drawable-xxhdpi-v4/common_google_signin_btn_text_dark_focused.9.png"
+    },
+    {
+        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-ldrtl-xxhdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat",
+        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/e9bf4163d92489fccdea1f8420a41f3c/res/drawable-ldrtl-xxhdpi-v17/abc_spinner_mtrl_am_alpha.9.png"
     },
     {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-hdpi-v4_common_google_signin_btn_icon_light_pressed.9.png.flat",
@@ -44,28 +44,28 @@
         "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.4.0.aar/777cc8f57b8a9014e98b05cdc84bd794/res/drawable-hdpi-v4/quantum_ic_closed_caption_grey600_36.png"
     },
     {
-        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-ldpi-v4_common_ic_googleplayservices.png.flat",
-        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-base-9.4.0.aar/92084990d0360a815ba302dd4f345640/res/drawable-ldpi-v4/common_ic_googleplayservices.png"
-    },
-    {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_quantum_ic_play_circle_filled_grey600_36.png.flat",
         "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.4.0.aar/777cc8f57b8a9014e98b05cdc84bd794/res/drawable-xxhdpi-v4/quantum_ic_play_circle_filled_grey600_36.png"
+    },
+    {
+        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-ldpi-v4_common_ic_googleplayservices.png.flat",
+        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-base-9.4.0.aar/92084990d0360a815ba302dd4f345640/res/drawable-ldpi-v4/common_ic_googleplayservices.png"
     },
     {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_go_search_api_mtrl_alpha.png.flat",
         "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/e9bf4163d92489fccdea1f8420a41f3c/res/drawable-hdpi-v4/abc_ic_go_search_api_mtrl_alpha.png"
     },
     {
-        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_cast_on_2_light.png.flat",
-        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-23.0.0.aar/339d397dd36808212cd2279053315bd5/res/drawable-xxhdpi/ic_cast_on_2_light.png"
+        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat",
+        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/e9bf4163d92489fccdea1f8420a41f3c/res/drawable-xhdpi-v4/abc_list_selector_disabled_holo_light.9.png"
     },
     {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xhdpi-v4_quantum_ic_play_arrow_grey600_48.png.flat",
         "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.4.0.aar/777cc8f57b8a9014e98b05cdc84bd794/res/drawable-xhdpi-v4/quantum_ic_play_arrow_grey600_48.png"
     },
     {
-        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat",
-        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/e9bf4163d92489fccdea1f8420a41f3c/res/drawable-xhdpi-v4/abc_list_selector_disabled_holo_light.9.png"
+        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_cast_on_2_light.png.flat",
+        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-23.0.0.aar/339d397dd36808212cd2279053315bd5/res/drawable-xxhdpi/ic_cast_on_2_light.png"
     },
     {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_clear_mtrl_alpha.png.flat",
@@ -96,16 +96,16 @@
         "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/e9bf4163d92489fccdea1f8420a41f3c/res/drawable-mdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png"
     },
     {
-        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_quantum_ic_closed_caption_white_36.png.flat",
-        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.4.0.aar/777cc8f57b8a9014e98b05cdc84bd794/res/drawable-xxhdpi-v4/quantum_ic_closed_caption_white_36.png"
+        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-mdpi_ic_cast_on_light.png.flat",
+        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-23.0.0.aar/339d397dd36808212cd2279053315bd5/res/drawable-mdpi/ic_cast_on_light.png"
     },
     {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
         "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/e9bf4163d92489fccdea1f8420a41f3c/res/drawable-hdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png"
     },
     {
-        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-mdpi_ic_cast_on_light.png.flat",
-        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-23.0.0.aar/339d397dd36808212cd2279053315bd5/res/drawable-mdpi/ic_cast_on_light.png"
+        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_quantum_ic_closed_caption_white_36.png.flat",
+        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.4.0.aar/777cc8f57b8a9014e98b05cdc84bd794/res/drawable-xxhdpi-v4/quantum_ic_closed_caption_white_36.png"
     },
     {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_common_plus_signin_btn_text_dark_disabled.9.png.flat",
@@ -140,24 +140,24 @@
         "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.4.0.aar/777cc8f57b8a9014e98b05cdc84bd794/res/drawable-xxhdpi-v4/quantum_ic_art_track_grey600_48.png"
     },
     {
-        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xhdpi-v4_quantum_ic_stop_grey600_36.png.flat",
-        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.4.0.aar/777cc8f57b8a9014e98b05cdc84bd794/res/drawable-xhdpi-v4/quantum_ic_stop_grey600_36.png"
-    },
-    {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_btn_rating_star_off_mtrl_alpha.png.flat",
         "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/e9bf4163d92489fccdea1f8420a41f3c/res/drawable-hdpi-v4/abc_btn_rating_star_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xhdpi-v4_quantum_ic_stop_grey600_36.png.flat",
+        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.4.0.aar/777cc8f57b8a9014e98b05cdc84bd794/res/drawable-xhdpi-v4/quantum_ic_stop_grey600_36.png"
     },
     {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_menu_paste_mtrl_am_alpha.png.flat",
         "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/e9bf4163d92489fccdea1f8420a41f3c/res/drawable-xxhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png"
     },
     {
-        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
-        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/e9bf4163d92489fccdea1f8420a41f3c/res/drawable-xhdpi-v4/abc_btn_check_to_on_mtrl_000.png"
-    },
-    {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xhdpi_ic_pause_dark.png.flat",
         "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-23.0.0.aar/339d397dd36808212cd2279053315bd5/res/drawable-xhdpi/ic_pause_dark.png"
+    },
+    {
+        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
+        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/e9bf4163d92489fccdea1f8420a41f3c/res/drawable-xhdpi-v4/abc_btn_check_to_on_mtrl_000.png"
     },
     {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-tvdpi-v4_common_google_signin_btn_icon_light_normal.9.png.flat",
@@ -208,16 +208,16 @@
         "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.4.0.aar/777cc8f57b8a9014e98b05cdc84bd794/res/drawable-mdpi-v4/quantum_ic_stop_grey600_48.png"
     },
     {
-        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-mdpi-v4_quantum_ic_replay_30_white_36.png.flat",
-        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.4.0.aar/777cc8f57b8a9014e98b05cdc84bd794/res/drawable-mdpi-v4/quantum_ic_replay_30_white_36.png"
+        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-tvdpi-v4_common_plus_signin_btn_icon_dark_focused.9.png.flat",
+        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-base-9.4.0.aar/92084990d0360a815ba302dd4f345640/res/drawable-tvdpi-v4/common_plus_signin_btn_icon_dark_focused.9.png"
     },
     {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/raw_gtm_analytics.flat",
         "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-9.4.0.aar/0f54f58164dcbd84d0dda5b60a3ff044/res/raw/gtm_analytics"
     },
     {
-        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-tvdpi-v4_common_plus_signin_btn_icon_dark_focused.9.png.flat",
-        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-base-9.4.0.aar/92084990d0360a815ba302dd4f345640/res/drawable-tvdpi-v4/common_plus_signin_btn_icon_dark_focused.9.png"
+        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-mdpi-v4_quantum_ic_replay_30_white_36.png.flat",
+        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.4.0.aar/777cc8f57b8a9014e98b05cdc84bd794/res/drawable-mdpi-v4/quantum_ic_replay_30_white_36.png"
     },
     {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_common_plus_signin_btn_text_light_normal.9.png.flat",
@@ -252,12 +252,12 @@
         "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-base-9.4.0.aar/92084990d0360a815ba302dd4f345640/res/drawable/common_google_signin_btn_icon_light.xml"
     },
     {
-        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_ab_back_mtrl_am_alpha.png.flat",
-        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/e9bf4163d92489fccdea1f8420a41f3c/res/drawable-xxhdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png"
-    },
-    {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_quantum_ic_pause_circle_filled_white_36.png.flat",
         "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.4.0.aar/777cc8f57b8a9014e98b05cdc84bd794/res/drawable-xxhdpi-v4/quantum_ic_pause_circle_filled_white_36.png"
+    },
+    {
+        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_ab_back_mtrl_am_alpha.png.flat",
+        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/e9bf4163d92489fccdea1f8420a41f3c/res/drawable-xxhdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png"
     },
     {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_clear_mtrl_alpha.png.flat",
@@ -272,12 +272,12 @@
         "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/e9bf4163d92489fccdea1f8420a41f3c/res/layout/abc_list_menu_item_layout.xml"
     },
     {
-        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/color_abc_primary_text_material_dark.xml.flat",
-        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/e9bf4163d92489fccdea1f8420a41f3c/res/color/abc_primary_text_material_dark.xml"
-    },
-    {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-hdpi-v4_quantum_ic_replay_white_24.png.flat",
         "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.4.0.aar/777cc8f57b8a9014e98b05cdc84bd794/res/drawable-hdpi-v4/quantum_ic_replay_white_24.png"
+    },
+    {
+        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/color_abc_primary_text_material_dark.xml.flat",
+        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/e9bf4163d92489fccdea1f8420a41f3c/res/color/abc_primary_text_material_dark.xml"
     },
     {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_icon_dark.xml.flat",
@@ -300,36 +300,36 @@
         "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-base-9.4.0.aar/92084990d0360a815ba302dd4f345640/res/drawable-mdpi-v4/common_google_signin_btn_icon_dark_focused.9.png"
     },
     {
-        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable_cast_ic_notification_rewind.xml.flat",
-        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.4.0.aar/777cc8f57b8a9014e98b05cdc84bd794/res/drawable/cast_ic_notification_rewind.xml"
-    },
-    {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_quantum_ic_replay_10_white_24.png.flat",
         "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.4.0.aar/777cc8f57b8a9014e98b05cdc84bd794/res/drawable-xxhdpi-v4/quantum_ic_replay_10_white_24.png"
     },
     {
-        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_quantum_ic_pause_white_24.png.flat",
-        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.4.0.aar/777cc8f57b8a9014e98b05cdc84bd794/res/drawable-xxxhdpi-v4/quantum_ic_pause_white_24.png"
+        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable_cast_ic_notification_rewind.xml.flat",
+        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.4.0.aar/777cc8f57b8a9014e98b05cdc84bd794/res/drawable/cast_ic_notification_rewind.xml"
     },
     {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xhdpi-v4_quantum_ic_replay_30_white_36.png.flat",
         "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.4.0.aar/777cc8f57b8a9014e98b05cdc84bd794/res/drawable-xhdpi-v4/quantum_ic_replay_30_white_36.png"
     },
     {
-        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-hdpi-v4_common_plus_signin_btn_icon_light_focused.9.png.flat",
-        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-base-9.4.0.aar/92084990d0360a815ba302dd4f345640/res/drawable-hdpi-v4/common_plus_signin_btn_icon_light_focused.9.png"
+        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_quantum_ic_pause_white_24.png.flat",
+        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.4.0.aar/777cc8f57b8a9014e98b05cdc84bd794/res/drawable-xxxhdpi-v4/quantum_ic_pause_white_24.png"
     },
     {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-mdpi_ic_media_route_on_2_mono_dark.png.flat",
         "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-23.0.0.aar/339d397dd36808212cd2279053315bd5/res/drawable-mdpi/ic_media_route_on_2_mono_dark.png"
     },
     {
-        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_textfield_default_mtrl_alpha.9.png.flat",
-        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/e9bf4163d92489fccdea1f8420a41f3c/res/drawable-hdpi-v4/abc_textfield_default_mtrl_alpha.9.png"
+        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-hdpi-v4_common_plus_signin_btn_icon_light_focused.9.png.flat",
+        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-base-9.4.0.aar/92084990d0360a815ba302dd4f345640/res/drawable-hdpi-v4/common_plus_signin_btn_icon_light_focused.9.png"
     },
     {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable_cast_ic_notification_forward10.xml.flat",
         "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.4.0.aar/777cc8f57b8a9014e98b05cdc84bd794/res/drawable/cast_ic_notification_forward10.xml"
+    },
+    {
+        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_textfield_default_mtrl_alpha.9.png.flat",
+        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/e9bf4163d92489fccdea1f8420a41f3c/res/drawable-hdpi-v4/abc_textfield_default_mtrl_alpha.9.png"
     },
     {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_quantum_ic_stop_white_24.png.flat",
@@ -396,12 +396,12 @@
         "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.4.0.aar/777cc8f57b8a9014e98b05cdc84bd794/res/drawable-xhdpi-v4/quantum_ic_forward_30_white_24.png"
     },
     {
-        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable_cast_ic_notification_connecting.xml.flat",
-        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-cast-9.4.0.aar/94169d545ddc5a7247ffdc250dfd9e67/res/drawable/cast_ic_notification_connecting.xml"
-    },
-    {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-mdpi-v4_quantum_ic_pause_grey600_36.png.flat",
         "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.4.0.aar/777cc8f57b8a9014e98b05cdc84bd794/res/drawable-mdpi-v4/quantum_ic_pause_grey600_36.png"
+    },
+    {
+        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable_cast_ic_notification_connecting.xml.flat",
+        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-cast-9.4.0.aar/94169d545ddc5a7247ffdc250dfd9e67/res/drawable/cast_ic_notification_connecting.xml"
     },
     {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_ic_plusone_medium_off_client.png.flat",
@@ -452,24 +452,24 @@
         "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.4.0.aar/777cc8f57b8a9014e98b05cdc84bd794/res/drawable-xxxhdpi-v4/quantum_ic_pause_circle_filled_white_36.png"
     },
     {
-        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-mdpi_ic_setting_light.png.flat",
-        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-23.0.0.aar/339d397dd36808212cd2279053315bd5/res/drawable-mdpi/ic_setting_light.png"
+        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xhdpi_ic_media_route_on_mono_dark.png.flat",
+        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-23.0.0.aar/339d397dd36808212cd2279053315bd5/res/drawable-xhdpi/ic_media_route_on_mono_dark.png"
     },
     {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-mdpi_ic_setting_dark.png.flat",
         "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-23.0.0.aar/339d397dd36808212cd2279053315bd5/res/drawable-mdpi/ic_setting_dark.png"
     },
     {
-        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xhdpi_ic_media_route_on_mono_dark.png.flat",
-        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-23.0.0.aar/339d397dd36808212cd2279053315bd5/res/drawable-xhdpi/ic_media_route_on_mono_dark.png"
-    },
-    {
-        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-hdpi_ic_cast_dark.png.flat",
-        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-23.0.0.aar/339d397dd36808212cd2279053315bd5/res/drawable-hdpi/ic_cast_dark.png"
+        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-mdpi_ic_setting_light.png.flat",
+        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-23.0.0.aar/339d397dd36808212cd2279053315bd5/res/drawable-mdpi/ic_setting_light.png"
     },
     {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_quantum_ic_stop_grey600_36.png.flat",
         "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.4.0.aar/777cc8f57b8a9014e98b05cdc84bd794/res/drawable-xxxhdpi-v4/quantum_ic_stop_grey600_36.png"
+    },
+    {
+        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-hdpi_ic_cast_dark.png.flat",
+        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-23.0.0.aar/339d397dd36808212cd2279053315bd5/res/drawable-hdpi/ic_cast_dark.png"
     },
     {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/color_abc_secondary_text_material_dark.xml.flat",
@@ -540,12 +540,12 @@
         "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.4.0.aar/777cc8f57b8a9014e98b05cdc84bd794/res/drawable-hdpi-v4/quantum_ic_replay_10_white_24.png"
     },
     {
-        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-mdpi-v4_quantum_ic_skip_previous_white_24.png.flat",
-        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.4.0.aar/777cc8f57b8a9014e98b05cdc84bd794/res/drawable-mdpi-v4/quantum_ic_skip_previous_white_24.png"
-    },
-    {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xhdpi-v4_quantum_ic_play_circle_filled_grey600_36.png.flat",
         "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.4.0.aar/777cc8f57b8a9014e98b05cdc84bd794/res/drawable-xhdpi-v4/quantum_ic_play_circle_filled_grey600_36.png"
+    },
+    {
+        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-mdpi-v4_quantum_ic_skip_previous_white_24.png.flat",
+        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.4.0.aar/777cc8f57b8a9014e98b05cdc84bd794/res/drawable-mdpi-v4/quantum_ic_skip_previous_white_24.png"
     },
     {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_common_ic_googleplayservices.png.flat",
@@ -564,12 +564,12 @@
         "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-places-9.4.0.aar/f2146a1619829c75032e25e872b41d9d/res/drawable-xhdpi-v4/places_ic_clear.png"
     },
     {
-        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_voice_search_api_mtrl_alpha.png.flat",
-        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/e9bf4163d92489fccdea1f8420a41f3c/res/drawable-xhdpi-v4/abc_ic_voice_search_api_mtrl_alpha.png"
-    },
-    {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_quantum_ic_skip_previous_white_24.png.flat",
         "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.4.0.aar/777cc8f57b8a9014e98b05cdc84bd794/res/drawable-xxxhdpi-v4/quantum_ic_skip_previous_white_24.png"
+    },
+    {
+        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_voice_search_api_mtrl_alpha.png.flat",
+        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/e9bf4163d92489fccdea1f8420a41f3c/res/drawable-xhdpi-v4/abc_ic_voice_search_api_mtrl_alpha.png"
     },
     {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/color_common_google_signin_btn_text_dark.xml.flat",
@@ -616,20 +616,20 @@
         "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.4.0.aar/777cc8f57b8a9014e98b05cdc84bd794/res/drawable-xxxhdpi-v4/quantum_ic_forward_10_white_24.png"
     },
     {
-        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_btn_rating_star_on_mtrl_alpha.png.flat",
-        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/e9bf4163d92489fccdea1f8420a41f3c/res/drawable-xxhdpi-v4/abc_btn_rating_star_on_mtrl_alpha.png"
-    },
-    {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_quantum_ic_stop_grey600_48.png.flat",
         "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.4.0.aar/777cc8f57b8a9014e98b05cdc84bd794/res/drawable-xxxhdpi-v4/quantum_ic_stop_grey600_48.png"
     },
     {
-        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-mdpi-v4_quantum_ic_stop_white_24.png.flat",
-        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.4.0.aar/777cc8f57b8a9014e98b05cdc84bd794/res/drawable-mdpi-v4/quantum_ic_stop_white_24.png"
+        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_btn_rating_star_on_mtrl_alpha.png.flat",
+        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/e9bf4163d92489fccdea1f8420a41f3c/res/drawable-xxhdpi-v4/abc_btn_rating_star_on_mtrl_alpha.png"
     },
     {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/layout_place_autocomplete_progress.xml.flat",
         "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-places-9.4.0.aar/f2146a1619829c75032e25e872b41d9d/res/layout/place_autocomplete_progress.xml"
+    },
+    {
+        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-mdpi-v4_quantum_ic_stop_white_24.png.flat",
+        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.4.0.aar/777cc8f57b8a9014e98b05cdc84bd794/res/drawable-mdpi-v4/quantum_ic_stop_white_24.png"
     },
     {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-hdpi-v4_quantum_ic_play_arrow_grey600_36.png.flat",
@@ -688,12 +688,12 @@
         "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/e9bf4163d92489fccdea1f8420a41f3c/res/drawable/abc_seekbar_track_material.xml"
     },
     {
-        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-hdpi-v4_common_google_signin_btn_icon_dark_focused.9.png.flat",
-        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-base-9.4.0.aar/92084990d0360a815ba302dd4f345640/res/drawable-hdpi-v4/common_google_signin_btn_icon_dark_focused.9.png"
-    },
-    {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-tvdpi-v4_common_plus_signin_btn_icon_dark_disabled.9.png.flat",
         "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-base-9.4.0.aar/92084990d0360a815ba302dd4f345640/res/drawable-tvdpi-v4/common_plus_signin_btn_icon_dark_disabled.9.png"
+    },
+    {
+        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-hdpi-v4_common_google_signin_btn_icon_dark_focused.9.png.flat",
+        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-base-9.4.0.aar/92084990d0360a815ba302dd4f345640/res/drawable-hdpi-v4/common_google_signin_btn_icon_dark_focused.9.png"
     },
     {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/color_abc_primary_text_disable_only_material_dark.xml.flat",
@@ -748,12 +748,12 @@
         "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.4.0.aar/777cc8f57b8a9014e98b05cdc84bd794/res/drawable-xhdpi-v4/quantum_ic_play_arrow_grey600_36.png"
     },
     {
-        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_list_selector_disabled_holo_dark.9.png.flat",
-        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/e9bf4163d92489fccdea1f8420a41f3c/res/drawable-mdpi-v4/abc_list_selector_disabled_holo_dark.9.png"
-    },
-    {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xhdpi_ic_media_route_on_2_mono_dark.png.flat",
         "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-23.0.0.aar/339d397dd36808212cd2279053315bd5/res/drawable-xhdpi/ic_media_route_on_2_mono_dark.png"
+    },
+    {
+        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_list_selector_disabled_holo_dark.9.png.flat",
+        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/e9bf4163d92489fccdea1f8420a41f3c/res/drawable-mdpi-v4/abc_list_selector_disabled_holo_dark.9.png"
     },
     {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-ldrtl-hdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
@@ -780,12 +780,12 @@
         "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-base-9.4.0.aar/92084990d0360a815ba302dd4f345640/res/drawable-mdpi-v4/common_plus_signin_btn_text_dark_pressed.9.png"
     },
     {
-        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-hdpi-v4_common_google_signin_btn_text_dark_focused.9.png.flat",
-        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-base-9.4.0.aar/92084990d0360a815ba302dd4f345640/res/drawable-hdpi-v4/common_google_signin_btn_text_dark_focused.9.png"
-    },
-    {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
         "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/e9bf4163d92489fccdea1f8420a41f3c/res/drawable-xxxhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-hdpi-v4_common_google_signin_btn_text_dark_focused.9.png.flat",
+        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-base-9.4.0.aar/92084990d0360a815ba302dd4f345640/res/drawable-hdpi-v4/common_google_signin_btn_text_dark_focused.9.png"
     },
     {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable_abc_edit_text_material.xml.flat",
@@ -820,12 +820,12 @@
         "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/e9bf4163d92489fccdea1f8420a41f3c/res/drawable-mdpi-v4/abc_btn_rating_star_off_mtrl_alpha.png"
     },
     {
-        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_star_half_black_36dp.png.flat",
-        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/e9bf4163d92489fccdea1f8420a41f3c/res/drawable-mdpi-v4/abc_ic_star_half_black_36dp.png"
-    },
-    {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-mdpi-v4_quantum_ic_pause_circle_filled_white_36.png.flat",
         "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.4.0.aar/777cc8f57b8a9014e98b05cdc84bd794/res/drawable-mdpi-v4/quantum_ic_pause_circle_filled_white_36.png"
+    },
+    {
+        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_star_half_black_36dp.png.flat",
+        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/e9bf4163d92489fccdea1f8420a41f3c/res/drawable-mdpi-v4/abc_ic_star_half_black_36dp.png"
     },
     {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-mdpi-v4_ic_plusone_small_off_client.png.flat",
@@ -848,12 +848,12 @@
         "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-23.0.0.aar/339d397dd36808212cd2279053315bd5/res/layout/mr_media_route_list_item.xml"
     },
     {
-        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_common_plus_signin_btn_icon_dark_normal.9.png.flat",
-        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-base-9.4.0.aar/92084990d0360a815ba302dd4f345640/res/drawable-xxhdpi-v4/common_plus_signin_btn_icon_dark_normal.9.png"
-    },
-    {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable_abc_btn_default_mtrl_shape.xml.flat",
         "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/e9bf4163d92489fccdea1f8420a41f3c/res/drawable/abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_common_plus_signin_btn_icon_dark_normal.9.png.flat",
+        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-base-9.4.0.aar/92084990d0360a815ba302dd4f345640/res/drawable-xxhdpi-v4/common_plus_signin_btn_icon_dark_normal.9.png"
     },
     {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable_cast_mini_controller_gradient_light.xml.flat",
@@ -884,28 +884,28 @@
         "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.4.0.aar/777cc8f57b8a9014e98b05cdc84bd794/res/drawable-xxhdpi-v4/quantum_ic_skip_next_white_36.png"
     },
     {
-        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-mdpi_ic_cast_on_2_light.png.flat",
-        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-23.0.0.aar/339d397dd36808212cd2279053315bd5/res/drawable-mdpi/ic_cast_on_2_light.png"
-    },
-    {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_search_api_mtrl_alpha.png.flat",
         "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/e9bf4163d92489fccdea1f8420a41f3c/res/drawable-mdpi-v4/abc_ic_search_api_mtrl_alpha.png"
     },
     {
-        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-tvdpi-v4_common_google_signin_btn_text_light_disabled.9.png.flat",
-        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-base-9.4.0.aar/92084990d0360a815ba302dd4f345640/res/drawable-tvdpi-v4/common_google_signin_btn_text_light_disabled.9.png"
+        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-mdpi_ic_cast_on_2_light.png.flat",
+        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-23.0.0.aar/339d397dd36808212cd2279053315bd5/res/drawable-mdpi/ic_cast_on_2_light.png"
     },
     {
-        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-hdpi-v4_common_plus_signin_btn_icon_dark_focused.9.png.flat",
-        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-base-9.4.0.aar/92084990d0360a815ba302dd4f345640/res/drawable-hdpi-v4/common_plus_signin_btn_icon_dark_focused.9.png"
+        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_quantum_ic_play_arrow_grey600_48.png.flat",
+        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.4.0.aar/777cc8f57b8a9014e98b05cdc84bd794/res/drawable-xxxhdpi-v4/quantum_ic_play_arrow_grey600_48.png"
     },
     {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_textfield_search_default_mtrl_alpha.9.png.flat",
         "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/e9bf4163d92489fccdea1f8420a41f3c/res/drawable-hdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png"
     },
     {
-        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_quantum_ic_play_arrow_grey600_48.png.flat",
-        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.4.0.aar/777cc8f57b8a9014e98b05cdc84bd794/res/drawable-xxxhdpi-v4/quantum_ic_play_arrow_grey600_48.png"
+        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-hdpi-v4_common_plus_signin_btn_icon_dark_focused.9.png.flat",
+        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-base-9.4.0.aar/92084990d0360a815ba302dd4f345640/res/drawable-hdpi-v4/common_plus_signin_btn_icon_dark_focused.9.png"
+    },
+    {
+        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-tvdpi-v4_common_google_signin_btn_text_light_disabled.9.png.flat",
+        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-base-9.4.0.aar/92084990d0360a815ba302dd4f345640/res/drawable-tvdpi-v4/common_google_signin_btn_text_light_disabled.9.png"
     },
     {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-hdpi-v4_common_ic_googleplayservices.png.flat",
@@ -1028,12 +1028,12 @@
         "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-base-9.4.0.aar/92084990d0360a815ba302dd4f345640/res/drawable-mdpi-v4/common_plus_signin_btn_icon_dark_focused.9.png"
     },
     {
-        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xhdpi-v4_ic_plusone_small_off_client.png.flat",
-        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-plus-9.4.0.aar/2f2849a8284ba764cd557f466e14f863/res/drawable-xhdpi-v4/ic_plusone_small_off_client.png"
-    },
-    {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
         "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/e9bf4163d92489fccdea1f8420a41f3c/res/drawable-hdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xhdpi-v4_ic_plusone_small_off_client.png.flat",
+        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-plus-9.4.0.aar/2f2849a8284ba764cd557f466e14f863/res/drawable-xhdpi-v4/ic_plusone_small_off_client.png"
     },
     {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat",
@@ -3334,6 +3334,10 @@
     {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_voice_search_api_mtrl_alpha.png.flat",
         "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/e9bf4163d92489fccdea1f8420a41f3c/res/drawable-hdpi-v4/abc_ic_voice_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/layout_activity_post_login.xml.flat",
+        "source": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/src/main/res/layout/activity_post_login.xml"
     },
     {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/layout_place_autocomplete_item_prediction.xml.flat",
