@@ -1,50 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="arm64-v8a,armeabi-v7a,armeabi"
-    api-level="22"
-    build-mode="HOT_WARM"
-    density="xxhdpi"
+    abi="x86"
+    api-level="23"
+    build-mode="COLD"
+    density="420dpi"
     format="10"
     plugin-version="3.0.1"
-    timestamp="1518191040015"
+    timestamp="1518289201108"
     token="-3722296750088777309"
-    verifier="COMPATIBLE" >
+    verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="449" />
+        duration="0" />
     <task
         name="instant-run-dex"
-        duration="938" />
+        duration="0" />
     <task
         name="instant-run-transform"
-        duration="72" />
+        duration="0" />
     <task
         name="verifier"
-        duration="1" />
+        duration="0" />
 
     <artifact
-        location="/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/reload-dex/debug/classes.dex"
-        type="RELOAD_DEX" />
+        location="/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/split-apk/debug/slices/slice_2.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/outputs/apk/debug/ParseStarterProject-debug.apk"
+        type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1518190138764"
+        timestamp="1518274450150"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/split-apk/debug/slices/slice_6.apk"
+            location="/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/split-apk/debug/slices/slice_5.apk"
             type="SPLIT" />
         <artifact
             location="/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/split-apk/debug/slices/slice_4.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/split-apk/debug/slices/slice_2.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/outputs/apk/debug/ParseStarterProject-debug.apk"
-            type="SPLIT_MAIN" />
-        <artifact
-            location="/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/split-apk/debug/slices/slice_5.apk"
             type="SPLIT" />
         <artifact
             location="/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/split-apk/debug/dep/dependencies.apk"
@@ -56,7 +50,13 @@
             location="/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/split-apk/debug/slices/slice_0.apk"
             type="SPLIT" />
         <artifact
+            location="/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/split-apk/debug/slices/slice_2.apk"
+            type="SPLIT" />
+        <artifact
             location="/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/split-apk/debug/slices/slice_3.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/split-apk/debug/slices/slice_6.apk"
             type="SPLIT" />
         <artifact
             location="/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/split-apk/debug/slices/slice_7.apk"
@@ -67,11 +67,22 @@
         <artifact
             location="/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/split-apk/debug/slices/slice_8.apk"
             type="SPLIT" />
+        <artifact
+            location="/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/outputs/apk/debug/ParseStarterProject-debug.apk"
+            type="SPLIT_MAIN" />
     </build>
     <build
         build-mode="COLD"
-        ir-eligibility="CLASS_ADDED"
-        timestamp="1518190756756"
+        ir-eligibility="FIELD_TYPE_CHANGE"
+        timestamp="1518285403087"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/outputs/apk/debug/ParseStarterProject-debug.apk"
+            type="SPLIT_MAIN" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1518289201108"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/split-apk/debug/slices/slice_2.apk"
@@ -79,14 +90,6 @@
         <artifact
             location="/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/outputs/apk/debug/ParseStarterProject-debug.apk"
             type="SPLIT_MAIN" />
-    </build>
-    <build
-        build-mode="HOT_WARM"
-        timestamp="1518191040015"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/reload-dex/debug/classes.dex"
-            type="RELOAD_DEX" />
     </build>
 
 </instant-run>

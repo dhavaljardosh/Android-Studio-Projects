@@ -29,7 +29,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".PostLogin"></activity>
+        <activity android:name=".PostLogin" />
+        <activity android:name=".UserFeedActivity"></activity>
     </application>
 
 </manifest>

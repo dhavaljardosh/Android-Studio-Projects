@@ -2004,6 +2004,10 @@
         "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/e9bf4163d92489fccdea1f8420a41f3c/res/drawable-ldrtl-xhdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
+        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/layout_activity_user_feed.xml.flat",
+        "source": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/src/main/res/layout/activity_user_feed.xml"
+    },
+    {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Instagram/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_quantum_ic_clear_white_24.png.flat",
         "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.4.0.aar/777cc8f57b8a9014e98b05cdc84bd794/res/drawable-xxhdpi-v4/quantum_ic_clear_white_24.png"
     },
