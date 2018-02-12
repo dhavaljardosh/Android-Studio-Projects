@@ -52,12 +52,12 @@
         "source": "/Users/Jardosh/.android/build-cache/cd2ddecca4d2dc4c71408f53ad7186c27591c996/output/res/layout/abc_action_mode_close_item_material.xml"
     },
     {
-        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
-        "source": "/Users/Jardosh/.android/build-cache/cd2ddecca4d2dc4c71408f53ad7186c27591c996/output/res/layout/notification_template_part_chronometer.xml"
-    },
-    {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
         "source": "/Users/Jardosh/.android/build-cache/cd2ddecca4d2dc4c71408f53ad7186c27591c996/output/res/layout/abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
+        "source": "/Users/Jardosh/.android/build-cache/cd2ddecca4d2dc4c71408f53ad7186c27591c996/output/res/layout/notification_template_part_chronometer.xml"
     },
     {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml",

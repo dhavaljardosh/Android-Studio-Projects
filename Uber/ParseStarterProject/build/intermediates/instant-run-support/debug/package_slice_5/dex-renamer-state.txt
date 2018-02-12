@@ -1,0 +1,4 @@
+#Sun Feb 11 21:23:37 CST 2018
+base.0=/Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/build/intermediates/transforms/dexMerger/debug/5
+path.0=classes.dex
+renamed.0=classes.dex

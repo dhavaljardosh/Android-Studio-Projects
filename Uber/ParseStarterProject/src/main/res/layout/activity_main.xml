@@ -32,7 +32,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/imageView2"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="14dp"
+        android:layout_marginTop="30dp"
         android:buttonTint="@color/cast_libraries_material_featurehighlight_outer_highlight_default_color"
         android:shadowColor="@color/cast_libraries_material_featurehighlight_outer_highlight_default_color"
         android:textColor="@color/cast_libraries_material_featurehighlight_outer_highlight_default_color"

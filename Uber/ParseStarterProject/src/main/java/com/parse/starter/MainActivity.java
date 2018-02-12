@@ -27,7 +27,14 @@ public class MainActivity extends AppCompatActivity {
 
   public void getStarted(View view){
     Switch userTypeSwitch = (Switch) findViewById(R.id.userTypeSwitch);
-    Log.i("Switch Value", String.valueOf(userTypeSwitch.isChecked()));
+    String userType = "rider";
+
+    if(userTypeSwitch.isChecked()){
+        userType = "driver";
+    }
+
+    ParseUser.getCurrentUser().put("riderOrDriver",userType);
+    Log.i("Info","Redirecting as "+userType);
   }
 
 
@@ -36,7 +43,30 @@ public class MainActivity extends AppCompatActivity {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_main);
 
-    
+    getSupportActionBar().hide();
+
+    if(ParseUser.getCurrentUser()!= null) {
+        ParseAnonymousUtils.logIn(new LogInCallback() {
+            @Override
+            public void done(ParseUser user, ParseException e) {
+
+                if(e==null){
+                    Log.i("Info","Anonymous Login SUCCESSFUL");
+                }
+                else{
+                    Log.i("INFO","FAILED LOGIN");
+                }
+
+            }
+        });
+    } else{
+
+        if(ParseUser.getCurrentUser().get("riderOrDriver") != null) {
+            Log.i("Info","Redirecting as "+ParseUser.getCurrentUser().get("riderOrDriver"));
+        }
+
+    }
+
     ParseAnalytics.trackAppOpenedInBackground(getIntent());
   }
 

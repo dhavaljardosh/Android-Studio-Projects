@@ -24,12 +24,12 @@
         "source": "/Users/Jardosh/.android/build-cache/e9b0e42b06457bc70f2f1d0c2392e817d1afe6ba/output/res/drawable-mdpi-v4/quantum_ic_play_arrow_white_24.png"
     },
     {
-        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/build/intermediates/res/merged/debug/drawable-mdpi-v4/common_plus_signin_btn_icon_dark_pressed.9.png",
-        "source": "/Users/Jardosh/.android/build-cache/ae94ca65c94e63414765a26cd3835dff30f5bff7/output/res/drawable-mdpi-v4/common_plus_signin_btn_icon_dark_pressed.9.png"
-    },
-    {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/build/intermediates/res/merged/debug/drawable-mdpi-v4/quantum_ic_forward_30_white_24.png",
         "source": "/Users/Jardosh/.android/build-cache/e9b0e42b06457bc70f2f1d0c2392e817d1afe6ba/output/res/drawable-mdpi-v4/quantum_ic_forward_30_white_24.png"
+    },
+    {
+        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/build/intermediates/res/merged/debug/drawable-mdpi-v4/common_plus_signin_btn_icon_dark_pressed.9.png",
+        "source": "/Users/Jardosh/.android/build-cache/ae94ca65c94e63414765a26cd3835dff30f5bff7/output/res/drawable-mdpi-v4/common_plus_signin_btn_icon_dark_pressed.9.png"
     },
     {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/build/intermediates/res/merged/debug/drawable-mdpi-v4/cast_ic_notification_on.png",
@@ -64,12 +64,12 @@
         "source": "/Users/Jardosh/.android/build-cache/e9b0e42b06457bc70f2f1d0c2392e817d1afe6ba/output/res/drawable-mdpi-v4/quantum_ic_skip_previous_white_24.png"
     },
     {
-        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_list_longpressed_holo.9.png",
-        "source": "/Users/Jardosh/.android/build-cache/cd2ddecca4d2dc4c71408f53ad7186c27591c996/output/res/drawable-mdpi-v4/abc_list_longpressed_holo.9.png"
-    },
-    {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_ic_star_black_36dp.png",
         "source": "/Users/Jardosh/.android/build-cache/cd2ddecca4d2dc4c71408f53ad7186c27591c996/output/res/drawable-mdpi-v4/abc_ic_star_black_36dp.png"
+    },
+    {
+        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_list_longpressed_holo.9.png",
+        "source": "/Users/Jardosh/.android/build-cache/cd2ddecca4d2dc4c71408f53ad7186c27591c996/output/res/drawable-mdpi-v4/abc_list_longpressed_holo.9.png"
     },
     {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_plusone_standard_off_client.png",
