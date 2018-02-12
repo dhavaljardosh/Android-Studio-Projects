@@ -6,13 +6,19 @@
     android:layout_height="match_parent"
     tools:context="com.parse.starter.UserFeedActivity">
 
-    <LinearLayout
-        android:id="@+id/linearLayout"
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:orientation="vertical">
+        android:layout_height="match_parent">
 
-    </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:orientation="vertical">
+
+        </LinearLayout>
+    </ScrollView>
+
 </RelativeLayout>

@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "/Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rSG/values-en-rSG.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 103,
+                    "endOffset": 154
+                },
+                "from": {
+                    "file": "/Users/Jardosh/.android/build-cache/067b6e85d8e8c5a3d3ce614fb8bb265bec1e87ca/output/res/values-en-rSG/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 292,
+                        "endColumn": 103,
+                        "endOffset": 391
+                    }
+                }
+            }
+        ]
+    }
+]
