@@ -1,15 +1,19 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/src/main/AndroidManifest.xml:9:1-38:12
-INJECTED from /Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/src/main/AndroidManifest.xml:9:1-38:12
-INJECTED from /Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/src/main/AndroidManifest.xml:9:1-38:12
-INJECTED from /Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/src/main/AndroidManifest.xml:9:1-38:12
+ADDED from /Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/src/main/AndroidManifest.xml:9:1-50:12
+INJECTED from /Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/src/main/AndroidManifest.xml:9:1-50:12
+INJECTED from /Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/src/main/AndroidManifest.xml:9:1-50:12
+INJECTED from /Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/src/main/AndroidManifest.xml:9:1-50:12
 MERGED from [com.google.android.gms:play-services:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-9.4.0.aar/77543a6565d45c670b4f27116e75534c/AndroidManifest.xml:2:1-6:12
 MERGED from [com.google.android.gms:play-services-cast-framework:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.4.0.aar/777cc8f57b8a9014e98b05cdc84bd794/AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.android.gms:play-services-cast:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-cast-9.4.0.aar/94169d545ddc5a7247ffdc250dfd9e67/AndroidManifest.xml:16:1-20:12
 MERGED from [com.android.support:mediarouter-v7:23.0.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-23.0.0.aar/339d397dd36808212cd2279053315bd5/AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:appcompat-v7:23.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/e9bf4163d92489fccdea1f8420a41f3c/AndroidManifest.xml:17:1-27:12
 MERGED from [com.android.support:multidex:1.0.2] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/c1817fc6340ae3629c90e41b55abca0a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-contextmanager:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-contextmanager-9.4.0.aar/079ac5c580fbc57db77b54f550f0a596/AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-places:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-places-9.4.0.aar/f2146a1619829c75032e25e872b41d9d/AndroidManifest.xml:16:1-20:12
+MERGED from [com.google.android.gms:play-services-wallet:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-wallet-9.4.0.aar/420e5c215235823a5de88fd2a61d51f5/AndroidManifest.xml:16:1-21:12
+MERGED from [com.google.android.gms:play-services-maps:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-maps-9.4.0.aar/6ed266ffb4cc5425d154607750db2df0/AndroidManifest.xml:16:1-28:12
 MERGED from [com.android.support:animated-vector-drawable:23.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-23.4.0.aar/38288fdc5eb0d25cf68e626fe9d299b9/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-ads:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-ads-9.4.0.aar/a5a3445279aeba4b76b3a67c6c116a43/AndroidManifest.xml:16:1-20:12
 MERGED from [com.google.android.gms:play-services-ads-lite:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-9.4.0.aar/578f0d026bfededbb77162e482531948/AndroidManifest.xml:16:1-33:12
@@ -21,7 +25,6 @@ MERGED from [com.google.android.gms:play-services-auth:9.4.0] /Users/Jardosh/.gr
 MERGED from [com.google.android.gms:play-services-auth-base:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-9.4.0.aar/d161e51546458f87185a981f30ce6317/AndroidManifest.xml:2:1-6:12
 MERGED from [com.google.android.gms:play-services-clearcut:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-clearcut-9.4.0.aar/c2f372466ec6781960738c2157b965ff/AndroidManifest.xml:16:1-20:12
 MERGED from [com.google.firebase:firebase-config:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/firebase-config-9.4.0.aar/9c66465d7d634d5495307f39501315a7/AndroidManifest.xml:16:1-20:12
-MERGED from [com.google.android.gms:play-services-contextmanager:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-contextmanager-9.4.0.aar/079ac5c580fbc57db77b54f550f0a596/AndroidManifest.xml:16:1-20:12
 MERGED from [com.google.firebase:firebase-crash:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/firebase-crash-9.4.0.aar/d91fb19e42c7170f869e7ee604bbe21e/AndroidManifest.xml:16:1-34:12
 MERGED from [com.google.android.gms:play-services-games:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-games-9.4.0.aar/1d831bf09a6861b703b377184048ba15/AndroidManifest.xml:16:1-20:12
 MERGED from [com.google.android.gms:play-services-drive:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-drive-9.4.0.aar/4c5493bc91df9f034c05ede1fce239a1/AndroidManifest.xml:16:1-20:12
@@ -35,12 +38,9 @@ MERGED from [com.google.firebase:firebase-storage-common:9.4.0] /Users/Jardosh/.
 MERGED from [com.google.android.gms:play-services-fitness:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-fitness-9.4.0.aar/aff0a75ecab0667dfd1a3e95a4087dfd/AndroidManifest.xml:16:1-20:12
 MERGED from [com.google.android.gms:play-services-gcm:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-gcm-9.4.0.aar/d2ea06ad936ec2b309e9f24753ae7f4b/AndroidManifest.xml:16:1-25:12
 MERGED from [com.google.android.gms:play-services-appindexing:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-appindexing-9.4.0.aar/f75d5384d2660ceb004630d694f3756e/AndroidManifest.xml:16:1-20:12
-MERGED from [com.google.android.gms:play-services-wallet:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-wallet-9.4.0.aar/420e5c215235823a5de88fd2a61d51f5/AndroidManifest.xml:16:1-21:12
 MERGED from [com.google.android.gms:play-services-identity:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-identity-9.4.0.aar/fc1304fe5d55b2023f8dc472671d990b/AndroidManifest.xml:16:1-20:12
 MERGED from [com.google.android.gms:play-services-iid:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-iid-9.4.0.aar/6a4bf37ce51abb7243f757ed969e8eb7/AndroidManifest.xml:16:1-25:12
 MERGED from [com.google.android.gms:play-services-location:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-location-9.4.0.aar/a7d1c542de32f00369b9cdeb05c1b8d8/AndroidManifest.xml:16:1-20:12
-MERGED from [com.google.android.gms:play-services-places:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-places-9.4.0.aar/f2146a1619829c75032e25e872b41d9d/AndroidManifest.xml:16:1-20:12
-MERGED from [com.google.android.gms:play-services-maps:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-maps-9.4.0.aar/6ed266ffb4cc5425d154607750db2df0/AndroidManifest.xml:16:1-28:12
 MERGED from [com.google.android.gms:play-services-nearby:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-nearby-9.4.0.aar/641cdaa19f494c76a77cc8d49b8aab72/AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.gms:play-services-panorama:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-panorama-9.4.0.aar/816ee11ec83de97c424d2da308f8963e/AndroidManifest.xml:16:1-20:12
 MERGED from [com.google.android.gms:play-services-plus:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-plus-9.4.0.aar/2f2849a8284ba764cd557f466e14f863/AndroidManifest.xml:16:1-20:12
@@ -59,25 +59,27 @@ MERGED from [com.google.android.gms:play-services-tasks:9.4.0] /Users/Jardosh/.g
 MERGED from [com.google.android.gms:play-services-basement:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-basement-9.4.0.aar/a49eebb52a8193008ae27d5d68979013/AndroidManifest.xml:16:1-26:12
 MERGED from [com.android.support:support-vector-drawable:23.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-23.4.0.aar/686970aa2187bb6ad55ec10783bf7b53/AndroidManifest.xml:2:1-9:12
 MERGED from [com.android.support:support-v4:23.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/support-v4-23.4.0.aar/99519cf58180e28486c26fb8dd5c9f51/AndroidManifest.xml:17:1-24:12
-INJECTED from /Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/src/main/AndroidManifest.xml:9:1-38:12
-INJECTED from /Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/src/main/AndroidManifest.xml:9:1-38:12
-INJECTED from /Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/src/main/AndroidManifest.xml:9:1-38:12
+INJECTED from /Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/src/main/AndroidManifest.xml:9:1-50:12
+INJECTED from /Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/src/main/AndroidManifest.xml:9:1-50:12
+INJECTED from /Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/src/main/AndroidManifest.xml:9:1-50:12
 	package
 		ADDED from /Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/src/main/AndroidManifest.xml:10:5-32
 		INJECTED from /Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/src/main/AndroidManifest.xml
 		INJECTED from /Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/src/main/AndroidManifest.xml
-		ADDED from /Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/src/main/AndroidManifest.xml:9:1-38:12
+		ADDED from /Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/src/main/AndroidManifest.xml:9:1-50:12
 		INJECTED from /Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/src/main/AndroidManifest.xml
-		ADDED from /Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/src/main/AndroidManifest.xml:9:1-38:12
+		ADDED from /Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/src/main/AndroidManifest.xml:9:1-50:12
 		INJECTED from /Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/src/main/AndroidManifest.xml:9:11-69
 uses-permission#android.permission.INTERNET
 ADDED from /Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/src/main/AndroidManifest.xml:12:5-67
+MERGED from [com.google.android.gms:play-services-maps:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-maps-9.4.0.aar/6ed266ffb4cc5425d154607750db2df0/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-maps:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-maps-9.4.0.aar/6ed266ffb4cc5425d154607750db2df0/AndroidManifest.xml:21:5-66
 MERGED from [com.google.android.gms:play-services-ads-lite:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-9.4.0.aar/578f0d026bfededbb77162e482531948/AndroidManifest.xml:20:5-66
 MERGED from [com.google.android.gms:play-services-ads-lite:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-9.4.0.aar/578f0d026bfededbb77162e482531948/AndroidManifest.xml:20:5-66
 MERGED from [com.google.android.gms:play-services-analytics:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-analytics-9.4.0.aar/1aeae680599ba6f597f781764ba83fdc/AndroidManifest.xml:21:5-67
@@ -92,8 +94,6 @@ MERGED from [com.google.android.gms:play-services-gcm:9.4.0] /Users/Jardosh/.gra
 MERGED from [com.google.android.gms:play-services-gcm:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-gcm-9.4.0.aar/d2ea06ad936ec2b309e9f24753ae7f4b/AndroidManifest.xml:22:5-67
 MERGED from [com.google.android.gms:play-services-iid:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-iid-9.4.0.aar/6a4bf37ce51abb7243f757ed969e8eb7/AndroidManifest.xml:22:5-67
 MERGED from [com.google.android.gms:play-services-iid:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-iid-9.4.0.aar/6a4bf37ce51abb7243f757ed969e8eb7/AndroidManifest.xml:22:5-67
-MERGED from [com.google.android.gms:play-services-maps:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-maps-9.4.0.aar/6ed266ffb4cc5425d154607750db2df0/AndroidManifest.xml:21:5-66
-MERGED from [com.google.android.gms:play-services-maps:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-maps-9.4.0.aar/6ed266ffb4cc5425d154607750db2df0/AndroidManifest.xml:21:5-66
 MERGED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-9.4.0.aar/f25508e619c483883cadd1d4788e1376/AndroidManifest.xml:21:5-67
 MERGED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-9.4.0.aar/f25508e619c483883cadd1d4788e1376/AndroidManifest.xml:21:5-67
 MERGED from [com.google.firebase:firebase-analytics:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.4.0.aar/4863f733ff7115c1e80e851aa9e156af/AndroidManifest.xml:21:5-67
@@ -106,14 +106,14 @@ MERGED from [com.google.firebase:firebase-iid:9.4.0] /Users/Jardosh/.gradle/cach
 		ADDED from /Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/src/main/AndroidManifest.xml:12:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from /Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/src/main/AndroidManifest.xml:13:5-79
+MERGED from [com.google.android.gms:play-services-maps:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-maps-9.4.0.aar/6ed266ffb4cc5425d154607750db2df0/AndroidManifest.xml:20:5-78
+MERGED from [com.google.android.gms:play-services-maps:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-maps-9.4.0.aar/6ed266ffb4cc5425d154607750db2df0/AndroidManifest.xml:20:5-78
 MERGED from [com.google.android.gms:play-services-ads-lite:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-9.4.0.aar/578f0d026bfededbb77162e482531948/AndroidManifest.xml:21:5-78
 MERGED from [com.google.android.gms:play-services-ads-lite:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-9.4.0.aar/578f0d026bfededbb77162e482531948/AndroidManifest.xml:21:5-78
 MERGED from [com.google.android.gms:play-services-analytics:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-analytics-9.4.0.aar/1aeae680599ba6f597f781764ba83fdc/AndroidManifest.xml:22:5-79
 MERGED from [com.google.android.gms:play-services-analytics:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-analytics-9.4.0.aar/1aeae680599ba6f597f781764ba83fdc/AndroidManifest.xml:22:5-79
 MERGED from [com.google.android.gms:play-services-analytics-impl:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-9.4.0.aar/0f54f58164dcbd84d0dda5b60a3ff044/AndroidManifest.xml:22:5-79
 MERGED from [com.google.android.gms:play-services-analytics-impl:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-9.4.0.aar/0f54f58164dcbd84d0dda5b60a3ff044/AndroidManifest.xml:22:5-79
-MERGED from [com.google.android.gms:play-services-maps:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-maps-9.4.0.aar/6ed266ffb4cc5425d154607750db2df0/AndroidManifest.xml:20:5-78
-MERGED from [com.google.android.gms:play-services-maps:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-maps-9.4.0.aar/6ed266ffb4cc5425d154607750db2df0/AndroidManifest.xml:20:5-78
 MERGED from [com.google.android.gms:play-services-nearby:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-nearby-9.4.0.aar/641cdaa19f494c76a77cc8d49b8aab72/AndroidManifest.xml:5:5-79
 MERGED from [com.google.android.gms:play-services-nearby:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-nearby-9.4.0.aar/641cdaa19f494c76a77cc8d49b8aab72/AndroidManifest.xml:5:5-79
 MERGED from [com.google.android.gms:play-services-tagmanager-api:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-9.4.0.aar/f25508e619c483883cadd1d4788e1376/AndroidManifest.xml:22:5-79
@@ -131,11 +131,11 @@ ADDED from /Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterPro
 	android:name
 		ADDED from /Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/src/main/AndroidManifest.xml:14:22-77
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from /Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/src/main/AndroidManifest.xml:16:5-79
+ADDED from /Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/src/main/AndroidManifest.xml:15:5-79
 	android:name
-		ADDED from /Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/src/main/AndroidManifest.xml:16:22-76
+		ADDED from /Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/src/main/AndroidManifest.xml:15:22-76
 application
-ADDED from /Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/src/main/AndroidManifest.xml:18:5-36:19
+ADDED from /Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/src/main/AndroidManifest.xml:17:5-48:19
 MERGED from [com.google.android.gms:play-services:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-9.4.0.aar/77543a6565d45c670b4f27116e75534c/AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-9.4.0.aar/77543a6565d45c670b4f27116e75534c/AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services-cast-framework:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.4.0.aar/777cc8f57b8a9014e98b05cdc84bd794/AndroidManifest.xml:5:5-9:19
@@ -146,6 +146,12 @@ MERGED from [com.android.support:mediarouter-v7:23.0.0] /Users/Jardosh/.gradle/c
 MERGED from [com.android.support:mediarouter-v7:23.0.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-23.0.0.aar/339d397dd36808212cd2279053315bd5/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:appcompat-v7:23.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/e9bf4163d92489fccdea1f8420a41f3c/AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:appcompat-v7:23.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/e9bf4163d92489fccdea1f8420a41f3c/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-contextmanager:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-contextmanager-9.4.0.aar/079ac5c580fbc57db77b54f550f0a596/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-contextmanager:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-contextmanager-9.4.0.aar/079ac5c580fbc57db77b54f550f0a596/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-places:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-places-9.4.0.aar/f2146a1619829c75032e25e872b41d9d/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-places:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-places-9.4.0.aar/f2146a1619829c75032e25e872b41d9d/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-maps:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-maps-9.4.0.aar/6ed266ffb4cc5425d154607750db2df0/AndroidManifest.xml:27:5-20
+MERGED from [com.google.android.gms:play-services-maps:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-maps-9.4.0.aar/6ed266ffb4cc5425d154607750db2df0/AndroidManifest.xml:27:5-20
 MERGED from [com.android.support:animated-vector-drawable:23.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-23.4.0.aar/38288fdc5eb0d25cf68e626fe9d299b9/AndroidManifest.xml:7:5-20
 MERGED from [com.android.support:animated-vector-drawable:23.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-23.4.0.aar/38288fdc5eb0d25cf68e626fe9d299b9/AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-ads-lite:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-9.4.0.aar/578f0d026bfededbb77162e482531948/AndroidManifest.xml:24:5-32:19
@@ -162,8 +168,6 @@ MERGED from [com.google.android.gms:play-services-clearcut:9.4.0] /Users/Jardosh
 MERGED from [com.google.android.gms:play-services-clearcut:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-clearcut-9.4.0.aar/c2f372466ec6781960738c2157b965ff/AndroidManifest.xml:19:5-20
 MERGED from [com.google.firebase:firebase-config:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/firebase-config-9.4.0.aar/9c66465d7d634d5495307f39501315a7/AndroidManifest.xml:19:5-20
 MERGED from [com.google.firebase:firebase-config:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/firebase-config-9.4.0.aar/9c66465d7d634d5495307f39501315a7/AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-contextmanager:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-contextmanager-9.4.0.aar/079ac5c580fbc57db77b54f550f0a596/AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-contextmanager:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-contextmanager-9.4.0.aar/079ac5c580fbc57db77b54f550f0a596/AndroidManifest.xml:19:5-20
 MERGED from [com.google.firebase:firebase-crash:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/firebase-crash-9.4.0.aar/d91fb19e42c7170f869e7ee604bbe21e/AndroidManifest.xml:24:5-32:19
 MERGED from [com.google.firebase:firebase-crash:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/firebase-crash-9.4.0.aar/d91fb19e42c7170f869e7ee604bbe21e/AndroidManifest.xml:24:5-32:19
 MERGED from [com.google.android.gms:play-services-games:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-games-9.4.0.aar/1d831bf09a6861b703b377184048ba15/AndroidManifest.xml:19:5-20
@@ -186,10 +190,6 @@ MERGED from [com.google.android.gms:play-services-iid:9.4.0] /Users/Jardosh/.gra
 MERGED from [com.google.android.gms:play-services-iid:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-iid-9.4.0.aar/6a4bf37ce51abb7243f757ed969e8eb7/AndroidManifest.xml:24:5-20
 MERGED from [com.google.android.gms:play-services-location:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-location-9.4.0.aar/a7d1c542de32f00369b9cdeb05c1b8d8/AndroidManifest.xml:19:5-20
 MERGED from [com.google.android.gms:play-services-location:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-location-9.4.0.aar/a7d1c542de32f00369b9cdeb05c1b8d8/AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-places:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-places-9.4.0.aar/f2146a1619829c75032e25e872b41d9d/AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-places:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-places-9.4.0.aar/f2146a1619829c75032e25e872b41d9d/AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-maps:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-maps-9.4.0.aar/6ed266ffb4cc5425d154607750db2df0/AndroidManifest.xml:27:5-20
-MERGED from [com.google.android.gms:play-services-maps:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-maps-9.4.0.aar/6ed266ffb4cc5425d154607750db2df0/AndroidManifest.xml:27:5-20
 MERGED from [com.google.android.gms:play-services-nearby:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-nearby-9.4.0.aar/641cdaa19f494c76a77cc8d49b8aab72/AndroidManifest.xml:6:5-20
 MERGED from [com.google.android.gms:play-services-nearby:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-nearby-9.4.0.aar/641cdaa19f494c76a77cc8d49b8aab72/AndroidManifest.xml:6:5-20
 MERGED from [com.google.android.gms:play-services-panorama:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-panorama-9.4.0.aar/816ee11ec83de97c424d2da308f8963e/AndroidManifest.xml:19:5-20
@@ -227,31 +227,43 @@ MERGED from [com.android.support:support-vector-drawable:23.4.0] /Users/Jardosh/
 MERGED from [com.android.support:support-v4:23.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/support-v4-23.4.0.aar/99519cf58180e28486c26fb8dd5c9f51/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:support-v4:23.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/support-v4-23.4.0.aar/99519cf58180e28486c26fb8dd5c9f51/AndroidManifest.xml:22:5-20
 	android:label
-		ADDED from /Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/src/main/AndroidManifest.xml:22:9-41
+		ADDED from /Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/src/main/AndroidManifest.xml:21:9-41
 	android:icon
-		ADDED from /Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/src/main/AndroidManifest.xml:21:9-38
+		ADDED from /Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/src/main/AndroidManifest.xml:20:9-38
 	android:allowBackup
-		ADDED from /Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/src/main/AndroidManifest.xml:20:9-35
+		ADDED from /Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/src/main/AndroidManifest.xml:19:9-35
 	android:theme
-		ADDED from /Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/src/main/AndroidManifest.xml:23:9-40
+		ADDED from /Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/src/main/AndroidManifest.xml:22:9-40
 	android:name
-		ADDED from /Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/src/main/AndroidManifest.xml:19:9-43
+		ADDED from /Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/src/main/AndroidManifest.xml:18:9-43
 activity#com.parse.starter.MainActivity
-ADDED from /Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/src/main/AndroidManifest.xml:25:9-33:20
+ADDED from /Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/src/main/AndroidManifest.xml:23:9-31:20
 	android:label
-		ADDED from /Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/src/main/AndroidManifest.xml:27:13-45
+		ADDED from /Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/src/main/AndroidManifest.xml:25:13-45
 	android:name
-		ADDED from /Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/src/main/AndroidManifest.xml:26:13-41
+		ADDED from /Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/src/main/AndroidManifest.xml:24:13-41
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/src/main/AndroidManifest.xml:28:13-32:29
+ADDED from /Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/src/main/AndroidManifest.xml:26:13-30:29
 action#android.intent.action.MAIN
-ADDED from /Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/src/main/AndroidManifest.xml:29:17-69
+ADDED from /Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/src/main/AndroidManifest.xml:27:17-69
 	android:name
-		ADDED from /Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/src/main/AndroidManifest.xml:29:25-66
+		ADDED from /Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/src/main/AndroidManifest.xml:27:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/src/main/AndroidManifest.xml:31:17-77
+ADDED from /Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/src/main/AndroidManifest.xml:29:17-77
 	android:name
-		ADDED from /Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/src/main/AndroidManifest.xml:31:27-74
+		ADDED from /Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/src/main/AndroidManifest.xml:29:27-74
+meta-data#com.google.android.geo.API_KEY
+ADDED from /Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/src/main/AndroidManifest.xml:41:9-43:55
+	android:value
+		ADDED from /Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/src/main/AndroidManifest.xml:43:13-52
+	android:name
+		ADDED from /Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/src/main/AndroidManifest.xml:42:13-58
+activity#com.parse.starter.RiderActivity
+ADDED from /Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/src/main/AndroidManifest.xml:45:9-47:69
+	android:label
+		ADDED from /Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/src/main/AndroidManifest.xml:47:13-57
+	android:name
+		ADDED from /Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/src/main/AndroidManifest.xml:46:13-42
 uses-sdk
 INJECTED from /Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/src/main/AndroidManifest.xml
@@ -268,6 +280,14 @@ MERGED from [com.android.support:appcompat-v7:23.4.0] /Users/Jardosh/.gradle/cac
 MERGED from [com.android.support:appcompat-v7:23.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/e9bf4163d92489fccdea1f8420a41f3c/AndroidManifest.xml:21:5-23:78
 MERGED from [com.android.support:multidex:1.0.2] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/c1817fc6340ae3629c90e41b55abca0a/AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:multidex:1.0.2] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/c1817fc6340ae3629c90e41b55abca0a/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-contextmanager:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-contextmanager-9.4.0.aar/079ac5c580fbc57db77b54f550f0a596/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-contextmanager:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-contextmanager-9.4.0.aar/079ac5c580fbc57db77b54f550f0a596/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-places:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-places-9.4.0.aar/f2146a1619829c75032e25e872b41d9d/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-places:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-places-9.4.0.aar/f2146a1619829c75032e25e872b41d9d/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-wallet:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-wallet-9.4.0.aar/420e5c215235823a5de88fd2a61d51f5/AndroidManifest.xml:19:5-42
+MERGED from [com.google.android.gms:play-services-wallet:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-wallet-9.4.0.aar/420e5c215235823a5de88fd2a61d51f5/AndroidManifest.xml:19:5-42
+MERGED from [com.google.android.gms:play-services-maps:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-maps-9.4.0.aar/6ed266ffb4cc5425d154607750db2df0/AndroidManifest.xml:26:5-42
+MERGED from [com.google.android.gms:play-services-maps:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-maps-9.4.0.aar/6ed266ffb4cc5425d154607750db2df0/AndroidManifest.xml:26:5-42
 MERGED from [com.android.support:animated-vector-drawable:23.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-23.4.0.aar/38288fdc5eb0d25cf68e626fe9d299b9/AndroidManifest.xml:5:5-44
 MERGED from [com.android.support:animated-vector-drawable:23.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-23.4.0.aar/38288fdc5eb0d25cf68e626fe9d299b9/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-ads:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-ads-9.4.0.aar/a5a3445279aeba4b76b3a67c6c116a43/AndroidManifest.xml:19:5-42
@@ -290,8 +310,6 @@ MERGED from [com.google.android.gms:play-services-clearcut:9.4.0] /Users/Jardosh
 MERGED from [com.google.android.gms:play-services-clearcut:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-clearcut-9.4.0.aar/c2f372466ec6781960738c2157b965ff/AndroidManifest.xml:18:5-42
 MERGED from [com.google.firebase:firebase-config:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/firebase-config-9.4.0.aar/9c66465d7d634d5495307f39501315a7/AndroidManifest.xml:18:5-42
 MERGED from [com.google.firebase:firebase-config:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/firebase-config-9.4.0.aar/9c66465d7d634d5495307f39501315a7/AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-contextmanager:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-contextmanager-9.4.0.aar/079ac5c580fbc57db77b54f550f0a596/AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-contextmanager:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-contextmanager-9.4.0.aar/079ac5c580fbc57db77b54f550f0a596/AndroidManifest.xml:18:5-42
 MERGED from [com.google.firebase:firebase-crash:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/firebase-crash-9.4.0.aar/d91fb19e42c7170f869e7ee604bbe21e/AndroidManifest.xml:22:5-42
 MERGED from [com.google.firebase:firebase-crash:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/firebase-crash-9.4.0.aar/d91fb19e42c7170f869e7ee604bbe21e/AndroidManifest.xml:22:5-42
 MERGED from [com.google.android.gms:play-services-games:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-games-9.4.0.aar/1d831bf09a6861b703b377184048ba15/AndroidManifest.xml:18:5-42
@@ -318,18 +336,12 @@ MERGED from [com.google.android.gms:play-services-gcm:9.4.0] /Users/Jardosh/.gra
 MERGED from [com.google.android.gms:play-services-gcm:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-gcm-9.4.0.aar/d2ea06ad936ec2b309e9f24753ae7f4b/AndroidManifest.xml:18:5-42
 MERGED from [com.google.android.gms:play-services-appindexing:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-appindexing-9.4.0.aar/f75d5384d2660ceb004630d694f3756e/AndroidManifest.xml:18:5-42
 MERGED from [com.google.android.gms:play-services-appindexing:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-appindexing-9.4.0.aar/f75d5384d2660ceb004630d694f3756e/AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-wallet:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-wallet-9.4.0.aar/420e5c215235823a5de88fd2a61d51f5/AndroidManifest.xml:19:5-42
-MERGED from [com.google.android.gms:play-services-wallet:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-wallet-9.4.0.aar/420e5c215235823a5de88fd2a61d51f5/AndroidManifest.xml:19:5-42
 MERGED from [com.google.android.gms:play-services-identity:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-identity-9.4.0.aar/fc1304fe5d55b2023f8dc472671d990b/AndroidManifest.xml:18:5-42
 MERGED from [com.google.android.gms:play-services-identity:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-identity-9.4.0.aar/fc1304fe5d55b2023f8dc472671d990b/AndroidManifest.xml:18:5-42
 MERGED from [com.google.android.gms:play-services-iid:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-iid-9.4.0.aar/6a4bf37ce51abb7243f757ed969e8eb7/AndroidManifest.xml:18:5-42
 MERGED from [com.google.android.gms:play-services-iid:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-iid-9.4.0.aar/6a4bf37ce51abb7243f757ed969e8eb7/AndroidManifest.xml:18:5-42
 MERGED from [com.google.android.gms:play-services-location:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-location-9.4.0.aar/a7d1c542de32f00369b9cdeb05c1b8d8/AndroidManifest.xml:18:5-42
 MERGED from [com.google.android.gms:play-services-location:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-location-9.4.0.aar/a7d1c542de32f00369b9cdeb05c1b8d8/AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-places:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-places-9.4.0.aar/f2146a1619829c75032e25e872b41d9d/AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-places:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-places-9.4.0.aar/f2146a1619829c75032e25e872b41d9d/AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-maps:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-maps-9.4.0.aar/6ed266ffb4cc5425d154607750db2df0/AndroidManifest.xml:26:5-42
-MERGED from [com.google.android.gms:play-services-maps:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-maps-9.4.0.aar/6ed266ffb4cc5425d154607750db2df0/AndroidManifest.xml:26:5-42
 MERGED from [com.google.android.gms:play-services-nearby:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-nearby-9.4.0.aar/641cdaa19f494c76a77cc8d49b8aab72/AndroidManifest.xml:4:5-42
 MERGED from [com.google.android.gms:play-services-nearby:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-nearby-9.4.0.aar/641cdaa19f494c76a77cc8d49b8aab72/AndroidManifest.xml:4:5-42
 MERGED from [com.google.android.gms:play-services-panorama:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-panorama-9.4.0.aar/816ee11ec83de97c424d2da308f8963e/AndroidManifest.xml:18:5-42
@@ -390,6 +402,12 @@ service#com.google.android.gms.cast.framework.ReconnectionService
 ADDED from [com.google.android.gms:play-services-cast-framework:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.4.0.aar/777cc8f57b8a9014e98b05cdc84bd794/AndroidManifest.xml:8:9-92
 	android:name
 		ADDED from [com.google.android.gms:play-services-cast-framework:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.4.0.aar/777cc8f57b8a9014e98b05cdc84bd794/AndroidManifest.xml:8:18-90
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-maps-9.4.0.aar/6ed266ffb4cc5425d154607750db2df0/AndroidManifest.xml:22:5-24:33
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-maps-9.4.0.aar/6ed266ffb4cc5425d154607750db2df0/AndroidManifest.xml:23:8-40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-maps-9.4.0.aar/6ed266ffb4cc5425d154607750db2df0/AndroidManifest.xml:24:8-31
 activity#com.google.android.gms.ads.AdActivity
 ADDED from [com.google.android.gms:play-services-ads-lite:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-9.4.0.aar/578f0d026bfededbb77162e482531948/AndroidManifest.xml:26:9-29:64
 	android:configChanges
@@ -472,12 +490,6 @@ MERGED from [com.google.firebase:firebase-iid:9.4.0] /Users/Jardosh/.gradle/cach
 MERGED from [com.google.firebase:firebase-iid:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.4.0.aar/1751f6a2d51abec26d846df60e03cad2/AndroidManifest.xml:23:5-82
 	android:name
 		ADDED from [com.google.android.gms:play-services-gcm:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-gcm-9.4.0.aar/d2ea06ad936ec2b309e9f24753ae7f4b/AndroidManifest.xml:21:22-79
-uses-feature#0x00020000
-ADDED from [com.google.android.gms:play-services-maps:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-maps-9.4.0.aar/6ed266ffb4cc5425d154607750db2df0/AndroidManifest.xml:22:5-24:33
-	android:glEsVersion
-		ADDED from [com.google.android.gms:play-services-maps:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-maps-9.4.0.aar/6ed266ffb4cc5425d154607750db2df0/AndroidManifest.xml:23:8-40
-	android:required
-		ADDED from [com.google.android.gms:play-services-maps:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-maps-9.4.0.aar/6ed266ffb4cc5425d154607750db2df0/AndroidManifest.xml:24:8-31
 activity#com.google.android.gms.common.api.GoogleApiActivity
 ADDED from [com.google.android.gms:play-services-base:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-base-9.4.0.aar/92084990d0360a815ba302dd4f345640/AndroidManifest.xml:20:9-22:45
 	android:exported
