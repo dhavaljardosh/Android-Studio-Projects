@@ -41,7 +41,14 @@ public class MainActivity extends AppCompatActivity {
     }
 
     ParseUser.getCurrentUser().put("riderOrDriver",userType);
-    redirectActivity();
+
+    ParseUser.getCurrentUser().saveInBackground(new SaveCallback() {
+        @Override
+        public void done(ParseException e) {
+            redirectActivity();
+        }
+    });
+    
     Log.i("Info","Redirecting---- as "+userType);
   }
 

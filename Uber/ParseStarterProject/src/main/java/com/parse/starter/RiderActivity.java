@@ -37,11 +37,12 @@ public class RiderActivity extends FragmentActivity implements OnMapReadyCallbac
         if (requestCode == 1) {
             if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
 
-                if(ContextCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_FINE_LOCATION)==PackageManager.PERMISSION_GRANTED) {
-                    locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, 0, 0, locationListener);
+                if (ContextCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_FINE_LOCATION) == PackageManager.PERMISSION_GRANTED) {
 
+                    locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, 0, 0, locationListener);
                     Location lastKnownLocation = locationManager.getLastKnownLocation(LocationManager.GPS_PROVIDER);
                     updateMap(lastKnownLocation);
+
                 }
 
             }
@@ -52,7 +53,7 @@ public class RiderActivity extends FragmentActivity implements OnMapReadyCallbac
         LatLng userLocation = new LatLng(location.getLatitude(), location.getLongitude());
 
         mMap.clear();
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(userLocation));
+        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(userLocation,15));
         mMap.addMarker(new MarkerOptions().position(userLocation).title("Your fucking Location"));
     }
 
@@ -86,8 +87,8 @@ public class RiderActivity extends FragmentActivity implements OnMapReadyCallbac
             @Override
             public void onLocationChanged(Location location) {
 
-                Log.i("Changed Location: ", String.valueOf(location));
                 updateMap(location);
+
             }
 
             @Override
@@ -120,13 +121,20 @@ public class RiderActivity extends FragmentActivity implements OnMapReadyCallbac
             locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, 0, 0, locationListener);
         } else{
             if(ContextCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_FINE_LOCATION)!= PackageManager.PERMISSION_GRANTED) {
-                ActivityCompat.requestPermissions(this, new String[]{android.Manifest.permission.ACCESS_FINE_LOCATION},1);
-                Location lastKnownLocation = locationManager.getLastKnownLocation(LocationManager.GPS_PROVIDER);
-                Log.i("Location: ", String.valueOf(lastKnownLocation));
 
-                if(lastKnownLocation!=null){
+                ActivityCompat.requestPermissions(this, new String[]{android.Manifest.permission.ACCESS_FINE_LOCATION}, 1);
+
+            } else {
+
+                locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER,0,0,locationListener);
+                Location lastKnownLocation = locationManager.getLastKnownLocation(LocationManager.GPS_PROVIDER);
+
+                if(lastKnownLocation!= null) {
+
                     updateMap(lastKnownLocation);
+
                 }
+
             }
         }
 
