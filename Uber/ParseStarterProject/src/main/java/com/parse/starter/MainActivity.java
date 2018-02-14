@@ -25,11 +25,16 @@ import com.parse.SaveCallback;
 
 public class MainActivity extends AppCompatActivity {
 
+    Intent intent;
+
     public void redirectActivity(){
-//        if(ParseUser.getCurrentUser().get("riderOrDriver") == "rider"){
-            Intent intent = new Intent(getApplicationContext(),RiderActivity.class);
+        if(ParseUser.getCurrentUser().get("riderOrDriver") == "rider"){
+            intent = new Intent(getApplicationContext(),RiderActivity.class);
             startActivity(intent);
-//        }
+        } else {
+            intent = new Intent(getApplicationContext(),ViewRequestActivity.class);
+            startActivity(intent);
+        }
     }
 
   public void getStarted(View view){
@@ -48,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
             redirectActivity();
         }
     });
-    
+
     Log.i("Info","Redirecting---- as "+userType);
   }
 
