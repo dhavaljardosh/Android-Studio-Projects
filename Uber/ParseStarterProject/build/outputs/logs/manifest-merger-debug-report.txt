@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/src/main/AndroidManifest.xml:9:1-51:12
-INJECTED from /Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/src/main/AndroidManifest.xml:9:1-51:12
-INJECTED from /Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/src/main/AndroidManifest.xml:9:1-51:12
-INJECTED from /Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/src/main/AndroidManifest.xml:9:1-51:12
+ADDED from /Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/src/main/AndroidManifest.xml:9:1-54:12
+INJECTED from /Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/src/main/AndroidManifest.xml:9:1-54:12
+INJECTED from /Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/src/main/AndroidManifest.xml:9:1-54:12
+INJECTED from /Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/src/main/AndroidManifest.xml:9:1-54:12
 MERGED from [com.google.android.gms:play-services:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-9.4.0.aar/77543a6565d45c670b4f27116e75534c/AndroidManifest.xml:2:1-6:12
 MERGED from [com.google.android.gms:play-services-cast-framework:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.4.0.aar/777cc8f57b8a9014e98b05cdc84bd794/AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.android.gms:play-services-cast:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-cast-9.4.0.aar/94169d545ddc5a7247ffdc250dfd9e67/AndroidManifest.xml:16:1-20:12
@@ -60,20 +60,20 @@ MERGED from [com.google.android.gms:play-services-tasks:9.4.0] /Users/Jardosh/.g
 MERGED from [com.google.android.gms:play-services-basement:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-basement-9.4.0.aar/a49eebb52a8193008ae27d5d68979013/AndroidManifest.xml:16:1-26:12
 MERGED from [com.android.support:support-vector-drawable:23.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-23.4.0.aar/686970aa2187bb6ad55ec10783bf7b53/AndroidManifest.xml:2:1-9:12
 MERGED from [com.android.support:support-v4:23.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/support-v4-23.4.0.aar/99519cf58180e28486c26fb8dd5c9f51/AndroidManifest.xml:17:1-24:12
-INJECTED from /Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/src/main/AndroidManifest.xml:9:1-51:12
-INJECTED from /Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/src/main/AndroidManifest.xml:9:1-51:12
-INJECTED from /Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/src/main/AndroidManifest.xml:9:1-51:12
+INJECTED from /Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/src/main/AndroidManifest.xml:9:1-54:12
+INJECTED from /Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/src/main/AndroidManifest.xml:9:1-54:12
+INJECTED from /Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/src/main/AndroidManifest.xml:9:1-54:12
 	package
 		ADDED from /Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/src/main/AndroidManifest.xml:10:5-32
 		INJECTED from /Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/src/main/AndroidManifest.xml
 		INJECTED from /Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/src/main/AndroidManifest.xml
-		ADDED from /Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/src/main/AndroidManifest.xml:9:1-51:12
+		ADDED from /Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/src/main/AndroidManifest.xml:9:1-54:12
 		INJECTED from /Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/src/main/AndroidManifest.xml
-		ADDED from /Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/src/main/AndroidManifest.xml:9:1-51:12
+		ADDED from /Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/src/main/AndroidManifest.xml:9:1-54:12
 		INJECTED from /Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/src/main/AndroidManifest.xml:9:11-69
@@ -136,7 +136,7 @@ ADDED from /Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterPro
 	android:name
 		ADDED from /Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/src/main/AndroidManifest.xml:15:22-76
 application
-ADDED from /Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/src/main/AndroidManifest.xml:17:5-49:19
+ADDED from /Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/src/main/AndroidManifest.xml:17:5-52:19
 MERGED from [com.google.android.gms:play-services:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-9.4.0.aar/77543a6565d45c670b4f27116e75534c/AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-9.4.0.aar/77543a6565d45c670b4f27116e75534c/AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services-cast-framework:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.4.0.aar/777cc8f57b8a9014e98b05cdc84bd794/AndroidManifest.xml:5:5-9:19
@@ -268,9 +268,15 @@ ADDED from /Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterPro
 	android:name
 		ADDED from /Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/src/main/AndroidManifest.xml:46:13-42
 activity#com.parse.starter.ViewRequestActivity
-ADDED from /Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/src/main/AndroidManifest.xml:48:9-66
+ADDED from /Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/src/main/AndroidManifest.xml:48:9-57
 	android:name
 		ADDED from /Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/src/main/AndroidManifest.xml:48:19-54
+activity#com.parse.starter.DriverLocationActivity
+ADDED from /Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/src/main/AndroidManifest.xml:49:9-51:79
+	android:label
+		ADDED from /Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/src/main/AndroidManifest.xml:51:13-67
+	android:name
+		ADDED from /Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/src/main/AndroidManifest.xml:50:13-51
 uses-sdk
 INJECTED from /Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/src/main/AndroidManifest.xml

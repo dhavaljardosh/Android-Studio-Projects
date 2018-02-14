@@ -3,6 +3,7 @@ package com.parse.starter;
 import android.*;
 import android.Manifest;
 import android.content.Context;
+import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.graphics.Color;
 import android.location.Location;
@@ -45,6 +46,13 @@ public class RiderActivity extends FragmentActivity implements OnMapReadyCallbac
 
     Button callUberButton;
     Boolean requestActive = false;
+
+
+    public void logout(View view){
+        ParseUser.logOut();
+        Intent intent = new Intent(getApplicationContext(),MainActivity.class);
+        startActivity(intent);
+    }
 
     public void callUber(View view){
 
