@@ -1,5 +1,6 @@
 package com.parse.starter;
 
+import android.content.Intent;
 import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
 
@@ -38,9 +39,13 @@ public class DriverLocationActivity extends FragmentActivity implements OnMapRea
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
 
+        Intent intent = getIntent();
+
+
+
         // Add a marker in Sydney and move the camera
-        LatLng sydney = new LatLng(-34, 151);
-        mMap.addMarker(new MarkerOptions().position(sydney).title("Marker in Sydney"));
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
+        LatLng driverLocation = new LatLng(intent.getDoubleExtra("requestLatitude",0), intent.getDoubleExtra("requestLongitude",0));
+        mMap.addMarker(new MarkerOptions().position(driverLocation).title("Driver Location"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(driverLocation,15));
     }
 }

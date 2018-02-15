@@ -3,6 +3,7 @@ package com.parse.starter;
 import android.*;
 import android.Manifest;
 import android.content.Context;
+import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.location.Location;
 import android.location.LocationListener;
@@ -13,6 +14,9 @@ import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
@@ -35,34 +39,50 @@ public class ViewRequestActivity extends AppCompatActivity {
     ListView requestListView;
     ArrayList<String> requests = new ArrayList<String>();
     ArrayAdapter arrayAdapter;
+    ArrayList<Double> requestLatitudes = new ArrayList<Double>();
+    ArrayList<Double> requestLongitudes = new ArrayList<Double>();
 
     LocationManager locationManager;
 
     LocationListener locationListener;
 
-    public void updateListView(Location location){
+    public void updateListView(Location location) {
 
-        if(location!=null){
-            requests.clear();
+        if (location != null) {
+
 
             ParseQuery<ParseObject> query = ParseQuery.getQuery("Request");
 
-            final ParseGeoPoint geoPointLocation = new ParseGeoPoint(location.getLatitude(),location.getLongitude());
+            final ParseGeoPoint geoPointLocation = new ParseGeoPoint(location.getLatitude(), location.getLongitude());
 
-            query.whereNear("location",geoPointLocation);
+            query.whereNear("location", geoPointLocation);
 
             query.setLimit(10);
 
             query.findInBackground(new FindCallback<ParseObject>() {
                 @Override
                 public void done(List<ParseObject> objects, ParseException e) {
-                    if(e==null){
-                        if(objects.size()>0){
-                            for(ParseObject object:objects){
-                                Double distanceInMiles = geoPointLocation.distanceInMilesTo((ParseGeoPoint) object.get("location"));
-                                Double distanceOneDP = (double) Math.round(distanceInMiles*10)/10;
+                    if (e == null) {
 
-                                requests.add(distanceOneDP.toString() + " miles");
+                        requests.clear();
+                        requestLatitudes.clear();
+                        requestLongitudes.clear();
+
+                        if (objects.size() > 0) {
+                            for (ParseObject object : objects) {
+
+                                ParseGeoPoint requestLocation = (ParseGeoPoint) object.get("location");
+
+                                if (requestLocation != null) {
+                                    Double distanceInMiles = geoPointLocation.distanceInMilesTo((ParseGeoPoint) object.get("location"));
+                                    Double distanceOneDP = (double) Math.round(distanceInMiles * 10) / 10;
+
+                                    requests.add(distanceOneDP.toString() + " miles");
+
+                                    requestLatitudes.add(requestLocation.getLatitude());
+                                    requestLongitudes.add(requestLocation.getLongitude());
+                                }
+
                             }
 
                             arrayAdapter.notifyDataSetChanged();
@@ -76,11 +96,10 @@ public class ViewRequestActivity extends AppCompatActivity {
                 }
             });
 
-            arrayAdapter = new ArrayAdapter(this,android.R.layout.simple_list_item_1,requests);
+            arrayAdapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, requests);
 
             requestListView.setAdapter(arrayAdapter);
         }
-
 
 
     }
@@ -120,6 +139,43 @@ public class ViewRequestActivity extends AppCompatActivity {
 
         requestListView.setAdapter(arrayAdapter);
 
+
+        //On Item Click
+        requestListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                Log.i("Progress", "Checking on Click");
+
+                if (ActivityCompat.checkSelfPermission(ViewRequestActivity.this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(ViewRequestActivity.this, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
+                    // TODO: Consider calling
+                    //    ActivityCompat#requestPermissions
+                    // here to request the missing permissions, and then overriding
+                    //   public void onRequestPermissionsResult(int requestCode, String[] permissions,
+                    //                                          int[] grantResults)
+                    // to handle the case where the user grants the permission. See the documentation
+                    // for ActivityCompat#requestPermissions for more details.
+                    return;
+                }
+                Location lastKnownLocation = locationManager.getLastKnownLocation(LocationManager.GPS_PROVIDER);
+
+
+                if(requestLatitudes.size()> position && requestLongitudes.size()> position){
+                    Log.i("Progress","Beginning Intent");
+                    Intent intent = new Intent(getApplicationContext(),DriverLocationActivity.class);
+                    intent.putExtra("requestLatitude",requestLatitudes.get(position));
+                    intent.putExtra("requestLongitude",requestLongitudes.get(position));
+                    intent.putExtra("driverLatitude",lastKnownLocation.getLatitude());
+                    intent.putExtra("driverLongitude",lastKnownLocation.getLongitude());
+
+                    startActivity(intent);
+                    Log.i("Progress","Display intent");
+
+                }
+                }
+
+        });
+
+
         locationManager = (LocationManager) this.getSystemService(Context.LOCATION_SERVICE);
 
         locationListener = new LocationListener() {
@@ -146,17 +202,8 @@ public class ViewRequestActivity extends AppCompatActivity {
             }
         };
 
-        if (Build.VERSION.SDK_INT < 23) {
-            if (ActivityCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
-                // TODO: Consider calling
-                //    ActivityCompat#requestPermissions
-                // here to request the missing permissions, and then overriding
-                //   public void onRequestPermissionsResult(int requestCode, String[] permissions,
-                //                                          int[] grantResults)
-                // to handle the case where the user grants the permission. See the documentation
-                // for ActivityCompat#requestPermissions for more details.
-                return;
-            }
+        if (Build.VERSION.SDK_INT < 23 || ActivityCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
+
             locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, 0, 0, locationListener);
         } else{
             if(ContextCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_FINE_LOCATION)!= PackageManager.PERMISSION_GRANTED) {

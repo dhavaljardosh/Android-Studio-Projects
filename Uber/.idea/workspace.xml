@@ -76,15 +76,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ViewRequestActivity.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ViewRequestActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ParseStarterProject/src/main/java/com/parse/starter/ViewRequestActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="73" column="60" lean-forward="false" selection-start-line="73" selection-start-column="60" selection-end-line="73" selection-end-column="60" />
+            <state relative-caret-position="81">
+              <caret line="158" column="30" lean-forward="false" selection-start-line="158" selection-start-column="30" selection-end-line="158" selection-end-column="30" />
               <folding>
-                <element signature="e#1123#1131#0" expanded="true" />
-                <element signature="e#1679#2610#0" expanded="true" />
-                <element signature="e#2609#2610#0" expanded="true" />
+                <element signature="e#1240#1248#0" expanded="true" />
+                <element signature="e#1337#1345#0" expanded="true" />
+                <element signature="e#1404#1412#0" expanded="true" />
+                <element signature="e#1907#3396#0" expanded="true" />
+                <element signature="e#3395#3396#0" expanded="true" />
+                <element signature="e#4989#6982#0" expanded="true" />
+                <element signature="e#6981#6982#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -93,21 +97,8 @@
       <file leaf-file-name="DriverLocationActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ParseStarterProject/src/main/java/com/parse/starter/DriverLocationActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_main.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ParseStarterProject/src/main/res/layout/activity_main.xml">
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-13">
-              <caret line="15" column="18" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+            <state relative-caret-position="216">
+              <caret line="46" column="117" lean-forward="false" selection-start-line="46" selection-start-column="117" selection-end-line="46" selection-end-column="117" />
               <folding />
             </state>
           </provider>
@@ -116,8 +107,8 @@
       <file leaf-file-name="RiderActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ParseStarterProject/src/main/java/com/parse/starter/RiderActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="119" column="4" lean-forward="false" selection-start-line="119" selection-start-column="4" selection-end-line="136" selection-end-column="5" />
+            <state relative-caret-position="-290">
+              <caret line="129" column="69" lean-forward="false" selection-start-line="129" selection-start-column="69" selection-end-line="129" selection-end-column="69" />
               <folding>
                 <element signature="e#1788#1801#0" expanded="true" />
                 <element signature="e#1935#2506#0" expanded="true" />
@@ -128,16 +119,6 @@
                 <element signature="e#5743#6119#0" expanded="true" />
                 <element signature="e#6118#6119#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="google_maps_api.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ParseStarterProject/src/debug/res/values/google_maps_api.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="51" lean-forward="false" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -161,11 +142,14 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-29">
+            <state relative-caret-position="71">
               <caret line="11" column="66" lean-forward="false" selection-start-line="11" selection-start-column="66" selection-end-line="11" selection-end-column="66" />
               <folding>
-                <marker date="1518642666176" expanded="true" signature="2283:2296" ph="..." />
-                <marker date="1518642666176" expanded="true" signature="2283:2309" ph="..." />
+                <element signature="e#915#933#0" expanded="true" />
+                <element signature="e#1060#1078#0" expanded="true" />
+                <element signature="e#1924#1949#0" expanded="true" />
+                <element signature="e#2040#2070#0" expanded="true" />
+                <element signature="e#2226#2266#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -1916,6 +1900,7 @@
         <option value="$PROJECT_DIR$/ParseStarterProject/src/main/java/com/parse/starter/RiderActivity.java" />
         <option value="$PROJECT_DIR$/ParseStarterProject/src/main/res/layout/activity_rider.xml" />
         <option value="$PROJECT_DIR$/ParseStarterProject/src/main/java/com/parse/starter/ViewRequestActivity.java" />
+        <option value="$PROJECT_DIR$/ParseStarterProject/src/main/java/com/parse/starter/DriverLocationActivity.java" />
       </list>
     </option>
   </component>
@@ -2266,7 +2251,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1518643775712" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1518697830236" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -2314,7 +2299,7 @@
       </Profilers>
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1518643775712" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1518697830236" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -2497,7 +2482,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1518643775714" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1518697830237" />
       </method>
     </configuration>
     <list size="1">
@@ -2848,35 +2833,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ParseStarterProject/src/main/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-29">
-          <caret line="11" column="66" lean-forward="false" selection-start-line="11" selection-start-column="66" selection-end-line="11" selection-end-column="66" />
-          <folding>
-            <marker date="1518642666176" expanded="true" signature="2283:2296" ph="..." />
-            <marker date="1518642666176" expanded="true" signature="2283:2309" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ParseStarterProject/src/main/java/com/parse/starter/DriverActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-31">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ParseStarterProject/src/main/res/layout/activity_main.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-13">
-          <caret line="15" column="18" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -2914,10 +2874,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ParseStarterProject/src/debug/res/values/google_maps_api.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="51" lean-forward="false" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ParseStarterProject/src/main/res/layout/activity_main.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-13">
+          <caret line="15" column="18" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ParseStarterProject/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="11" column="66" lean-forward="false" selection-start-line="11" selection-start-column="66" selection-end-line="11" selection-end-column="66" />
+          <folding>
+            <element signature="e#915#933#0" expanded="true" />
+            <element signature="e#1060#1078#0" expanded="true" />
+            <element signature="e#1924#1949#0" expanded="true" />
+            <element signature="e#2040#2070#0" expanded="true" />
+            <element signature="e#2226#2266#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ParseStarterProject/src/main/java/com/parse/starter/RiderActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="119" column="4" lean-forward="false" selection-start-line="119" selection-start-column="4" selection-end-line="136" selection-end-column="5" />
+        <state relative-caret-position="-290">
+          <caret line="129" column="69" lean-forward="false" selection-start-line="129" selection-start-column="69" selection-end-line="129" selection-end-column="69" />
           <folding>
             <element signature="e#1788#1801#0" expanded="true" />
             <element signature="e#1935#2506#0" expanded="true" />
@@ -2931,31 +2927,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ParseStarterProject/src/main/java/com/parse/starter/ViewRequestActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="73" column="60" lean-forward="false" selection-start-line="73" selection-start-column="60" selection-end-line="73" selection-end-column="60" />
-          <folding>
-            <element signature="e#1123#1131#0" expanded="true" />
-            <element signature="e#1679#2610#0" expanded="true" />
-            <element signature="e#2609#2610#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ParseStarterProject/src/main/java/com/parse/starter/DriverLocationActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="216">
+          <caret line="46" column="117" lean-forward="false" selection-start-line="46" selection-start-column="117" selection-end-line="46" selection-end-column="117" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ParseStarterProject/src/debug/res/values/google_maps_api.xml">
+    <entry file="file://$PROJECT_DIR$/ParseStarterProject/src/main/java/com/parse/starter/ViewRequestActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="51" lean-forward="false" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
-          <folding />
+        <state relative-caret-position="81">
+          <caret line="158" column="30" lean-forward="false" selection-start-line="158" selection-start-column="30" selection-end-line="158" selection-end-column="30" />
+          <folding>
+            <element signature="e#1240#1248#0" expanded="true" />
+            <element signature="e#1337#1345#0" expanded="true" />
+            <element signature="e#1404#1412#0" expanded="true" />
+            <element signature="e#1907#3396#0" expanded="true" />
+            <element signature="e#3395#3396#0" expanded="true" />
+            <element signature="e#4989#6982#0" expanded="true" />
+            <element signature="e#6981#6982#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
