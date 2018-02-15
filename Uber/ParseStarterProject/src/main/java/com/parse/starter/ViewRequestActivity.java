@@ -41,6 +41,7 @@ public class ViewRequestActivity extends AppCompatActivity {
     ArrayAdapter arrayAdapter;
     ArrayList<Double> requestLatitudes = new ArrayList<Double>();
     ArrayList<Double> requestLongitudes = new ArrayList<Double>();
+    ArrayList<String> username = new ArrayList<String>();
 
     LocationManager locationManager;
 
@@ -78,9 +79,10 @@ public class ViewRequestActivity extends AppCompatActivity {
                                     Double distanceOneDP = (double) Math.round(distanceInMiles * 10) / 10;
 
                                     requests.add(distanceOneDP.toString() + " miles");
-
                                     requestLatitudes.add(requestLocation.getLatitude());
                                     requestLongitudes.add(requestLocation.getLongitude());
+                                    username.add(object.getString("username"));
+
                                 }
 
                             }
@@ -166,6 +168,7 @@ public class ViewRequestActivity extends AppCompatActivity {
                     intent.putExtra("requestLongitude",requestLongitudes.get(position));
                     intent.putExtra("driverLatitude",lastKnownLocation.getLatitude());
                     intent.putExtra("driverLongitude",lastKnownLocation.getLongitude());
+                    intent.putExtra("username",username.get(position));
 
                     startActivity(intent);
                     Log.i("Progress","Display intent");

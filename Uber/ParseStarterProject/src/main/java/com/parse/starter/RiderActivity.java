@@ -39,14 +39,10 @@ import java.util.List;
 public class RiderActivity extends FragmentActivity implements OnMapReadyCallback {
 
     private GoogleMap mMap;
-
     LocationManager locationManager;
-
     LocationListener locationListener;
-
     Button callUberButton;
     Boolean requestActive = false;
-
 
     public void logout(View view){
         ParseUser.logOut();
@@ -87,8 +83,8 @@ public class RiderActivity extends FragmentActivity implements OnMapReadyCallbac
                 locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, 0, 0, locationListener);
                 Location lastKnownLocation = locationManager.getLastKnownLocation(LocationManager.GPS_PROVIDER);
 
-
                 if(lastKnownLocation!=null){
+
                     ParseObject request = new ParseObject("Request");
                     request.put("username", ParseUser.getCurrentUser().getUsername());
                     ParseGeoPoint parseGeoPoint = new ParseGeoPoint(lastKnownLocation.getLatitude(),lastKnownLocation.getLongitude());
@@ -103,17 +99,16 @@ public class RiderActivity extends FragmentActivity implements OnMapReadyCallbac
                                     requestActive=true;
                             }
                         }
+
                     });
-                } else{
+
+                } else {
+
                     Toast.makeText(this,"Try again later",Toast.LENGTH_SHORT).show();
+
                 }
-
             }
-
         }
-
-
-
 
     }
 
@@ -131,15 +126,15 @@ public class RiderActivity extends FragmentActivity implements OnMapReadyCallbac
                     updateMap(lastKnownLocation);
 
                 }
-
             }
         }
     }
 
     public void updateMap(Location location) {
 
-        LatLng userLocation = new LatLng(location.getLatitude(), location.getLongitude());
+        Log.i("Location Change", String.valueOf(location));
 
+        LatLng userLocation = new LatLng(location.getLatitude(), location.getLongitude());
         mMap.clear();
         mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(userLocation,15));
         mMap.addMarker(new MarkerOptions().position(userLocation).title("Current Location"));
@@ -183,6 +178,7 @@ public class RiderActivity extends FragmentActivity implements OnMapReadyCallbac
      * it inside the SupportMapFragment. This method will only be triggered once the user has
      * installed Google Play services and returned to the app.
      */
+
     @Override
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
@@ -234,6 +230,9 @@ public class RiderActivity extends FragmentActivity implements OnMapReadyCallbac
 
                 locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER,0,0,locationListener);
                 Location lastKnownLocation = locationManager.getLastKnownLocation(LocationManager.GPS_PROVIDER);
+
+                Log.i("Not Null Location: ", String.valueOf(lastKnownLocation));
+
 
                 if(lastKnownLocation!= null) {
 
