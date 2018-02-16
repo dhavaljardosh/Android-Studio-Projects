@@ -31,6 +31,7 @@ public class DriverLocationActivity extends FragmentActivity implements OnMapRea
 
     private GoogleMap mMap;
     Intent intent;
+    ArrayList<Marker> markers= new ArrayList<>();
 
     public void acceptRequest(View view){
         ParseQuery<ParseObject> query = ParseQuery.getQuery("Request");
@@ -80,7 +81,7 @@ public class DriverLocationActivity extends FragmentActivity implements OnMapRea
         mapLayout.getViewTreeObserver().addOnGlobalLayoutListener(new ViewTreeObserver.OnGlobalLayoutListener() {
             @Override
             public void onGlobalLayout() {
-                ArrayList<Marker> markers= new ArrayList<Marker>();
+
 
                 LatLng driverLocation = new LatLng(intent.getDoubleExtra("driverLatitude",0),intent.getDoubleExtra("driverLongitude",0));
                 LatLng requestLocation = new LatLng(intent.getDoubleExtra("requestLatitude",0),intent.getDoubleExtra("requestLongitude",0));
