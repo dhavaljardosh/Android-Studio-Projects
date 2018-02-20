@@ -12,6 +12,11 @@ public class Flappy_Bird extends ApplicationAdapter {
 
 	Texture[] birds;
 	int flapState= 0;
+	int count = 0;
+	int birdY;
+	int velocity = 0;
+	int gameState = 0;
+	float gravity = 2;
 	
 	@Override
 	public void create () {
@@ -20,19 +25,42 @@ public class Flappy_Bird extends ApplicationAdapter {
 		birds = new Texture[2];
 		birds[0] = new Texture("bird.png");
 		birds[1] = new Texture("bird2.png");
+		birdY = Gdx.graphics.getHeight()/2-(birds[0].getHeight()/2);
 	}
 
 	@Override
 	public void render () {
+
+
+
+		if(gameState!=0) {
+			if(Gdx.input.justTouched()){
+				velocity = -20;
+			}
+
+			velocity= (int) (velocity+gravity);
+			birdY -= velocity;
+
+		} else{
+			if(Gdx.input.justTouched()){
+				gameState=1;
+			}
+		}
+
+		if (count < 10) {
+			count++;
+			flapState = 0;
+		} else {
+			count = 0;
+			flapState = 1;
+		}
+
+
 		batch.begin();
 		batch.draw(background,0,0,Gdx.graphics.getWidth(),Gdx.graphics.getHeight());
-		if(flapState==0){
-			flapState = 1;
-		} else {
-			flapState = 0;
-		}
-		batch.draw(birds[flapState],Gdx.graphics.getWidth()/2 - (birds[flapState].getWidth()/2),Gdx.graphics.getHeight()/2-(birds[flapState].getHeight()/2));
+		batch.draw(birds[flapState], Gdx.graphics.getWidth() / 2 - (birds[flapState].getWidth() / 2), birdY);
 		batch.end();
+
 	}
 	
 	@Override
