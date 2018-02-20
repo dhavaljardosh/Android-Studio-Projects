@@ -1,6 +1,6 @@
 #Internal package file, do not edit.
-#Sat Feb 17 19:27:09 CST 2018
-1.base=/Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/build/intermediates/transforms/dexMerger/debug/2
+#Mon Feb 19 18:45:41 CST 2018
+1.base=/Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/build/intermediates/transforms/dexMerger/debug/1
 2.path=classes.dex
 0.baseType=DIRECTORY
 2.base=/Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/build/intermediates/transforms/dexMerger/debug/1
@@ -8,8 +8,8 @@
 1.baseType=DIRECTORY
 count=3
 1.set=DEX
-0.path=classes2.dex
+0.path=classes.dex
 0.set=DEX
-0.base=/Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/build/intermediates/transforms/dexMerger/debug/2
+0.base=/Users/Jardosh/Downloads/Android-Studio-Projects/Uber/ParseStarterProject/build/intermediates/transforms/dexMerger/debug/0
 2.baseType=DIRECTORY
-1.path=classes.dex
+1.path=classes2.dex

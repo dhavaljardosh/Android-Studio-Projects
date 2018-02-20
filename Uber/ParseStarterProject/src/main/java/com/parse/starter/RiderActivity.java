@@ -162,7 +162,7 @@ public class RiderActivity extends FragmentActivity implements OnMapReadyCallbac
                     if(objects.size()>0){
                         requestActive = true;
                         callUberButton.setText("Cancel Uber");
-                        
+
                     }
                 }
             }
