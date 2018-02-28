@@ -86,7 +86,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 LatLng userLocation = new LatLng(location.getLatitude(),location.getLongitude());
                 mMap.clear();
                 mMap.addMarker(new MarkerOptions().position(userLocation).title("Marker in Sydney"));
-                mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(userLocation,18));
+                mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(userLocation,5));
 
 
                 Geocoder geocoder = new Geocoder(getApplicationContext(), Locale.getDefault());
