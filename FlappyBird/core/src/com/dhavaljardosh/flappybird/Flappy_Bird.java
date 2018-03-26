@@ -8,6 +8,7 @@ import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.graphics.glutils.ShapeRenderer;
 import com.badlogic.gdx.math.Circle;
+import com.badlogic.gdx.math.Intersector;
 import com.badlogic.gdx.math.Rectangle;
 
 import java.util.Random;
@@ -89,8 +90,6 @@ public class Flappy_Bird extends ApplicationAdapter {
 
 			for(int i = 0; i<numberOfTubes; i++){
 
-
-
 				if(tubeX[i] < - topTube.getWidth()){
 					tubeX[i] += numberOfTubes * distanceBetweenTubes;
 					tubeOffset[i] = (randomGenerator.nextFloat() - 0.5f) * (Gdx.graphics.getHeight() - gap - 200);
@@ -105,6 +104,7 @@ public class Flappy_Bird extends ApplicationAdapter {
 
 				topTubeRectangle[i] = new Rectangle(tubeX[i],Gdx.graphics.getHeight() / 2 + gap / 2+ tubeOffset[i], topTube.getWidth(),topTube.getHeight());
 				bottomTubeRectangle[i] = new Rectangle(tubeX[i],Gdx.graphics.getHeight() / 2 - gap / 2  - bottomTube.getHeight()+ tubeOffset[i], bottomTube.getWidth(), bottomTube.getHeight());
+				Gdx.app.log(String.valueOf(topTubeRectangle[i]),String.valueOf(bottomTubeRectangle[i]));
 			}
 
 
@@ -142,6 +142,11 @@ public class Flappy_Bird extends ApplicationAdapter {
 			shapeRenderer.setColor(Color.BLUE);
 			shapeRenderer.rect(tubeX[i],Gdx.graphics.getHeight() / 2 + gap / 2+ tubeOffset[i], topTube.getWidth(),topTube.getHeight());
 			shapeRenderer.rect(tubeX[i],Gdx.graphics.getHeight() / 2 - gap / 2  - bottomTube.getHeight() + tubeOffset[i], bottomTube.getWidth(), bottomTube.getHeight());
+
+//			Gdx.app.log("Check "+String.valueOf(topTubeRectangle[i]),"Dhaval JArdosh");
+//			if(Intersector.overlaps(birdCircle, topTubeRectangle[i])){
+//				Gdx.app.log("Collision","Yes");
+//			}
 		}
 
 		shapeRenderer.end();
