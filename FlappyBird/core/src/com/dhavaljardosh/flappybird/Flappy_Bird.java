@@ -21,6 +21,9 @@ public class Flappy_Bird extends ApplicationAdapter {
 
 
 	Texture[] birds;
+	Texture topTube;
+	Texture bottomTube;
+
 	int flapState= 0;
 	int count = 0;
 	int birdY;
@@ -30,9 +33,8 @@ public class Flappy_Bird extends ApplicationAdapter {
 
 	int velocity = 0;
 	int gameState = 0;
+
 	float gravity = 2;
-	Texture topTube;
-	Texture bottomTube;
 	float gap = 400;
 	float maxTubeOffset;
 	Random randomGenerator;
@@ -89,6 +91,8 @@ public class Flappy_Bird extends ApplicationAdapter {
 
 
 			for(int i = 0; i<numberOfTubes; i++){
+
+
 
 				if(tubeX[i] < - topTube.getWidth()){
 					tubeX[i] += numberOfTubes * distanceBetweenTubes;
@@ -152,7 +156,7 @@ public class Flappy_Bird extends ApplicationAdapter {
 		shapeRenderer.end();
 
 	}
-	
+
 	@Override
 	public void dispose () {
 		batch.dispose();
