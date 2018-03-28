@@ -5,6 +5,7 @@ import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.Texture;
+import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.graphics.glutils.ShapeRenderer;
 import com.badlogic.gdx.math.Circle;
@@ -22,6 +23,11 @@ public class Flappy_Bird extends ApplicationAdapter {
 	Texture[] birds;
 	Texture topTube;
 	Texture bottomTube;
+
+	int score = 0;
+	int scoringTube = 0;
+
+	BitmapFont font;
 
 	int flapState= 0;
 	int count = 0;
@@ -56,6 +62,11 @@ public class Flappy_Bird extends ApplicationAdapter {
 		birds[1] = new Texture("bird2.png");
 		birdY = Gdx.graphics.getHeight()/2-(birds[0].getHeight()/2);
 		birdCircle = new Circle();
+		font = new BitmapFont();
+		font.setColor(Color.WHITE);
+		font.getData().setScale(10);
+
+
 
 		topTube = new Texture("toptube.png");
 		bottomTube = new Texture("bottomtube.png");
@@ -67,7 +78,7 @@ public class Flappy_Bird extends ApplicationAdapter {
 		bottomTubeRectangle = new Rectangle[numberOfTubes];
 
 		for(int i = 0;i<numberOfTubes;i++){
-			tubeX[i] = Gdx.graphics.getWidth()/2 - topTube.getWidth()/2 + i * distanceBetweenTubes;
+			tubeX[i] = Gdx.graphics.getWidth()/2 - topTube.getWidth()/2 + Gdx.graphics.getWidth() + i * distanceBetweenTubes;
 			topTubeRectangle[i] = new Rectangle();
 			bottomTubeRectangle[i]=new Rectangle();
 		}
@@ -88,16 +99,33 @@ public class Flappy_Bird extends ApplicationAdapter {
 			}
 
 
+
+
 			for(int i = 0; i<numberOfTubes; i++){
 
+				if(tubeX[scoringTube] < Gdx.graphics.getWidth()/2){
+					score++;
 
+					if(scoringTube < numberOfTubes - 1){
+						scoringTube++;
+					}else{
+						scoringTube = 0;
+					}
+
+
+				}
+				Gdx.app.log("Score", String.valueOf(score));
 
 				if(tubeX[i] < - topTube.getWidth()){
 					tubeX[i] += numberOfTubes * distanceBetweenTubes;
 					tubeOffset[i] = (randomGenerator.nextFloat() - 0.5f) * (Gdx.graphics.getHeight() - gap - 200);
+				} else{
+					tubeX[i] -= tubeVelocity;
+
 
 				}
-					tubeX[i] = tubeX[i] - tubeVelocity;
+
+
 
 
 
@@ -120,7 +148,7 @@ public class Flappy_Bird extends ApplicationAdapter {
 			}
 		}
 
-		if (count < 10) {
+		if (count < 6) {
 			count++;
 			flapState = 0;
 		} else {
@@ -131,25 +159,29 @@ public class Flappy_Bird extends ApplicationAdapter {
 
 
 		batch.draw(birds[flapState], Gdx.graphics.getWidth() / 2 - (birds[flapState].getWidth() / 2), birdY);
+
+		//Place the Score on Screen
+		font.draw(batch,String.valueOf(score),100,300);
+
 		batch.end();
 
 		birdCircle.set(Gdx.graphics.getWidth()/2,birdY+birds[flapState].getHeight()/2,birds[flapState].getWidth()/2);
 
-		shapeRenderer.begin(ShapeRenderer.ShapeType.Filled);
-		shapeRenderer.setColor(Color.GREEN);
-		shapeRenderer.circle(birdCircle.x,birdCircle.y,birdCircle.radius);
+//		shapeRenderer.begin(ShapeRenderer.ShapeType.Filled);
+//		shapeRenderer.setColor(Color.GREEN);
+//		shapeRenderer.circle(birdCircle.x,birdCircle.y,birdCircle.radius);
 
 		for(int i = 0;i<numberOfTubes;i++){
-			shapeRenderer.setColor(Color.BLUE);
-			shapeRenderer.rect(tubeX[i],Gdx.graphics.getHeight() / 2 + gap / 2+ tubeOffset[i], topTube.getWidth(),topTube.getHeight());
-			shapeRenderer.rect(tubeX[i],Gdx.graphics.getHeight() / 2 - gap / 2  - bottomTube.getHeight() + tubeOffset[i], bottomTube.getWidth(), bottomTube.getHeight());
+//			shapeRenderer.setColor(Color.BLUE);
+//			shapeRenderer.rect(tubeX[i],Gdx.graphics.getHeight() / 2 + gap / 2+ tubeOffset[i], topTube.getWidth(),topTube.getHeight());
+//			shapeRenderer.rect(tubeX[i],Gdx.graphics.getHeight() / 2 - gap / 2  - bottomTube.getHeight() + tubeOffset[i], bottomTube.getWidth(), bottomTube.getHeight());
 
-			if(Intersector.overlaps(birdCircle, topTubeRectangle[i]) || Intersector.overlaps(birdCircle, bottomTubeRectangle[i])){
-				Gdx.app.log("Collision","Yes");
-			}
+//			if(Intersector.overlaps(birdCircle, topTubeRectangle[i]) || Intersector.overlaps(birdCircle, bottomTubeRectangle[i])){
+//				Gdx.app.log("Collision","Yes");
+//			}
 		}
 
-		shapeRenderer.end();
+//		shapeRenderer.end();
 
 	}
 
