@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1016195102217",
+    "firebase_url": "https://fir-demo-project-3dc0c.firebaseio.com",
+    "project_id": "fir-demo-project-3dc0c",
+    "storage_bucket": "fir-demo-project-3dc0c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1016195102217:android:4f790ff24e3d8d6c",
+        "android_client_info": {
+          "package_name": "com.example.jardosh.admodedemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1016195102217-o3kga85oq4iu7lmc6ct8vkpo76slblkc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpqVVMwlGF-R_TcoNgQhbd73REt4si2Zg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
