@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
                 if(databaseError==null){
                     Log.i("Info","Save Successful");
                 } else{
-                    Log.i("Info","Failed");
+                    Log.i("Info","Can;t be saved Failed");
                 }
 
             }
