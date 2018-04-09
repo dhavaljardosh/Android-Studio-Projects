@@ -1,0 +1,15 @@
+#Internal package file, do not edit.
+#Sun Apr 08 18:56:41 CDT 2018
+1.base=/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/transforms/dexMerger/debug/1
+2.path=classes2.dex
+0.baseType=DIRECTORY
+2.base=/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/transforms/dexMerger/debug/1
+2.set=DEX
+1.baseType=DIRECTORY
+count=3
+1.set=DEX
+0.path=classes.dex
+0.set=DEX
+0.base=/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/transforms/dexMerger/debug/0
+2.baseType=DIRECTORY
+1.path=classes.dex

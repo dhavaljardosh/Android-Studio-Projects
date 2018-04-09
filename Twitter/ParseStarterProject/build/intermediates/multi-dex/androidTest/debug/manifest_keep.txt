@@ -1,0 +1,3 @@
+# Referenced at /Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/manifest/androidTest/debug/AndroidManifest.xml:9
+-keep class com.android.test.runner.MultiDexTestRunner { <init>(...); }
+
