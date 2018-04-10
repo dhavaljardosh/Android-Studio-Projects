@@ -4,24 +4,24 @@
         "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.4.0.aar/e7d30cc0e3f4a50bc8a81be602b1e85e/res/drawable-xhdpi-v4/quantum_ic_skip_next_grey600_36.png"
     },
     {
-        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/drawable-hdpi-v4_quantum_ic_play_circle_filled_grey600_36.png.flat",
-        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.4.0.aar/e7d30cc0e3f4a50bc8a81be602b1e85e/res/drawable-hdpi-v4/quantum_ic_play_circle_filled_grey600_36.png"
+        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_go_search_api_mtrl_alpha.png.flat",
+        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/35eb692c9d22d273258b185f3d08c710/res/drawable-xhdpi-v4/abc_ic_go_search_api_mtrl_alpha.png"
     },
     {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_setting_dark.png.flat",
         "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-23.0.0.aar/856ef8423bf114dbe2005413f965f7a0/res/drawable-xxhdpi/ic_setting_dark.png"
     },
     {
-        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_go_search_api_mtrl_alpha.png.flat",
-        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/35eb692c9d22d273258b185f3d08c710/res/drawable-xhdpi-v4/abc_ic_go_search_api_mtrl_alpha.png"
-    },
-    {
-        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
-        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/35eb692c9d22d273258b185f3d08c710/res/drawable-mdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png"
+        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/drawable-hdpi-v4_quantum_ic_play_circle_filled_grey600_36.png.flat",
+        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.4.0.aar/e7d30cc0e3f4a50bc8a81be602b1e85e/res/drawable-hdpi-v4/quantum_ic_play_circle_filled_grey600_36.png"
     },
     {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/drawable_common_plus_signin_btn_text_dark.xml.flat",
         "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-base-9.4.0.aar/8794929f2b436ef6fcf24680a5eda781/res/drawable/common_plus_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
+        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/35eb692c9d22d273258b185f3d08c710/res/drawable-mdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png"
     },
     {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
@@ -96,12 +96,12 @@
         "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-plus-9.4.0.aar/fea27bc8981d7891ef5a122ba3bddc4a/res/drawable-xhdpi-v4/ic_plusone_tall_off_client.png"
     },
     {
-        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xhdpi-v4_ic_plusone_standard_off_client.png.flat",
-        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-plus-9.4.0.aar/fea27bc8981d7891ef5a122ba3bddc4a/res/drawable-xhdpi-v4/ic_plusone_standard_off_client.png"
-    },
-    {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_voice_search_api_mtrl_alpha.png.flat",
         "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/35eb692c9d22d273258b185f3d08c710/res/drawable-mdpi-v4/abc_ic_voice_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xhdpi-v4_ic_plusone_standard_off_client.png.flat",
+        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-plus-9.4.0.aar/fea27bc8981d7891ef5a122ba3bddc4a/res/drawable-xhdpi-v4/ic_plusone_standard_off_client.png"
     },
     {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat",
@@ -204,12 +204,12 @@
         "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-23.0.0.aar/856ef8423bf114dbe2005413f965f7a0/res/drawable-mdpi/ic_cast_disabled_light.png"
     },
     {
-        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xhdpi-v4_quantum_ic_volume_mute_white_36.png.flat",
-        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.4.0.aar/e7d30cc0e3f4a50bc8a81be602b1e85e/res/drawable-xhdpi-v4/quantum_ic_volume_mute_white_36.png"
-    },
-    {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_cast_on_1_light.png.flat",
         "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-23.0.0.aar/856ef8423bf114dbe2005413f965f7a0/res/drawable-xxhdpi/ic_cast_on_1_light.png"
+    },
+    {
+        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xhdpi-v4_quantum_ic_volume_mute_white_36.png.flat",
+        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.4.0.aar/e7d30cc0e3f4a50bc8a81be602b1e85e/res/drawable-xhdpi-v4/quantum_ic_volume_mute_white_36.png"
     },
     {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_list_pressed_holo_light.9.png.flat",
@@ -224,20 +224,20 @@
         "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.4.0.aar/e7d30cc0e3f4a50bc8a81be602b1e85e/res/drawable-hdpi-v4/quantum_ic_cast_connected_white_24.png"
     },
     {
-        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/drawable_abc_cab_background_internal_bg.xml.flat",
-        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/35eb692c9d22d273258b185f3d08c710/res/drawable/abc_cab_background_internal_bg.xml"
-    },
-    {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_common_google_signin_btn_icon_light_disabled.9.png.flat",
         "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-base-9.4.0.aar/8794929f2b436ef6fcf24680a5eda781/res/drawable-xxhdpi-v4/common_google_signin_btn_icon_light_disabled.9.png"
     },
     {
-        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
-        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/35eb692c9d22d273258b185f3d08c710/res/drawable-mdpi-v4/abc_btn_check_to_on_mtrl_015.png"
+        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/drawable_abc_cab_background_internal_bg.xml.flat",
+        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/35eb692c9d22d273258b185f3d08c710/res/drawable/abc_cab_background_internal_bg.xml"
     },
     {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_quantum_ic_skip_previous_white_24.png.flat",
         "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.4.0.aar/e7d30cc0e3f4a50bc8a81be602b1e85e/res/drawable-xxhdpi-v4/quantum_ic_skip_previous_white_24.png"
+    },
+    {
+        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
+        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/35eb692c9d22d273258b185f3d08c710/res/drawable-mdpi-v4/abc_btn_check_to_on_mtrl_015.png"
     },
     {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/drawable-hdpi-v4_quantum_ic_forward_10_white_24.png.flat",
@@ -324,12 +324,12 @@
         "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/35eb692c9d22d273258b185f3d08c710/res/drawable/abc_switch_thumb_material.xml"
     },
     {
-        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/drawable-v21_abc_btn_colored_material.xml.flat",
-        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/35eb692c9d22d273258b185f3d08c710/res/drawable-v21/abc_btn_colored_material.xml"
-    },
-    {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xhdpi-v4_quantum_ic_skip_previous_white_24.png.flat",
         "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.4.0.aar/e7d30cc0e3f4a50bc8a81be602b1e85e/res/drawable-xhdpi-v4/quantum_ic_skip_previous_white_24.png"
+    },
+    {
+        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/drawable-v21_abc_btn_colored_material.xml.flat",
+        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/35eb692c9d22d273258b185f3d08c710/res/drawable-v21/abc_btn_colored_material.xml"
     },
     {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/drawable-hdpi-v4_ic_plusone_small_off_client.png.flat",
@@ -356,20 +356,20 @@
         "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-base-9.4.0.aar/8794929f2b436ef6fcf24680a5eda781/res/drawable-xxhdpi-v4/common_plus_signin_btn_text_dark_normal.9.png"
     },
     {
-        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_places_ic_search.png.flat",
-        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-places-9.4.0.aar/bb5ed856585363ad8bb88a4a4c18c1ac/res/drawable-xxhdpi-v4/places_ic_search.png"
-    },
-    {
-        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/drawable-hdpi_ic_cast_dark.png.flat",
-        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-23.0.0.aar/856ef8423bf114dbe2005413f965f7a0/res/drawable-hdpi/ic_cast_dark.png"
+        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",
+        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/35eb692c9d22d273258b185f3d08c710/res/drawable-xxhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png"
     },
     {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_menu_hardkey_panel_mtrl_mult.9.png.flat",
         "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/35eb692c9d22d273258b185f3d08c710/res/drawable-mdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png"
     },
     {
-        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",
-        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/35eb692c9d22d273258b185f3d08c710/res/drawable-xxhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png"
+        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/drawable-hdpi_ic_cast_dark.png.flat",
+        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-23.0.0.aar/856ef8423bf114dbe2005413f965f7a0/res/drawable-hdpi/ic_cast_dark.png"
+    },
+    {
+        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_places_ic_search.png.flat",
+        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-places-9.4.0.aar/bb5ed856585363ad8bb88a4a4c18c1ac/res/drawable-xxhdpi-v4/places_ic_search.png"
     },
     {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/drawable-mdpi-v4_common_google_signin_btn_icon_dark_normal.9.png.flat",
@@ -404,32 +404,32 @@
         "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.4.0.aar/e7d30cc0e3f4a50bc8a81be602b1e85e/res/drawable-xhdpi-v4/quantum_ic_closed_caption_white_36.png"
     },
     {
-        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/drawable-hdpi-v4_common_plus_signin_btn_icon_dark_pressed.9.png.flat",
-        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-base-9.4.0.aar/8794929f2b436ef6fcf24680a5eda781/res/drawable-hdpi-v4/common_plus_signin_btn_icon_dark_pressed.9.png"
+        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_quantum_ic_refresh_white_24.png.flat",
+        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.4.0.aar/e7d30cc0e3f4a50bc8a81be602b1e85e/res/drawable-xxxhdpi-v4/quantum_ic_refresh_white_24.png"
     },
     {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/drawable_mr_ic_settings_light.xml.flat",
         "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-23.0.0.aar/856ef8423bf114dbe2005413f965f7a0/res/drawable/mr_ic_settings_light.xml"
     },
     {
-        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_quantum_ic_refresh_white_24.png.flat",
-        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.4.0.aar/e7d30cc0e3f4a50bc8a81be602b1e85e/res/drawable-xxxhdpi-v4/quantum_ic_refresh_white_24.png"
-    },
-    {
-        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/drawable-hdpi-v4_powered_by_google_light.png.flat",
-        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-places-9.4.0.aar/bb5ed856585363ad8bb88a4a4c18c1ac/res/drawable-hdpi-v4/powered_by_google_light.png"
+        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/drawable-hdpi-v4_common_plus_signin_btn_icon_dark_pressed.9.png.flat",
+        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-base-9.4.0.aar/8794929f2b436ef6fcf24680a5eda781/res/drawable-hdpi-v4/common_plus_signin_btn_icon_dark_pressed.9.png"
     },
     {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_list_pressed_holo_dark.9.png.flat",
         "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/35eb692c9d22d273258b185f3d08c710/res/drawable-xhdpi-v4/abc_list_pressed_holo_dark.9.png"
     },
     {
-        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_btn_rating_star_on_mtrl_alpha.png.flat",
-        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/35eb692c9d22d273258b185f3d08c710/res/drawable-hdpi-v4/abc_btn_rating_star_on_mtrl_alpha.png"
+        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/drawable-hdpi-v4_powered_by_google_light.png.flat",
+        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-places-9.4.0.aar/bb5ed856585363ad8bb88a4a4c18c1ac/res/drawable-hdpi-v4/powered_by_google_light.png"
     },
     {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_ic_star_black_36dp.png.flat",
         "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/35eb692c9d22d273258b185f3d08c710/res/drawable-xxxhdpi-v4/abc_ic_star_black_36dp.png"
+    },
+    {
+        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_btn_rating_star_on_mtrl_alpha.png.flat",
+        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/35eb692c9d22d273258b185f3d08c710/res/drawable-hdpi-v4/abc_btn_rating_star_on_mtrl_alpha.png"
     },
     {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/drawable-mdpi-v4_quantum_ic_keyboard_arrow_down_white_36.png.flat",
@@ -476,12 +476,12 @@
         "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/35eb692c9d22d273258b185f3d08c710/res/drawable-xxxhdpi-v4/abc_ic_voice_search_api_mtrl_alpha.png"
     },
     {
-        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/layout_abc_action_bar_view_list_nav_layout.xml.flat",
-        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/35eb692c9d22d273258b185f3d08c710/res/layout/abc_action_bar_view_list_nav_layout.xml"
-    },
-    {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_quantum_ic_volume_mute_white_36.png.flat",
         "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.4.0.aar/e7d30cc0e3f4a50bc8a81be602b1e85e/res/drawable-xxxhdpi-v4/quantum_ic_volume_mute_white_36.png"
+    },
+    {
+        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/layout_abc_action_bar_view_list_nav_layout.xml.flat",
+        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/35eb692c9d22d273258b185f3d08c710/res/layout/abc_action_bar_view_list_nav_layout.xml"
     },
     {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_media_route_off_mono_dark.png.flat",
@@ -512,16 +512,16 @@
         "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-23.0.0.aar/856ef8423bf114dbe2005413f965f7a0/res/drawable/mr_ic_cast_light.xml"
     },
     {
-        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/layout_abc_action_mode_bar.xml.flat",
-        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/35eb692c9d22d273258b185f3d08c710/res/layout/abc_action_mode_bar.xml"
+        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xhdpi-v4_quantum_ic_stop_white_24.png.flat",
+        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.4.0.aar/e7d30cc0e3f4a50bc8a81be602b1e85e/res/drawable-xhdpi-v4/quantum_ic_stop_white_24.png"
     },
     {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_voice_search_api_mtrl_alpha.png.flat",
         "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/35eb692c9d22d273258b185f3d08c710/res/drawable-xxhdpi-v4/abc_ic_voice_search_api_mtrl_alpha.png"
     },
     {
-        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xhdpi-v4_quantum_ic_stop_white_24.png.flat",
-        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.4.0.aar/e7d30cc0e3f4a50bc8a81be602b1e85e/res/drawable-xhdpi-v4/quantum_ic_stop_white_24.png"
+        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/layout_abc_action_mode_bar.xml.flat",
+        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/35eb692c9d22d273258b185f3d08c710/res/layout/abc_action_mode_bar.xml"
     },
     {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_textfield_search_activated_mtrl_alpha.9.png.flat",
@@ -584,12 +584,12 @@
         "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/35eb692c9d22d273258b185f3d08c710/res/drawable-mdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png"
     },
     {
-        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/drawable-hdpi-v4_quantum_ic_forward_30_white_24.png.flat",
-        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.4.0.aar/e7d30cc0e3f4a50bc8a81be602b1e85e/res/drawable-hdpi-v4/quantum_ic_forward_30_white_24.png"
-    },
-    {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xhdpi-v4_common_google_signin_btn_text_dark_focused.9.png.flat",
         "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-base-9.4.0.aar/8794929f2b436ef6fcf24680a5eda781/res/drawable-xhdpi-v4/common_google_signin_btn_text_dark_focused.9.png"
+    },
+    {
+        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/drawable-hdpi-v4_quantum_ic_forward_30_white_24.png.flat",
+        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.4.0.aar/e7d30cc0e3f4a50bc8a81be602b1e85e/res/drawable-hdpi-v4/quantum_ic_forward_30_white_24.png"
     },
     {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/drawable-hdpi-v4_common_google_signin_btn_text_light_normal.9.png.flat",
@@ -612,12 +612,12 @@
         "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-base-9.4.0.aar/8794929f2b436ef6fcf24680a5eda781/res/drawable-tvdpi-v4/common_plus_signin_btn_icon_light_pressed.9.png"
     },
     {
-        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xhdpi-v4_quantum_ic_replay_10_white_24.png.flat",
-        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.4.0.aar/e7d30cc0e3f4a50bc8a81be602b1e85e/res/drawable-xhdpi-v4/quantum_ic_replay_10_white_24.png"
-    },
-    {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/drawable-hdpi_ic_cast_on_2_light.png.flat",
         "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-23.0.0.aar/856ef8423bf114dbe2005413f965f7a0/res/drawable-hdpi/ic_cast_on_2_light.png"
+    },
+    {
+        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xhdpi-v4_quantum_ic_replay_10_white_24.png.flat",
+        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.4.0.aar/e7d30cc0e3f4a50bc8a81be602b1e85e/res/drawable-xhdpi-v4/quantum_ic_replay_10_white_24.png"
     },
     {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/drawable-hdpi-v4_common_plus_signin_btn_icon_light_normal.9.png.flat",
@@ -708,12 +708,12 @@
         "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-base-9.4.0.aar/8794929f2b436ef6fcf24680a5eda781/res/drawable-tvdpi-v4/common_google_signin_btn_icon_light_disabled.9.png"
     },
     {
-        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xhdpi_ic_setting_light.png.flat",
-        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-23.0.0.aar/856ef8423bf114dbe2005413f965f7a0/res/drawable-xhdpi/ic_setting_light.png"
-    },
-    {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/drawable-mdpi_ic_media_route_disabled_mono_dark.png.flat",
         "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-23.0.0.aar/856ef8423bf114dbe2005413f965f7a0/res/drawable-mdpi/ic_media_route_disabled_mono_dark.png"
+    },
+    {
+        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xhdpi_ic_setting_light.png.flat",
+        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-23.0.0.aar/856ef8423bf114dbe2005413f965f7a0/res/drawable-xhdpi/ic_setting_light.png"
     },
     {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_menu_hardkey_panel_mtrl_mult.9.png.flat",
@@ -728,32 +728,32 @@
         "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.4.0.aar/e7d30cc0e3f4a50bc8a81be602b1e85e/res/drawable-hdpi-v4/quantum_ic_skip_next_white_24.png"
     },
     {
-        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xhdpi_ic_media_route_disabled_mono_dark.png.flat",
-        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-23.0.0.aar/856ef8423bf114dbe2005413f965f7a0/res/drawable-xhdpi/ic_media_route_disabled_mono_dark.png"
+        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_common_plus_signin_btn_icon_light_normal.9.png.flat",
+        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-base-9.4.0.aar/8794929f2b436ef6fcf24680a5eda781/res/drawable-xxhdpi-v4/common_plus_signin_btn_icon_light_normal.9.png"
     },
     {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_quantum_ic_replay_10_white_24.png.flat",
         "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.4.0.aar/e7d30cc0e3f4a50bc8a81be602b1e85e/res/drawable-xxxhdpi-v4/quantum_ic_replay_10_white_24.png"
     },
     {
-        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_common_plus_signin_btn_icon_light_normal.9.png.flat",
-        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-base-9.4.0.aar/8794929f2b436ef6fcf24680a5eda781/res/drawable-xxhdpi-v4/common_plus_signin_btn_icon_light_normal.9.png"
-    },
-    {
-        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat",
-        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/35eb692c9d22d273258b185f3d08c710/res/drawable-xxhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png"
+        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xhdpi_ic_media_route_disabled_mono_dark.png.flat",
+        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-23.0.0.aar/856ef8423bf114dbe2005413f965f7a0/res/drawable-xhdpi/ic_media_route_disabled_mono_dark.png"
     },
     {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_powered_by_google_dark.png.flat",
         "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-places-9.4.0.aar/bb5ed856585363ad8bb88a4a4c18c1ac/res/drawable-xxhdpi-v4/powered_by_google_dark.png"
     },
     {
-        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_go_search_api_mtrl_alpha.png.flat",
-        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/35eb692c9d22d273258b185f3d08c710/res/drawable-hdpi-v4/abc_ic_go_search_api_mtrl_alpha.png"
+        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat",
+        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/35eb692c9d22d273258b185f3d08c710/res/drawable-xxhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png"
     },
     {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/drawable-tvdpi-v4_common_google_signin_btn_icon_light_normal.9.png.flat",
         "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-base-9.4.0.aar/8794929f2b436ef6fcf24680a5eda781/res/drawable-tvdpi-v4/common_google_signin_btn_icon_light_normal.9.png"
+    },
+    {
+        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_go_search_api_mtrl_alpha.png.flat",
+        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/35eb692c9d22d273258b185f3d08c710/res/drawable-hdpi-v4/abc_ic_go_search_api_mtrl_alpha.png"
     },
     {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat",
@@ -784,12 +784,12 @@
         "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-places-9.4.0.aar/bb5ed856585363ad8bb88a4a4c18c1ac/res/layout-v21/place_autocomplete_fragment.xml"
     },
     {
-        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_list_focused_holo.9.png.flat",
-        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/35eb692c9d22d273258b185f3d08c710/res/drawable-xhdpi-v4/abc_list_focused_holo.9.png"
-    },
-    {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xhdpi_ic_media_route_off_mono_dark.png.flat",
         "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-23.0.0.aar/856ef8423bf114dbe2005413f965f7a0/res/drawable-xhdpi/ic_media_route_off_mono_dark.png"
+    },
+    {
+        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_list_focused_holo.9.png.flat",
+        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/35eb692c9d22d273258b185f3d08c710/res/drawable-xhdpi-v4/abc_list_focused_holo.9.png"
     },
     {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/drawable-hdpi-v4_places_ic_search.png.flat",
@@ -828,12 +828,12 @@
         "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-23.0.0.aar/856ef8423bf114dbe2005413f965f7a0/res/drawable-mdpi/ic_cast_on_light.png"
     },
     {
-        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/drawable-hdpi-v4_common_plus_signin_btn_icon_light_disabled.9.png.flat",
-        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-base-9.4.0.aar/8794929f2b436ef6fcf24680a5eda781/res/drawable-hdpi-v4/common_plus_signin_btn_icon_light_disabled.9.png"
-    },
-    {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/layout_mr_media_route_chooser_dialog.xml.flat",
         "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-23.0.0.aar/856ef8423bf114dbe2005413f965f7a0/res/layout/mr_media_route_chooser_dialog.xml"
+    },
+    {
+        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/drawable-hdpi-v4_common_plus_signin_btn_icon_light_disabled.9.png.flat",
+        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-base-9.4.0.aar/8794929f2b436ef6fcf24680a5eda781/res/drawable-hdpi-v4/common_plus_signin_btn_icon_light_disabled.9.png"
     },
     {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_quantum_ic_pause_circle_filled_grey600_36.png.flat",
@@ -852,12 +852,12 @@
         "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.4.0.aar/e7d30cc0e3f4a50bc8a81be602b1e85e/res/drawable/cast_ic_notification_pause.xml"
     },
     {
-        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/layout_abc_action_menu_layout.xml.flat",
-        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/35eb692c9d22d273258b185f3d08c710/res/layout/abc_action_menu_layout.xml"
-    },
-    {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/drawable-hdpi-v4_quantum_ic_refresh_white_24.png.flat",
         "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.4.0.aar/e7d30cc0e3f4a50bc8a81be602b1e85e/res/drawable-hdpi-v4/quantum_ic_refresh_white_24.png"
+    },
+    {
+        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/layout_abc_action_menu_layout.xml.flat",
+        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/35eb692c9d22d273258b185f3d08c710/res/layout/abc_action_menu_layout.xml"
     },
     {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/drawable-hdpi-v4_quantum_ic_keyboard_arrow_down_white_36.png.flat",
@@ -896,20 +896,20 @@
         "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/35eb692c9d22d273258b185f3d08c710/res/layout/abc_search_dropdown_item_icons_2line.xml"
     },
     {
-        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ab_share_pack_mtrl_alpha.9.png.flat",
-        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/35eb692c9d22d273258b185f3d08c710/res/drawable-xhdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png"
-    },
-    {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_search_api_mtrl_alpha.png.flat",
         "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/35eb692c9d22d273258b185f3d08c710/res/drawable-hdpi-v4/abc_ic_search_api_mtrl_alpha.png"
     },
     {
-        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
-        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/35eb692c9d22d273258b185f3d08c710/res/drawable-xxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png"
+        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ab_share_pack_mtrl_alpha.9.png.flat",
+        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/35eb692c9d22d273258b185f3d08c710/res/drawable-xhdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png"
     },
     {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_pause_dark.png.flat",
         "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-23.0.0.aar/856ef8423bf114dbe2005413f965f7a0/res/drawable-xxhdpi/ic_pause_dark.png"
+    },
+    {
+        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
+        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/35eb692c9d22d273258b185f3d08c710/res/drawable-xxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/drawable-tvdpi-v4_common_google_signin_btn_icon_dark_normal.9.png.flat",
@@ -972,12 +972,12 @@
         "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-base-9.4.0.aar/8794929f2b436ef6fcf24680a5eda781/res/drawable-tvdpi-v4/common_plus_signin_btn_icon_light_normal.9.png"
     },
     {
-        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/color_abc_background_cache_hint_selector_material_dark.xml.flat",
-        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/35eb692c9d22d273258b185f3d08c710/res/color/abc_background_cache_hint_selector_material_dark.xml"
-    },
-    {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_clear_mtrl_alpha.png.flat",
         "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/35eb692c9d22d273258b185f3d08c710/res/drawable-hdpi-v4/abc_ic_clear_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/color_abc_background_cache_hint_selector_material_dark.xml.flat",
+        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/35eb692c9d22d273258b185f3d08c710/res/color/abc_background_cache_hint_selector_material_dark.xml"
     },
     {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
@@ -1020,12 +1020,12 @@
         "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-places-9.4.0.aar/bb5ed856585363ad8bb88a4a4c18c1ac/res/drawable-xhdpi-v4/places_ic_search.png"
     },
     {
-        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xhdpi-v4_common_plus_signin_btn_icon_dark_pressed.9.png.flat",
-        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-base-9.4.0.aar/8794929f2b436ef6fcf24680a5eda781/res/drawable-xhdpi-v4/common_plus_signin_btn_icon_dark_pressed.9.png"
-    },
-    {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/color_common_google_signin_btn_text_light.xml.flat",
         "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-base-9.4.0.aar/8794929f2b436ef6fcf24680a5eda781/res/color/common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xhdpi-v4_common_plus_signin_btn_icon_dark_pressed.9.png.flat",
+        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-base-9.4.0.aar/8794929f2b436ef6fcf24680a5eda781/res/drawable-xhdpi-v4/common_plus_signin_btn_icon_dark_pressed.9.png"
     },
     {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_quantum_ic_cast_connected_white_24.png.flat",
@@ -1164,12 +1164,12 @@
         "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-base-9.4.0.aar/8794929f2b436ef6fcf24680a5eda781/res/drawable-xxhdpi-v4/common_full_open_on_phone.png"
     },
     {
-        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/drawable-hdpi-v4_quantum_ic_stop_white_24.png.flat",
-        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.4.0.aar/e7d30cc0e3f4a50bc8a81be602b1e85e/res/drawable-hdpi-v4/quantum_ic_stop_white_24.png"
-    },
-    {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/drawable-mdpi_ic_cast_on_1_light.png.flat",
         "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-23.0.0.aar/856ef8423bf114dbe2005413f965f7a0/res/drawable-mdpi/ic_cast_on_1_light.png"
+    },
+    {
+        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/drawable-hdpi-v4_quantum_ic_stop_white_24.png.flat",
+        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.4.0.aar/e7d30cc0e3f4a50bc8a81be602b1e85e/res/drawable-hdpi-v4/quantum_ic_stop_white_24.png"
     },
     {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/drawable-hdpi-v4_quantum_ic_skip_next_grey600_36.png.flat",
@@ -1180,12 +1180,12 @@
         "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.4.0.aar/35eb692c9d22d273258b185f3d08c710/res/layout/abc_search_view.xml"
     },
     {
-        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xhdpi_ic_setting_dark.png.flat",
-        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-23.0.0.aar/856ef8423bf114dbe2005413f965f7a0/res/drawable-xhdpi/ic_setting_dark.png"
-    },
-    {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/layout_cast_mini_controller.xml.flat",
         "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.4.0.aar/e7d30cc0e3f4a50bc8a81be602b1e85e/res/layout/cast_mini_controller.xml"
+    },
+    {
+        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xhdpi_ic_setting_dark.png.flat",
+        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-23.0.0.aar/856ef8423bf114dbe2005413f965f7a0/res/drawable-xhdpi/ic_setting_dark.png"
     },
     {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/layout_abc_activity_chooser_view.xml.flat",
@@ -2660,12 +2660,12 @@
         "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.4.0.aar/e7d30cc0e3f4a50bc8a81be602b1e85e/res/drawable-hdpi-v4/quantum_ic_volume_off_white_36.png"
     },
     {
-        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/drawable_cast_ic_mini_controller_stop_large.xml.flat",
-        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.4.0.aar/e7d30cc0e3f4a50bc8a81be602b1e85e/res/drawable/cast_ic_mini_controller_stop_large.xml"
-    },
-    {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/drawable_twitter.png.flat",
         "source": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/src/debug/res/drawable/twitter.png"
+    },
+    {
+        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/drawable_cast_ic_mini_controller_stop_large.xml.flat",
+        "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.4.0.aar/e7d30cc0e3f4a50bc8a81be602b1e85e/res/drawable/cast_ic_mini_controller_stop_large.xml"
     },
     {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
@@ -2962,6 +2962,10 @@
     {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/drawable-mdpi-v4_places_ic_clear.png.flat",
         "source": "/Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-places-9.4.0.aar/bb5ed856585363ad8bb88a4a4c18c1ac/res/drawable-mdpi-v4/places_ic_clear.png"
+    },
+    {
+        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/layout_activity_main2.xml.flat",
+        "source": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/src/main/res/layout/activity_main2.xml"
     },
     {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_text_light.xml.flat",
