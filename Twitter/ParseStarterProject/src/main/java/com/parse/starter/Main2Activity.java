@@ -11,6 +11,7 @@ import android.widget.CheckedTextView;
 import android.widget.ListView;
 
 import com.parse.FindCallback;
+import com.parse.Parse;
 import com.parse.ParseException;
 import com.parse.ParseQuery;
 import com.parse.ParseUser;
@@ -95,9 +96,9 @@ public class Main2Activity extends AppCompatActivity {
 
 
                         for(String username : users){
-
-                            listView.setItemChecked(users.indexOf(username),true);
-
+                            if(ParseUser.getCurrentUser().getList("isFollowing").contains(username)) {
+                                listView.setItemChecked(users.indexOf(username),true);
+                            }
                         }
                     }
                 }
