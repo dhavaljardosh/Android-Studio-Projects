@@ -53,6 +53,7 @@
             </intent-filter>
         </activity>
         <activity android:name="com.parse.starter.Main2Activity" />
+        <activity android:name="com.parse.starter.Feed" />
 
         <receiver android:name="com.google.android.gms.cast.framework.media.MediaIntentReceiver" />
 

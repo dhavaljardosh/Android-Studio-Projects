@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/src/main/AndroidManifest.xml:9:1-35:12
-INJECTED from /Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/src/main/AndroidManifest.xml:9:1-35:12
-INJECTED from /Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/src/main/AndroidManifest.xml:9:1-35:12
-INJECTED from /Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/src/main/AndroidManifest.xml:9:1-35:12
+ADDED from /Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/src/main/AndroidManifest.xml:9:1-36:12
+INJECTED from /Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/src/main/AndroidManifest.xml:9:1-36:12
+INJECTED from /Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/src/main/AndroidManifest.xml:9:1-36:12
+INJECTED from /Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/src/main/AndroidManifest.xml:9:1-36:12
 MERGED from [com.google.android.gms:play-services:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-9.4.0.aar/bc72b2aa57acac88bc15c9c5966395f3/AndroidManifest.xml:2:1-6:12
 MERGED from [com.google.android.gms:play-services-cast-framework:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.4.0.aar/e7d30cc0e3f4a50bc8a81be602b1e85e/AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.android.gms:play-services-cast:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-cast-9.4.0.aar/319203deff0a5a74f71d95de85be2a8d/AndroidManifest.xml:16:1-20:12
@@ -60,20 +60,20 @@ MERGED from [com.google.android.gms:play-services-tasks:9.4.0] /Users/Jardosh/.g
 MERGED from [com.google.android.gms:play-services-basement:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-basement-9.4.0.aar/3617dcfcbcfca357bf82a418815c3b07/AndroidManifest.xml:16:1-26:12
 MERGED from [com.android.support:support-vector-drawable:23.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-23.4.0.aar/a9e0f46d2a7170bd1de67b15387c0f97/AndroidManifest.xml:2:1-9:12
 MERGED from [com.android.support:support-v4:23.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/support-v4-23.4.0.aar/60c9fd08dd790f2668f3dee73ec5ae93/AndroidManifest.xml:17:1-24:12
-INJECTED from /Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/src/main/AndroidManifest.xml:9:1-35:12
-INJECTED from /Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/src/main/AndroidManifest.xml:9:1-35:12
-INJECTED from /Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/src/main/AndroidManifest.xml:9:1-35:12
+INJECTED from /Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/src/main/AndroidManifest.xml:9:1-36:12
+INJECTED from /Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/src/main/AndroidManifest.xml:9:1-36:12
+INJECTED from /Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/src/main/AndroidManifest.xml:9:1-36:12
 	package
 		ADDED from /Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/src/main/AndroidManifest.xml:10:5-32
 		INJECTED from /Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/src/main/AndroidManifest.xml
 		INJECTED from /Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/src/main/AndroidManifest.xml
-		ADDED from /Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/src/main/AndroidManifest.xml:9:1-35:12
+		ADDED from /Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/src/main/AndroidManifest.xml:9:1-36:12
 		INJECTED from /Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/src/main/AndroidManifest.xml
-		ADDED from /Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/src/main/AndroidManifest.xml:9:1-35:12
+		ADDED from /Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/src/main/AndroidManifest.xml:9:1-36:12
 		INJECTED from /Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/src/main/AndroidManifest.xml:9:11-69
@@ -136,7 +136,7 @@ ADDED from /Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarter
 	android:name
 		ADDED from /Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/src/main/AndroidManifest.xml:15:22-76
 application
-ADDED from /Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/src/main/AndroidManifest.xml:17:5-33:19
+ADDED from /Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/src/main/AndroidManifest.xml:17:5-34:19
 MERGED from [com.google.android.gms:play-services:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-9.4.0.aar/bc72b2aa57acac88bc15c9c5966395f3/AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-9.4.0.aar/bc72b2aa57acac88bc15c9c5966395f3/AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services-cast-framework:9.4.0] /Users/Jardosh/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-9.4.0.aar/e7d30cc0e3f4a50bc8a81be602b1e85e/AndroidManifest.xml:5:5-9:19
@@ -256,9 +256,13 @@ ADDED from /Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarter
 	android:name
 		ADDED from /Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/src/main/AndroidManifest.xml:29:27-74
 activity#com.parse.starter.Main2Activity
-ADDED from /Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/src/main/AndroidManifest.xml:32:9-60
+ADDED from /Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/src/main/AndroidManifest.xml:32:9-51
 	android:name
 		ADDED from /Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/src/main/AndroidManifest.xml:32:19-48
+activity#com.parse.starter.Feed
+ADDED from /Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/src/main/AndroidManifest.xml:33:9-51
+	android:name
+		ADDED from /Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/src/main/AndroidManifest.xml:33:19-39
 uses-sdk
 INJECTED from /Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/Jardosh/Downloads/Android-Studio-Projects/Twitter/ParseStarterProject/src/main/AndroidManifest.xml
