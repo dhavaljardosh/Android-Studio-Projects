@@ -31,12 +31,18 @@ public class Main2Activity extends AppCompatActivity {
 
         setTitle("User List");
 
+        Log.i("Hello", String.valueOf(ParseUser.getCurrentUser().get("isFollowing")));
+        if (ParseUser.getCurrentUser().get("isFollowing") == null) {
 
+            List<String> emptyList = new ArrayList<>();
+            ParseUser.getCurrentUser().put("isFollowing", emptyList);
 
-        ListView listView = (ListView) findViewById(R.id.listView);
+        }
 
-        assert listView != null;
+        final ListView listView = (ListView) findViewById(R.id.listView);
+
         listView.setChoiceMode(AbsListView.CHOICE_MODE_MULTIPLE);
+
 
         arrayAdapter  =new ArrayAdapter<>(this,android.R.layout.simple_list_item_checked, users);
 
@@ -49,19 +55,23 @@ public class Main2Activity extends AppCompatActivity {
 
                 if(checkedTextView.isChecked()){
                     Log.i("Info","Row is Checked");
-                    Log.i("ADD: ",ParseUser.getCurrentUser().getList("isFollowing")+" "+users.get(position));
+                    Log.i("ADD: ", String.valueOf(ParseUser.getCurrentUser().get("isFollowing")));
 
-//                    ParseUser.getCurrentUser().getList("isFollowing").add(users.get(position));
-//                    ParseUser.getCurrentUser().saveInBackground();
-
+                    ParseUser.getCurrentUser().add("isFollowing", users.get(position));
+                    ParseUser.getCurrentUser().saveInBackground();
 
                 } else{
                     Log.i("Info","Row is not Checked");
-                    Log.i("REMOVE: ",ParseUser.getCurrentUser().getUsername()+" "+users.get(position));
 
 //
-//                    ParseUser.getCurrentUser().getList("isFollowing").remove(users.get(position));
-//                    ParseUser.getCurrentUser().saveInBackground();
+//                    ParseUser.getCurrentUser().remove("isFollowing",users.get(position));
+                    ParseUser.getCurrentUser().getList("isFollowing").remove(users.get(position));
+                    Log.i("Remove:  ", String.valueOf(ParseUser.getCurrentUser().getList("isFollowing")));
+
+                    List newlist = ParseUser.getCurrentUser().getList("isFollowing");
+                    ParseUser.getCurrentUser().remove("isFollowing");
+                    ParseUser.getCurrentUser().put("isFollowing", newlist);
+                    ParseUser.getCurrentUser().saveInBackground();
                 }
             }
         });
@@ -82,6 +92,13 @@ public class Main2Activity extends AppCompatActivity {
                         }
 
                         arrayAdapter.notifyDataSetChanged();
+
+
+                        for(String username : users){
+
+                            listView.setItemChecked(users.indexOf(username),true);
+
+                        }
                     }
                 }
             }
