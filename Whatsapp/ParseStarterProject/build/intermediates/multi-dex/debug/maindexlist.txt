@@ -381,6 +381,7 @@ com/google/android/gms/internal/zzdg.class
 com/google/android/gms/wallet/fragment/WalletFragmentStyle.class
 com/google/android/gms/wearable/ChannelApi.class
 com/google/android/gms/internal/zzfj.class
+com/parse/ParseCallback2.class
 com/google/android/gms/internal/zzdf.class
 android/support/v4/widget/MaterialProgressDrawable$Ring.class
 com/google/android/gms/awareness/fence/FenceState.class
@@ -672,6 +673,7 @@ android/support/v4/app/FragmentManagerImpl$1.class
 com/google/android/gms/measurement/internal/zzu.class
 com/google/android/gms/R$styleable.class
 com/google/android/gms/ads/internal/zzj.class
+com/parse/starter/MainActivity$2.class
 com/google/ads/mediation/MediationAdapter.class
 com/google/android/gms/internal/zzku.class
 com/google/android/gms/internal/zzhb.class
@@ -808,6 +810,7 @@ android/support/v4/app/ActivityCompat.class
 com/google/android/gms/auth/api/credentials/CredentialRequest$Builder.class
 com/google/android/gms/games/internal/experience/ExperienceEvent.class
 com/google/android/gms/ads/internal/client/AdRequestParcel.class
+com/parse/LogInCallback.class
 com/google/android/gms/analytics/HitBuilders$AppViewBuilder.class
 com/google/android/gms/wearable/CapabilityApi.class
 com/google/android/gms/internal/zzhp.class

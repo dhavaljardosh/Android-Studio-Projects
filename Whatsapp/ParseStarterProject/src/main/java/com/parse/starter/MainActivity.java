@@ -37,11 +37,12 @@ public class MainActivity extends AppCompatActivity {
     TextView toggler = (TextView) findViewById(R.id.ToggleSigninText);
     Button signupSigninButton = (Button) findViewById(R.id.signupLoginButton);
 
-    if(toggler.getText() == "Sign In") {
+    if(canLogin) {
       canLogin = false;
-      toggler.setText("or, Sign Up");
       signupSigninButton.setText("Sign In");
+      toggler.setText("or, Sign Up");
     } else{
+      canLogin=true;
       toggler.setText("or, Sign In");
       signupSigninButton.setText("Sign Up");
     }
@@ -56,8 +57,22 @@ public class MainActivity extends AppCompatActivity {
 
     if(canLogin){
 
-      ParseUser.logInInBackground(usernameEditText.getText().toString(),passwordEditText.getText().toString());
-      Toast.makeText(getApplicationContext(),usernameEditText.getText().toString()+" Logged In",Toast.LENGTH_LONG);
+      ParseUser.logInInBackground(usernameEditText.getText().toString(), passwordEditText.getText().toString(), new LogInCallback() {
+        @Override
+        public void done(ParseUser user, ParseException e) {
+          if(e==null){
+            Toast.makeText(getApplicationContext(),usernameEditText.getText().toString()+" Logged In",Toast.LENGTH_LONG).show();
+          } else{
+            String message = e.getMessage();
+
+            if(message.toLowerCase().contains("java")){
+              message = e.getMessage().substring(e.getMessage().indexOf(" "));
+            }
+            Toast.makeText(MainActivity.this,message,Toast.LENGTH_SHORT).show();
+          }
+        }
+      });
+
 
     }else{
       ParseUser user = new ParseUser();
