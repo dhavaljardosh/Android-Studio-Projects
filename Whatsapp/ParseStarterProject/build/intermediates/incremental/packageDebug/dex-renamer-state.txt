@@ -1,0 +1,7 @@
+#Fri Apr 13 15:28:25 CDT 2018
+base.0=/Users/Jardosh/Downloads/Android-Studio-Projects/Whatsapp/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/1f/main
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/Users/Jardosh/Downloads/Android-Studio-Projects/Whatsapp/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex
+base.1=/Users/Jardosh/Downloads/Android-Studio-Projects/Whatsapp/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/1f/main
+file.0=/Users/Jardosh/Downloads/Android-Studio-Projects/Whatsapp/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes2.dex
