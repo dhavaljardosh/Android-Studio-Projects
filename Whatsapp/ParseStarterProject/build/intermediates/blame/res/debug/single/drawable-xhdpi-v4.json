@@ -272,12 +272,12 @@
         "source": "/Users/Jardosh/Downloads/Android-Studio-Projects/Whatsapp/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable-xhdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png"
     },
     {
-        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Whatsapp/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xhdpi-v4/quantum_ic_clear_white_24.png",
-        "source": "/Users/Jardosh/Downloads/Android-Studio-Projects/Whatsapp/ParseStarterProject/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.4.0/res/drawable-xhdpi-v4/quantum_ic_clear_white_24.png"
-    },
-    {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Whatsapp/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xhdpi-v4/common_google_signin_btn_icon_light_disabled.9.png",
         "source": "/Users/Jardosh/Downloads/Android-Studio-Projects/Whatsapp/ParseStarterProject/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/drawable-xhdpi-v4/common_google_signin_btn_icon_light_disabled.9.png"
+    },
+    {
+        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Whatsapp/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xhdpi-v4/quantum_ic_clear_white_24.png",
+        "source": "/Users/Jardosh/Downloads/Android-Studio-Projects/Whatsapp/ParseStarterProject/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.4.0/res/drawable-xhdpi-v4/quantum_ic_clear_white_24.png"
     },
     {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Whatsapp/ParseStarterProject/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png",

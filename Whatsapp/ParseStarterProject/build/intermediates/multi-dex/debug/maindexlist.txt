@@ -336,6 +336,7 @@ com/google/android/gms/ads/mediation/admob/AdMobExtras.class
 android/support/annotation/IntegerRes.class
 com/google/android/gms/ads/internal/overlay/zzd$zzc.class
 com/google/android/gms/games/multiplayer/Participant.class
+com/parse/starter/UserListActivity.class
 com/google/android/gms/location/internal/zzf.class
 com/google/android/gms/ads/internal/client/zzf.class
 com/google/android/gms/iid/MessengerCompat$zza.class

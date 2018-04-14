@@ -64,12 +64,12 @@
         "source": "/Users/Jardosh/Downloads/Android-Studio-Projects/Whatsapp/ParseStarterProject/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.4.0/res/drawable/cast_ic_mini_controller_closed_caption.xml"
     },
     {
-        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Whatsapp/ParseStarterProject/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_dark.xml",
-        "source": "/Users/Jardosh/Downloads/Android-Studio-Projects/Whatsapp/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_list_selector_holo_dark.xml"
-    },
-    {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Whatsapp/ParseStarterProject/build/intermediates/res/merged/debug/drawable/abc_ratingbar_small_material.xml",
         "source": "/Users/Jardosh/Downloads/Android-Studio-Projects/Whatsapp/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Whatsapp/ParseStarterProject/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_dark.xml",
+        "source": "/Users/Jardosh/Downloads/Android-Studio-Projects/Whatsapp/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_list_selector_holo_dark.xml"
     },
     {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Whatsapp/ParseStarterProject/build/intermediates/res/merged/debug/drawable/abc_btn_radio_material.xml",

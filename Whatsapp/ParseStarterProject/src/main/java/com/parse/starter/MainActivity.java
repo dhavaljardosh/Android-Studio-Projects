@@ -1,11 +1,3 @@
-/*
- * Copyright (c) 2015-present, Parse, LLC.
- * All rights reserved.
- *
- * This source code is licensed under the BSD-style license found in the
- * LICENSE file in the root directory of this source tree. An additional grant
- * of patent rights can be found in the PATENTS file in the same directory.
- */
 package com.parse.starter;
 import android.content.Intent;
 import android.os.Bundle;
@@ -30,67 +22,112 @@ import com.parse.SignUpCallback;
 
 public class MainActivity extends AppCompatActivity {
 
-  Boolean canLogin = true;
+  Boolean loginModeActive = false;
 
-  public void toggleSignin(View view){
+  public void redirectIfLoggedIn() {
 
-    TextView toggler = (TextView) findViewById(R.id.ToggleSigninText);
-    Button signupSigninButton = (Button) findViewById(R.id.signupLoginButton);
+    if (ParseUser.getCurrentUser() != null) {
 
-    if(canLogin) {
-      canLogin = false;
-      signupSigninButton.setText("Sign In");
-      toggler.setText("or, Sign Up");
-    } else{
-      canLogin=true;
-      toggler.setText("or, Sign In");
-      signupSigninButton.setText("Sign Up");
+      Intent intent = new Intent(getApplicationContext(), UserListActivity.class);
+      startActivity(intent);
+
     }
 
   }
 
+  public void toggleLoginMode(View view) {
 
-  public void signupLogin(View view){
+    Button loginSignupButton = (Button) findViewById(R.id.loginSignupButton);
 
-    final EditText usernameEditText = (EditText) findViewById(R.id.usernameEditText);
-    EditText  passwordEditText = (EditText) findViewById(R.id.passwordEditText);
+    TextView toggleLoginModeTextView = (TextView) findViewById(R.id.toggleLoginModeTextView);
 
-    if(canLogin){
+    if (loginModeActive) {
+
+      loginModeActive = false;
+      loginSignupButton.setText("Sign Up");
+      toggleLoginModeTextView.setText("Or, log in");
+
+
+    } else {
+
+      loginModeActive = true;
+      loginSignupButton.setText("Log In");
+      toggleLoginModeTextView.setText("Or, sign up");
+
+    }
+
+  }
+
+  public void signupLogin(View view) {
+
+    EditText usernameEditText = (EditText) findViewById(R.id.usernameEditText);
+
+    EditText passwordEditText = (EditText) findViewById(R.id.passwordEditText);
+
+    if (loginModeActive) {
 
       ParseUser.logInInBackground(usernameEditText.getText().toString(), passwordEditText.getText().toString(), new LogInCallback() {
         @Override
         public void done(ParseUser user, ParseException e) {
-          if(e==null){
-            Toast.makeText(getApplicationContext(),usernameEditText.getText().toString()+" Logged In",Toast.LENGTH_LONG).show();
-          } else{
+
+          if (e == null) {
+
+            Log.i("Info", "user logged in");
+
+            redirectIfLoggedIn();
+
+          } else {
+
             String message = e.getMessage();
 
-            if(message.toLowerCase().contains("java")){
+            if (message.toLowerCase().contains("java")) {
+
               message = e.getMessage().substring(e.getMessage().indexOf(" "));
+
             }
-            Toast.makeText(MainActivity.this,message,Toast.LENGTH_SHORT).show();
+
+            Toast.makeText(MainActivity.this, message, Toast.LENGTH_SHORT).show();
+
           }
+
         }
       });
 
 
-    }else{
+    } else {
+
       ParseUser user = new ParseUser();
 
       user.setUsername(usernameEditText.getText().toString());
+
       user.setPassword(passwordEditText.getText().toString());
 
       user.signUpInBackground(new SignUpCallback() {
         @Override
         public void done(ParseException e) {
-          if(e==null){
-            Log.i("Success: ",usernameEditText.getText().toString()+" signed up successfully");
-          }else{
-            Toast.makeText(getApplicationContext(),e.getMessage(),Toast.LENGTH_LONG).show();
-            Log.i("Error",e.getMessage());
+
+          if (e == null) {
+
+            Log.i("Info", "user signed up");
+
+            redirectIfLoggedIn();
+
+          } else {
+
+            String message = e.getMessage();
+
+            if (message.toLowerCase().contains("java")) {
+
+              message = e.getMessage().substring(e.getMessage().indexOf(" "));
+
+            }
+
+            Toast.makeText(MainActivity.this, message, Toast.LENGTH_SHORT).show();
           }
+
         }
       });
+
     }
   }
 
@@ -100,7 +137,10 @@ public class MainActivity extends AppCompatActivity {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_main);
 
-    
+    setTitle("Whatsapp Login");
+
+    redirectIfLoggedIn();
+
     ParseAnalytics.trackAppOpenedInBackground(getIntent());
   }
 

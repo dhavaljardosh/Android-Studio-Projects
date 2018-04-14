@@ -116,6 +116,10 @@
         "source": "/Users/Jardosh/Downloads/Android-Studio-Projects/Whatsapp/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/abc_dialog_title_material.xml"
     },
     {
+        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Whatsapp/ParseStarterProject/build/intermediates/res/merged/debug/layout/activity_user_list.xml",
+        "source": "/Users/Jardosh/Downloads/Android-Studio-Projects/Whatsapp/ParseStarterProject/src/main/res/layout/activity_user_list.xml"
+    },
+    {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Whatsapp/ParseStarterProject/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
         "source": "/Users/Jardosh/Downloads/Android-Studio-Projects/Whatsapp/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/notification_template_part_chronometer.xml"
     },

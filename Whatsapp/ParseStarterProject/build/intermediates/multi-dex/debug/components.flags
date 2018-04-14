@@ -22,6 +22,10 @@
     <init>();
 }
 
+-keep class com.parse.starter.UserListActivity {
+    <init>();
+}
+
 -keep class com.google.android.gms.ads.AdActivity {
     <init>();
 }
