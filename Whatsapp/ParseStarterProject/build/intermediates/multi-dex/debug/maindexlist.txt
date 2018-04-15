@@ -32,6 +32,7 @@ android/support/v4/media/MediaBrowserCompat$Subscription.class
 android/support/v4/app/LoaderManager.class
 com/google/android/gms/internal/zzfd.class
 com/google/android/gms/analytics/HitBuilders$ItemBuilder.class
+com/parse/starter/ChatActivity$2.class
 com/google/android/gms/internal/zzlc.class
 com/google/android/gms/cast/framework/media/zzc.class
 com/google/android/gms/cast/framework/SessionManager.class
@@ -76,6 +77,7 @@ com/google/android/gms/ads/internal/overlay/AdOverlayInfoParcel.class
 com/google/android/gms/ads/internal/request/CapabilityParcel.class
 com/google/firebase/auth/api/model/GetTokenResponse.class
 android/support/v7/graphics/drawable/DrawerArrowDrawable.class
+com/parse/starter/UserListActivity$2.class
 com/google/firebase/iid/FirebaseInstanceIdReceiver.class
 com/google/android/gms/ads/internal/zzb.class
 android/support/v7/app/ActionBar$OnNavigationListener.class
@@ -136,6 +138,8 @@ com/google/android/gms/ads/internal/ClientApi.class
 android/support/v4/media/session/MediaSessionCompat$MediaSessionImplApi21.class
 android/support/v4/app/ActivityCompat$OnRequestPermissionsResultCallback.class
 com/google/android/gms/tagmanager/TagManagerApiImpl.class
+com/parse/starter/ChatActivity.class
+com/parse/starter/UserListActivity$1.class
 android/support/annotation/DimenRes.class
 com/google/android/gms/ads/NativeExpressAdView.class
 com/google/android/gms/internal/zzlr.class
@@ -314,6 +318,7 @@ android/support/v4/app/ActivityCompatHoneycomb.class
 com/google/android/gms/nearby/connection/dev/AppIdentifier.class
 com/google/android/gms/auth/api/signin/internal/SignInHubActivity$zza.class
 com/google/android/gms/ads/internal/overlay/AdLauncherIntentInfoParcel.class
+com/parse/starter/ChatActivity$1.class
 android/support/annotation/BoolRes.class
 com/google/android/gms/internal/zzkm.class
 android/support/v4/media/MediaMetadataCompat.class
@@ -348,6 +353,7 @@ com/google/android/gms/maps/GoogleMap$OnCameraChangeListener.class
 com/google/android/gms/internal/zzkh.class
 com/google/android/gms/ads/mediation/NetworkExtras.class
 android/support/v7/app/AppCompatDelegateImplV14.class
+com/parse/starter/ChatActivity$3.class
 android/support/v4/media/session/PlaybackStateCompat$Actions.class
 com/parse/Parse$Configuration$Builder.class
 android/support/v4/view/ViewCompat.class
@@ -591,6 +597,7 @@ android/support/v4/media/session/MediaSessionCompat$ResultReceiverWrapper.class
 com/google/android/gms/internal/zzfk.class
 com/google/android/gms/cast/Cast$CastApi.class
 android/support/v4/app/TaskStackBuilder.class
+com/parse/FindCallback.class
 com/google/android/gms/location/places/NearbyAlertRequest.class
 android/support/v7/app/ActionBar$TabListener.class
 com/google/android/gms/location/places/personalized/PlaceAlias.class
@@ -919,7 +926,6 @@ com/google/android/gms/measurement/internal/zzae$zza.class
 android/support/v4/view/ViewCompatICSMr1.class
 com/google/android/gms/ads/internal/overlay/zzj.class
 com/google/android/gms/games/Games.class
-com/parse/starter/StarterApplication$1.class
 android/support/v4/app/FragmentManager.class
 com/google/android/gms/location/places/personalized/PlaceUserData.class
 com/google/android/gms/internal/zzjm.class

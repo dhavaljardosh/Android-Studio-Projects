@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.parse.starter.ChatActivity">
+
+    <ListView
+        android:id="@+id/chatListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/chatEditText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+    </ListView>
+
+    <EditText
+        android:id="@+id/chatEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toLeftOf="@+id/chatSendButton"
+        android:layout_toStartOf="@+id/chatSendButton"
+        android:ems="10"
+        android:hint="Type message"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/chatSendButton"
+        style="@style/Base.Animation.AppCompat.Dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/chatEditText"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:onClick="sendChat"
+        android:text="Send"
+        android:textColor="@color/cast_expanded_controller_progress_text_color" />
+</RelativeLayout>

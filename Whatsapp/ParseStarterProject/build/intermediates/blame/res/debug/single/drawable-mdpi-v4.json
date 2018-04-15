@@ -420,16 +420,16 @@
         "source": "/Users/Jardosh/Downloads/Android-Studio-Projects/Whatsapp/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable-mdpi-v4/abc_list_focused_holo.9.png"
     },
     {
-        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Whatsapp/ParseStarterProject/build/intermediates/res/merged/debug/drawable-mdpi-v4/quantum_ic_pause_white_24.png",
-        "source": "/Users/Jardosh/Downloads/Android-Studio-Projects/Whatsapp/ParseStarterProject/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.4.0/res/drawable-mdpi-v4/quantum_ic_pause_white_24.png"
-    },
-    {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Whatsapp/ParseStarterProject/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png",
         "source": "/Users/Jardosh/Downloads/Android-Studio-Projects/Whatsapp/ParseStarterProject/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable-mdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png"
     },
     {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Whatsapp/ParseStarterProject/build/intermediates/res/merged/debug/drawable-mdpi-v4/quantum_ic_skip_next_white_24.png",
         "source": "/Users/Jardosh/Downloads/Android-Studio-Projects/Whatsapp/ParseStarterProject/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.4.0/res/drawable-mdpi-v4/quantum_ic_skip_next_white_24.png"
+    },
+    {
+        "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Whatsapp/ParseStarterProject/build/intermediates/res/merged/debug/drawable-mdpi-v4/quantum_ic_pause_white_24.png",
+        "source": "/Users/Jardosh/Downloads/Android-Studio-Projects/Whatsapp/ParseStarterProject/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.4.0/res/drawable-mdpi-v4/quantum_ic_pause_white_24.png"
     },
     {
         "merged": "/Users/Jardosh/Downloads/Android-Studio-Projects/Whatsapp/ParseStarterProject/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_ic_search_api_mtrl_alpha.png",

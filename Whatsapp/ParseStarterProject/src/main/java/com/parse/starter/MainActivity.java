@@ -24,110 +24,84 @@ public class MainActivity extends AppCompatActivity {
 
   Boolean loginModeActive = false;
 
-  public void redirectIfLoggedIn() {
 
-    if (ParseUser.getCurrentUser() != null) {
-
-      Intent intent = new Intent(getApplicationContext(), UserListActivity.class);
+  public void redirectIfLoggedIn(){
+    if(ParseUser.getCurrentUser() != null){
+      Intent intent = new Intent(getApplicationContext(),UserListActivity.class);
       startActivity(intent);
-
     }
-
   }
 
   public void toggleLoginMode(View view) {
 
     Button loginSignupButton = (Button) findViewById(R.id.loginSignupButton);
-
     TextView toggleLoginModeTextView = (TextView) findViewById(R.id.toggleLoginModeTextView);
 
-    if (loginModeActive) {
+    if(loginModeActive){
 
       loginModeActive = false;
-      loginSignupButton.setText("Sign Up");
-      toggleLoginModeTextView.setText("Or, log in");
+      loginSignupButton.setText("Sign up");
+      toggleLoginModeTextView.setText("or, Sign in");
 
-
-    } else {
+    }else{
 
       loginModeActive = true;
-      loginSignupButton.setText("Log In");
-      toggleLoginModeTextView.setText("Or, sign up");
+      loginSignupButton.setText("Sign in");
+      toggleLoginModeTextView.setText("or, Sign up");
 
     }
 
   }
 
   public void signupLogin(View view) {
-
-    EditText usernameEditText = (EditText) findViewById(R.id.usernameEditText);
-
+    EditText usernameEditText =(EditText) findViewById(R.id.usernameEditText);
     EditText passwordEditText = (EditText) findViewById(R.id.passwordEditText);
 
-    if (loginModeActive) {
+    if(loginModeActive){
 
       ParseUser.logInInBackground(usernameEditText.getText().toString(), passwordEditText.getText().toString(), new LogInCallback() {
         @Override
         public void done(ParseUser user, ParseException e) {
-
-          if (e == null) {
-
-            Log.i("Info", "user logged in");
-
+          if(e==null){
+            Log.i("Info","user Logged in");
             redirectIfLoggedIn();
-
-          } else {
-
+          }else{
             String message = e.getMessage();
 
-            if (message.toLowerCase().contains("java")) {
-
-              message = e.getMessage().substring(e.getMessage().indexOf(" "));
-
+            if(e.getMessage().toLowerCase().contains("java")){
+              message.substring(e.getMessage().indexOf(" "));
             }
-
-            Toast.makeText(MainActivity.this, message, Toast.LENGTH_SHORT).show();
-
+            Toast.makeText(MainActivity.this,message,Toast.LENGTH_SHORT).show();
           }
-
         }
       });
 
-
-    } else {
-
+    }else{
       ParseUser user = new ParseUser();
 
       user.setUsername(usernameEditText.getText().toString());
-
       user.setPassword(passwordEditText.getText().toString());
 
       user.signUpInBackground(new SignUpCallback() {
         @Override
         public void done(ParseException e) {
 
-          if (e == null) {
+          if(e==null){
 
-            Log.i("Info", "user signed up");
-
+            Log.i("Info","User Signed Up");
             redirectIfLoggedIn();
 
-          } else {
+          }else{
 
             String message = e.getMessage();
 
-            if (message.toLowerCase().contains("java")) {
-
-              message = e.getMessage().substring(e.getMessage().indexOf(" "));
-
+            if(e.getMessage().toLowerCase().contains("java")){
+              message.substring(e.getMessage().indexOf(" "));
             }
-
-            Toast.makeText(MainActivity.this, message, Toast.LENGTH_SHORT).show();
+            Toast.makeText(MainActivity.this,message,Toast.LENGTH_SHORT).show();
           }
-
         }
       });
-
     }
   }
 

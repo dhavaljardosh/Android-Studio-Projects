@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/Jardosh/Downloads/Android-Studio-Projects/Whatsapp/ParseStarterProject/src/main/AndroidManifest.xml:9:1-35:12
+ADDED from /Users/Jardosh/Downloads/Android-Studio-Projects/Whatsapp/ParseStarterProject/src/main/AndroidManifest.xml:9:1-36:12
 	package
 		ADDED from /Users/Jardosh/Downloads/Android-Studio-Projects/Whatsapp/ParseStarterProject/src/main/AndroidManifest.xml:10:5-32
 		INJECTED from /Users/Jardosh/Downloads/Android-Studio-Projects/Whatsapp/ParseStarterProject/src/main/AndroidManifest.xml
@@ -51,7 +51,7 @@ ADDED from /Users/Jardosh/Downloads/Android-Studio-Projects/Whatsapp/ParseStarte
 	android:name
 		ADDED from /Users/Jardosh/Downloads/Android-Studio-Projects/Whatsapp/ParseStarterProject/src/main/AndroidManifest.xml:15:22-76
 application
-ADDED from /Users/Jardosh/Downloads/Android-Studio-Projects/Whatsapp/ParseStarterProject/src/main/AndroidManifest.xml:17:5-33:19
+ADDED from /Users/Jardosh/Downloads/Android-Studio-Projects/Whatsapp/ParseStarterProject/src/main/AndroidManifest.xml:17:5-34:19
 MERGED from [com.google.android.gms:play-services:9.4.0] /Users/Jardosh/Downloads/Android-Studio-Projects/Whatsapp/ParseStarterProject/build/intermediates/exploded-aar/com.google.android.gms/play-services/9.4.0/AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services-ads-lite:9.4.0] /Users/Jardosh/Downloads/Android-Studio-Projects/Whatsapp/ParseStarterProject/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/9.4.0/AndroidManifest.xml:24:5-32:19
 MERGED from [com.google.android.gms:play-services-basement:9.4.0] /Users/Jardosh/Downloads/Android-Studio-Projects/Whatsapp/ParseStarterProject/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.4.0/AndroidManifest.xml:20:5-24:19
@@ -125,9 +125,13 @@ ADDED from /Users/Jardosh/Downloads/Android-Studio-Projects/Whatsapp/ParseStarte
 	android:name
 		ADDED from /Users/Jardosh/Downloads/Android-Studio-Projects/Whatsapp/ParseStarterProject/src/main/AndroidManifest.xml:29:27-74
 activity#com.parse.starter.UserListActivity
-ADDED from /Users/Jardosh/Downloads/Android-Studio-Projects/Whatsapp/ParseStarterProject/src/main/AndroidManifest.xml:32:9-63
+ADDED from /Users/Jardosh/Downloads/Android-Studio-Projects/Whatsapp/ParseStarterProject/src/main/AndroidManifest.xml:32:9-54
 	android:name
 		ADDED from /Users/Jardosh/Downloads/Android-Studio-Projects/Whatsapp/ParseStarterProject/src/main/AndroidManifest.xml:32:19-51
+activity#com.parse.starter.ChatActivity
+ADDED from /Users/Jardosh/Downloads/Android-Studio-Projects/Whatsapp/ParseStarterProject/src/main/AndroidManifest.xml:33:9-59
+	android:name
+		ADDED from /Users/Jardosh/Downloads/Android-Studio-Projects/Whatsapp/ParseStarterProject/src/main/AndroidManifest.xml:33:19-47
 uses-sdk
 INJECTED from /Users/Jardosh/Downloads/Android-Studio-Projects/Whatsapp/ParseStarterProject/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.google.android.gms:play-services:9.4.0] /Users/Jardosh/Downloads/Android-Studio-Projects/Whatsapp/ParseStarterProject/build/intermediates/exploded-aar/com.google.android.gms/play-services/9.4.0/AndroidManifest.xml:4:5-42
