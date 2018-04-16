@@ -103,7 +103,7 @@ MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/Jard
 	android:allowBackup
 		ADDED from /Users/Jardosh/Downloads/Android-Studio-Projects/Whatsapp/ParseStarterProject/src/main/AndroidManifest.xml:19:9-35
 	android:icon
-		ADDED from /Users/Jardosh/Downloads/Android-Studio-Projects/Whatsapp/ParseStarterProject/src/main/AndroidManifest.xml:20:9-43
+		ADDED from /Users/Jardosh/Downloads/Android-Studio-Projects/Whatsapp/ParseStarterProject/src/main/AndroidManifest.xml:20:9-40
 	android:theme
 		ADDED from /Users/Jardosh/Downloads/Android-Studio-Projects/Whatsapp/ParseStarterProject/src/main/AndroidManifest.xml:22:9-40
 	android:name

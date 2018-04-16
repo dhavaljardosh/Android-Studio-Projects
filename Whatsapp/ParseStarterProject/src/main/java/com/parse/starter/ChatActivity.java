@@ -32,9 +32,14 @@ public class ChatActivity extends AppCompatActivity {
         ParseObject message = new ParseObject("Message");
         Log.i("CHECK THIS: ", ParseUser.getCurrentUser().getUsername() +" "+ activeUser);
 
+        String messageContent = chatEditText.getText().toString();
+
+
         message.put("sender", ParseUser.getCurrentUser().getUsername());
         message.put("recipient",activeUser);
-        message.put("message",chatEditText.getText().toString());
+        message.put("message",messageContent);
+
+        chatEditText.setText("");
 
         message.saveInBackground(new SaveCallback() {
             @Override
@@ -81,7 +86,7 @@ public class ChatActivity extends AppCompatActivity {
 
                             String messageContent = message.getString("message");
 
-                            if(!message.getString("sender").equals("ParseUser.getCurrentUser().getUsername()")){
+                            if(!message.getString("sender").equals(ParseUser.getCurrentUser().getUsername())){
                                 messageContent = "> " + messageContent;
                             }
 

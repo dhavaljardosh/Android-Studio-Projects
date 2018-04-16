@@ -1,4 +1,4 @@
-#Sun Apr 15 15:26:58 CDT 2018
+#Mon Apr 16 10:50:46 CDT 2018
 base.0=/Users/Jardosh/Downloads/Android-Studio-Projects/Whatsapp/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/1f/main
 renamed.1=classes.dex
 renamed.0=classes2.dex
